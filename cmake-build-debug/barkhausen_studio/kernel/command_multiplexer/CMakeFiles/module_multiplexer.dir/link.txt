@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmodule_multiplexer.a  CMakeFiles/module_multiplexer.dir/module_multiplexer_autogen/mocs_compilation.cpp.o CMakeFiles/module_multiplexer.dir/src/modules_holder.cpp.o CMakeFiles/module_multiplexer.dir/include/moc_modules_holder.cpp.o
+/usr/bin/ranlib libmodule_multiplexer.a

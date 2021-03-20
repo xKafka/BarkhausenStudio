@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/buttons
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/buttons
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/buttons/include/moc_tool_button_settings_points_per_chunk.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/buttons/include/tool_button_settings_points_per_chunk.h

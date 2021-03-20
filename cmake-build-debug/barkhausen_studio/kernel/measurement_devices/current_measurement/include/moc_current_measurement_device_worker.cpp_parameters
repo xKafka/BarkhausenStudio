@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device_worker.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include/current_measurement_device_worker.h

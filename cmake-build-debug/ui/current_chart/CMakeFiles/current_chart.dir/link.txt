@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcurrent_chart.a  CMakeFiles/current_chart.dir/current_chart_autogen/mocs_compilation.cpp.o CMakeFiles/current_chart.dir/src/currentchart.cpp.o CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o
+/usr/bin/ranlib libcurrent_chart.a

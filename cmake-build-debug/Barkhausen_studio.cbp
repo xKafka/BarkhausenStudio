@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Barkhausen_studio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\fmt\;CMake Files\external\fmt\support\;CMake Files\external\fmt\support\cmake\;CMake Files\ui\;CMake Files\ui\MainWindow\;CMake Files\ui\current_chart\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\barkhausen_studio\;CMake Files\barkhausen_studio\kernel\;CMake Files\barkhausen_studio\kernel\api\;CMake Files\barkhausen_studio\kernel\command_multiplexer\;CMake Files\barkhausen_studio\kernel\measurement_devices\;CMake Files\barkhausen_studio\kernel\measurement_devices\current_measurement\;CMake Files\barkhausen_studio\exceptions\;CMake Files\barkhausen_studio\utility\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_window">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/libmain_window.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/main_window_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 main_window"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_window/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/libmain_window.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/main_window_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 main_window/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_window_autogen">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 main_window_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_chart">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/libcurrent_chart.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/current_chart_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 current_chart"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_chart/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/libcurrent_chart.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/current_chart_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 current_chart/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_chart_autogen">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 current_chart_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="api">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/api" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 api"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="api/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/api" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 api/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module_multiplexer">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/libmodule_multiplexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/module_multiplexer_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 module_multiplexer"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module_multiplexer/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/libmodule_multiplexer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/module_multiplexer_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCharts"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 module_multiplexer/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module_multiplexer_autogen">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 module_multiplexer_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_measurement_device">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/include"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 current_measurement_device"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_measurement_device/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/include"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 current_measurement_device/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="current_measurement_device_autogen">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 current_measurement_device_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/libexceptions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 exceptions"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/libexceptions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 exceptions/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/src/exceptions.cpp">
+			<Option target="exceptions"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/src/barkhausen_studio.cpp">
+			<Option target="api"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/src/main.cpp">
+			<Option target="api"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/src/modules_holder.cpp">
+			<Option target="module_multiplexer"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device_worker.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/include/moc_modules_holder.cpp">
+			<Option target="module_multiplexer"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/include/moc_modules_holder.cpp.rule">
+			<Option target="module_multiplexer"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/module_multiplexer_autogen/mocs_compilation.cpp">
+			<Option target="module_multiplexer"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/mocs_compilation.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device.cpp.rule">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device_worker.cpp">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device_worker.cpp.rule">
+			<Option target="current_measurement_device"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_main_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_main_menu.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_mainwindow.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_mainwindow.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp.rule">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/main_window_autogen/mocs_compilation.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/ui_acqsettingswidget.h">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/ui_mainwindow.h">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/current_chart_autogen/mocs_compilation.cpp">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/include/moc_currentchart.cpp">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/include/moc_currentchart.cpp.rule">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/ui_currentchart.h">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/ChangeLog.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/README.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/args.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/chrono.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/color.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/compile.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/locale.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/os.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/posix.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/src/os.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acq_points_per_chunk.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.ui">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_settings_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/main_menu.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.cpp">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.ui">
+			<Option target="main_window"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/currentchart.cpp">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/currentchart.ui">
+			<Option target="current_chart"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\fmt\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui\MainWindow\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui\current_chart\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\api\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\command_multiplexer\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\current_measurement\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\exceptions\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\utility\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

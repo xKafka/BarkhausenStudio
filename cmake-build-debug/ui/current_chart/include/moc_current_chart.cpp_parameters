@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/include/moc_current_chart.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include/current_chart.h

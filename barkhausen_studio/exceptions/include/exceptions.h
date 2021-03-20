@@ -1,0 +1,10 @@
+//
+// Created by fkafka on 24. 2. 2021.
+//
+
+#ifndef BARKHAUSEN_STUDIO_EXCEPTIONS_H
+#define BARKHAUSEN_STUDIO_EXCEPTIONS_H
+
+
+
+#endif //BARKHAUSEN_STUDIO_EXCEPTIONS_H
