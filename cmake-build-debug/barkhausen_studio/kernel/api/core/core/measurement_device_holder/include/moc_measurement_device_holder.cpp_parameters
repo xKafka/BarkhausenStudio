@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/core/core
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/core/core
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/api/core/core/measurement_device_holder/include/moc_measurement_device_holder.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/core/core/measurement_device_holder/include/measurement_device_holder.h

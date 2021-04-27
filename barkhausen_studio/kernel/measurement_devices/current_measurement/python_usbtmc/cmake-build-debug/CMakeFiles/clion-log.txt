@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/fkafka/QtProjects/Barkhausen_studio/api/kernel/measurement_devices/current_measurement/python_usbtmc Select CMakeLists.txt

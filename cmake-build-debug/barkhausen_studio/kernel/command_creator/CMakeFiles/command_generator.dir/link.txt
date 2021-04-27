@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommand_generator.a  CMakeFiles/command_generator.dir/src/command_parser.cpp.o
+/usr/bin/ranlib libcommand_generator.a

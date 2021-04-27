@@ -6,25 +6,22 @@
 #define BARKHAUSEN_STUDIO_APPLICATION_H
 
 #include <QApplication>
-#include <modules_holder.h>
+#include <mainwindow.h>
+#include <core.h>
 
-class BarkhausenStudio
+class BarkhausenStudio : public QObject
 {
+    Q_OBJECT
+
     QApplication m_application;
-    ModulesHolder m_modules{};
+    std::unique_ptr<MainWindow> m_ui;
 
 public:
-    BarkhausenStudio(int &argc, char *argv[])
-        : m_application{ argc ,argv }
-    {
-        qRegisterMetaType<Command>("Command");
-        qRegisterMetaType<std::string>("std::string");
-        qRegisterMetaType<std::size_t>("std::size_t");
-    }
+    BarkhausenStudio(int &argc, char *argv[]);
 
-    auto run()
+    static auto run()
     {
-        return m_application.exec();
+        return QApplication::exec();
     }
 };
 

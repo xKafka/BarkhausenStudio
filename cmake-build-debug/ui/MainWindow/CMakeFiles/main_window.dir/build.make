@@ -77,45 +77,25 @@ include ui/MainWindow/CMakeFiles/main_window.dir/progress.make
 # Include the compile flags for this target's objects.
 include ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 
-ui/MainWindow/include/moc_acq_points_per_chunk.cpp: ../ui/MainWindow/include/acq_points_per_chunk.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/moc_acq_points_per_chunk.cpp"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp_parameters
-
-ui/MainWindow/include/moc_acqsettingswidget.cpp: ../ui/MainWindow/include/acqsettingswidget.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_acqsettingswidget.cpp"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp_parameters
-
-ui/MainWindow/include/moc_acquisition_menu.cpp: ../ui/MainWindow/include/acquisition_menu.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/moc_acquisition_menu.cpp"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp_parameters
-
-ui/MainWindow/include/moc_acquisition_settings_menu.cpp: ../ui/MainWindow/include/acquisition_settings_menu.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/moc_acquisition_settings_menu.cpp"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp_parameters
-
 ui/MainWindow/include/moc_main_menu.cpp: ../ui/MainWindow/include/main_menu.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/moc_main_menu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/moc_main_menu.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_main_menu.cpp_parameters
 
 ui/MainWindow/include/moc_mainwindow.cpp: ../ui/MainWindow/include/mainwindow.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/moc_mainwindow.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_mainwindow.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_mainwindow.cpp_parameters
 
-ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp: ../ui/MainWindow/include/ui_AcqSettingsWidget.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/moc_ui_AcqSettingsWidget.cpp"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp_parameters
-
 ui/MainWindow/ui_mainwindow.h: ../ui/MainWindow/src/mainwindow.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_mainwindow.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_mainwindow.h"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/lib/qt5/bin/uic -o /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/ui_mainwindow.h /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.ui
 
-ui/MainWindow/ui_acqsettingswidget.h: ../ui/MainWindow/src/acqsettingswidget.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_acqsettingswidget.h"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/lib/qt5/bin/uic -o /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/ui_acqsettingswidget.h /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.ui
+ui/MainWindow/ui_AcqSettingsWidget.h: ../ui/MainWindow/acquisition_menu/src/AcqSettingsWidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_AcqSettingsWidget.h"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/lib/qt5/bin/uic -o /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/ui_AcqSettingsWidget.h /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu/src/AcqSettingsWidget.ui
 
 ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o: ui/MainWindow/main_window_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/main_window_autogen/mocs_compilation.cpp
 
 ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.i: cmake_force
@@ -126,61 +106,9 @@ ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/main_window_autogen/mocs_compilation.cpp -o CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.s
 
-ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o: ../ui/MainWindow/src/acq_points_per_chunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acq_points_per_chunk.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acq_points_per_chunk.cpp > CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acq_points_per_chunk.cpp -o CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o: ../ui/MainWindow/src/acqsettingswidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.cpp > CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acqsettingswidget.cpp -o CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o: ../ui/MainWindow/src/acquisition_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_menu.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/src/acquisition_menu.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_menu.cpp > CMakeFiles/main_window.dir/src/acquisition_menu.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/src/acquisition_menu.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_menu.cpp -o CMakeFiles/main_window.dir/src/acquisition_menu.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o: ../ui/MainWindow/src/acquisition_settings_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_settings_menu.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_settings_menu.cpp > CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/acquisition_settings_menu.cpp -o CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.s
-
 ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.o: ../ui/MainWindow/src/main_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/main_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/main_menu.cpp
 
 ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.i: cmake_force
@@ -193,7 +121,7 @@ ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.s: cmake_force
 
 ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.o: ../ui/MainWindow/src/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/src/mainwindow.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.cpp
 
 ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.i: cmake_force
@@ -204,61 +132,9 @@ ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/src/mainwindow.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.cpp -o CMakeFiles/main_window.dir/src/mainwindow.cpp.s
 
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o: ui/MainWindow/include/moc_acq_points_per_chunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp > CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acq_points_per_chunk.cpp -o CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o: ui/MainWindow/include/moc_acqsettingswidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp > CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acqsettingswidget.cpp -o CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o: ui/MainWindow/include/moc_acquisition_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp > CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_menu.cpp -o CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.s
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o: ui/MainWindow/include/moc_acquisition_settings_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp > CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_acquisition_settings_menu.cpp -o CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.s
-
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o: ui/MainWindow/include/moc_main_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_main_menu.cpp
 
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.i: cmake_force
@@ -271,7 +147,7 @@ ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.s: cmake_forc
 
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o: ui/MainWindow/include/moc_mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_mainwindow.cpp
 
 ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.i: cmake_force
@@ -282,56 +158,25 @@ ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_mainwindow.cpp -o CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.s
 
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o: ui/MainWindow/CMakeFiles/main_window.dir/flags.make
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o: ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp > CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.i
-
-ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp -o CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.s
-
 # Object files for target main_window
 main_window_OBJECTS = \
 "CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o" \
-"CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o" \
-"CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o" \
-"CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o" \
 "CMakeFiles/main_window.dir/src/main_menu.cpp.o" \
 "CMakeFiles/main_window.dir/src/mainwindow.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o" \
 "CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o" \
-"CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o"
+"CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o"
 
 # External object files for target main_window
 main_window_EXTERNAL_OBJECTS =
 
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/main_window_autogen/mocs_compilation.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/acq_points_per_chunk.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/acqsettingswidget.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_menu.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/acquisition_settings_menu.cpp.o
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/main_menu.cpp.o
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/src/mainwindow.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acq_points_per_chunk.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acqsettingswidget.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_menu.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_acquisition_settings_menu.cpp.o
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_main_menu.cpp.o
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_mainwindow.cpp.o
-ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/include/moc_ui_AcqSettingsWidget.cpp.o
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/build.make
 ui/MainWindow/libmain_window.a: ui/MainWindow/CMakeFiles/main_window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libmain_window.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libmain_window.a"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && $(CMAKE_COMMAND) -P CMakeFiles/main_window.dir/cmake_clean_target.cmake
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_window.dir/link.txt --verbose=$(VERBOSE)
 
@@ -344,15 +189,10 @@ ui/MainWindow/CMakeFiles/main_window.dir/clean:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && $(CMAKE_COMMAND) -P CMakeFiles/main_window.dir/cmake_clean.cmake
 .PHONY : ui/MainWindow/CMakeFiles/main_window.dir/clean
 
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_acq_points_per_chunk.cpp
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_acqsettingswidget.cpp
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_acquisition_menu.cpp
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_acquisition_settings_menu.cpp
 ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_main_menu.cpp
 ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_mainwindow.cpp
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/include/moc_ui_AcqSettingsWidget.cpp
 ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/ui_mainwindow.h
-ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/ui_acqsettingswidget.h
+ui/MainWindow/CMakeFiles/main_window.dir/depend: ui/MainWindow/ui_AcqSettingsWidget.h
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fkafka/QtProjects/Barkhausen_studio /home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/CMakeFiles/main_window.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ui/MainWindow/CMakeFiles/main_window.dir/depend
 

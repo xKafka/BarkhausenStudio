@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_buffer.a CMakeFiles/data_buffer.dir/data_buffer_autogen/mocs_compilation.cpp.o CMakeFiles/data_buffer.dir/src/data_buffer.cpp.o CMakeFiles/data_buffer.dir/include/moc_data_buffer.cpp.o CMakeFiles/data_buffer.dir/include/moc_measurement_data.cpp.o CMakeFiles/data_buffer.dir/include/moc_statistical_data.cpp.o CMakeFiles/data_buffer.dir/include/moc_ui_data.cpp.o
+/usr/bin/ranlib libdata_buffer.a

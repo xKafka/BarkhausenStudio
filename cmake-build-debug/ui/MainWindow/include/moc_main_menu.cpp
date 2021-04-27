@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainMenu_t {
-    QByteArrayData data[12];
-    char stringdata0[114];
+    QByteArrayData data[13];
+    char stringdata0[135];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,20 +34,21 @@ static const qt_meta_stringdata_MainMenu_t qt_meta_stringdata_MainMenu = {
 QT_MOC_LITERAL(0, 0, 8), // "MainMenu"
 QT_MOC_LITERAL(1, 9, 7), // "command"
 QT_MOC_LITERAL(2, 17, 0), // ""
-QT_MOC_LITERAL(3, 18, 11), // "std::string"
-QT_MOC_LITERAL(4, 30, 4), // "show"
-QT_MOC_LITERAL(5, 35, 4), // "hide"
-QT_MOC_LITERAL(6, 40, 5), // "setup"
-QT_MOC_LITERAL(7, 46, 11), // "parent_name"
-QT_MOC_LITERAL(8, 58, 8), // "QWidget*"
-QT_MOC_LITERAL(9, 67, 14), // "central_widget"
-QT_MOC_LITERAL(10, 82, 14), // "is_acq_clicked"
-QT_MOC_LITERAL(11, 97, 16) // "is_chart_clicked"
+QT_MOC_LITERAL(3, 18, 20), // "std::vector<uint8_t>"
+QT_MOC_LITERAL(4, 39, 4), // "show"
+QT_MOC_LITERAL(5, 44, 4), // "hide"
+QT_MOC_LITERAL(6, 49, 5), // "setup"
+QT_MOC_LITERAL(7, 55, 11), // "std::string"
+QT_MOC_LITERAL(8, 67, 11), // "parent_name"
+QT_MOC_LITERAL(9, 79, 8), // "QWidget*"
+QT_MOC_LITERAL(10, 88, 14), // "central_widget"
+QT_MOC_LITERAL(11, 103, 14), // "is_acq_clicked"
+QT_MOC_LITERAL(12, 118, 16) // "is_chart_clicked"
 
     },
-    "MainMenu\0command\0\0std::string\0show\0"
-    "hide\0setup\0parent_name\0QWidget*\0"
-    "central_widget\0is_acq_clicked\0"
+    "MainMenu\0command\0\0std::vector<uint8_t>\0"
+    "show\0hide\0setup\0std::string\0parent_name\0"
+    "QWidget*\0central_widget\0is_acq_clicked\0"
     "is_chart_clicked"
 };
 #undef QT_MOC_LITERAL
@@ -72,8 +73,8 @@ static const uint qt_meta_data_MainMenu[] = {
        4,    0,   47,    2, 0x0a /* Public */,
        5,    0,   48,    2, 0x0a /* Public */,
        6,    2,   49,    2, 0x0a /* Public */,
-      10,    0,   54,    2, 0x0a /* Public */,
-      11,    0,   55,    2, 0x0a /* Public */,
+      11,    0,   54,    2, 0x0a /* Public */,
+      12,    0,   55,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    2,
@@ -81,7 +82,7 @@ static const uint qt_meta_data_MainMenu[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 3, 0x80000000 | 8,    7,    9,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 9,    8,   10,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -94,7 +95,7 @@ void MainMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         auto *_t = static_cast<MainMenu *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->command((*reinterpret_cast< const std::string(*)>(_a[1]))); break;
+        case 0: _t->command((*reinterpret_cast< const std::vector<uint8_t>(*)>(_a[1]))); break;
         case 1: _t->show(); break;
         case 2: _t->hide(); break;
         case 3: _t->setup((*reinterpret_cast< const std::string(*)>(_a[1])),(*reinterpret_cast< QWidget*(*)>(_a[2]))); break;
@@ -105,7 +106,7 @@ void MainMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (MainMenu::*)(const std::string & );
+            using _t = void (MainMenu::*)(const std::vector<uint8_t> & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MainMenu::command)) {
                 *result = 0;
                 return;
@@ -155,7 +156,7 @@ int MainMenu::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void MainMenu::command(const std::string & _t1)
+void MainMenu::command(const std::vector<uint8_t> & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

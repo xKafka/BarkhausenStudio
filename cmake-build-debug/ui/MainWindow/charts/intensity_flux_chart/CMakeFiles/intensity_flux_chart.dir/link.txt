@@ -1,0 +1,2 @@
+/usr/bin/ar qc libintensity_flux_chart.a  CMakeFiles/intensity_flux_chart.dir/intensity_flux_chart_autogen/mocs_compilation.cpp.o CMakeFiles/intensity_flux_chart.dir/src/intensityfluxchart.cpp.o CMakeFiles/intensity_flux_chart.dir/include/moc_intensityfluxchart.cpp.o
+/usr/bin/ranlib libintensity_flux_chart.a

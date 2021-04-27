@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/barkhausen_chart/include/moc_barkhausen_chart.cpp
+

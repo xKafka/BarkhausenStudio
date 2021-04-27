@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/measurement_device_holder
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/measurement_device_holder
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/measurement_device_holder/include/moc_usbtmc_settings.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/measurement_device_holder/include/usbtmc_settings.h

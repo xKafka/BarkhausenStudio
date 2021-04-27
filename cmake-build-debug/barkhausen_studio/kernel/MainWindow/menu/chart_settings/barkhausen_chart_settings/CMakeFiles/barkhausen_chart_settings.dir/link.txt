@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbarkhausen_chart_settings.a CMakeFiles/barkhausen_chart_settings.dir/barkhausen_chart_settings_autogen/mocs_compilation.cpp.o CMakeFiles/barkhausen_chart_settings.dir/src/barkhausen_chart_settings.cpp.o CMakeFiles/barkhausen_chart_settings.dir/include/moc_barkhausen_chart_settings.cpp.o
+/usr/bin/ranlib libbarkhausen_chart_settings.a

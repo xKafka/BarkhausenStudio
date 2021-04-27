@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeasurement_device_holder_module.a CMakeFiles/measurement_device_holder_module.dir/measurement_device_holder_module_autogen/mocs_compilation.cpp.o CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o CMakeFiles/measurement_device_holder_module.dir/include/moc_data_parser.cpp.o CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o
+/usr/bin/ranlib libmeasurement_device_holder_module.a

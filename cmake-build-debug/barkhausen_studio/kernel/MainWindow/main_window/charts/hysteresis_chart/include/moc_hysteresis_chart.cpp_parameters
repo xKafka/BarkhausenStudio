@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/charts/hysteresis_chart
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/main_window/charts/hysteresis_chart
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/main_window/charts/hysteresis_chart/include/moc_hysteresis_chart.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/charts/hysteresis_chart/include/hysteresis_chart.h

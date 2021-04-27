@@ -1,0 +1,2 @@
+/usr/bin/ar qc libB_H_chart_settings.a CMakeFiles/B_H_chart_settings.dir/B_H_chart_settings_autogen/mocs_compilation.cpp.o CMakeFiles/B_H_chart_settings.dir/src/B_H_chart_settings.cpp.o CMakeFiles/B_H_chart_settings.dir/include/moc_B_H_chart_settings.cpp.o
+/usr/bin/ranlib libB_H_chart_settings.a

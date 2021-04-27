@@ -331,7 +331,6 @@
 #define __FLT128_HAS_QUIET_NAN__ 1
 #define __INTMAX_MAX__ 0x7fffffffffffffffL
 #define __INT_FAST8_TYPE__ signed char
-#define FMT_LOCALE 1
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
 #define __GNUC_STDC_INLINE__ 1
 #define __FLT64_HAS_DENORM__ 1

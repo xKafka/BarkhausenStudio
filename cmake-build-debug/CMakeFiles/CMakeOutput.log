@@ -1,4 +1,4 @@
-The system is: Linux - 5.8.0-45-generic - x86_64
+The system is: Linux - 5.8.0-50-generic - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
 Build flags: 
@@ -10,29 +10,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.out"
-
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_614ee/fast && /usr/bin/make  -f CMakeFiles/cmTC_614ee.dir/build.make CMakeFiles/cmTC_614ee.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_614ee.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_614ee.dir/testCXXCompiler.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_614ee
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_614ee.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_614ee.dir/testCXXCompiler.cxx.o  -o cmTC_614ee 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
+The CXX compiler identification is GNU, found in "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.out"
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bda3d/fast && /usr/bin/make  -f CMakeFiles/cmTC_bda3d.dir/build.make CMakeFiles/cmTC_bda3d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_49d80/fast && /usr/bin/make  -f CMakeFiles/cmTC_49d80.dir/build.make CMakeFiles/cmTC_49d80.dir/build
 make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/151/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
@@ -42,8 +28,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.2.0-5ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Ubuntu 10.2.0-5ubuntu1~20.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvvAsQQ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/151/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPiWyaI.s
 GNU C++14 (Ubuntu 10.2.0-5ubuntu1~20.04) version 10.2.0 (x86_64-linux-gnu)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -67,15 +53,15 @@ GNU C++14 (Ubuntu 10.2.0-5ubuntu1~20.04) version 10.2.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d716f9df9d1b12ebc8fe860554136f35
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvvAsQQ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPiWyaI.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_bda3d
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bda3d.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bda3d 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_49d80
+/snap/clion/151/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d80.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_49d80 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
@@ -88,9 +74,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (Ubuntu 10.2.0-5ubuntu1~20.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bda3d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4UoUj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bda3d /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bda3d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49d80' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQiOfZ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49d80 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49d80' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -120,10 +106,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_bda3d/fast && /usr/bin/make  -f CMakeFiles/cmTC_bda3d.dir/build.make CMakeFiles/cmTC_bda3d.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_49d80/fast && /usr/bin/make  -f CMakeFiles/cmTC_49d80.dir/build.make CMakeFiles/cmTC_49d80.dir/build]
   ignore line: [make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/151/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
@@ -133,8 +119,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (Ubuntu 10.2.0-5ubuntu1~20.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvvAsQQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/151/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPiWyaI.s]
   ignore line: [GNU C++14 (Ubuntu 10.2.0-5ubuntu1~20.04) version 10.2.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -158,15 +144,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d716f9df9d1b12ebc8fe860554136f35]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvvAsQQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPiWyaI.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_bda3d]
-  ignore line: [/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bda3d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bda3d ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_49d80]
+  ignore line: [/snap/clion/151/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d80.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_49d80 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
@@ -179,13 +165,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.2.0 (Ubuntu 10.2.0-5ubuntu1~20.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bda3d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4UoUj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bda3d /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49d80' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQiOfZ7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49d80 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccE4UoUj.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQiOfZ7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -203,7 +189,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bda3d] ==> ignore
+    arg [cmTC_49d80] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
@@ -215,7 +201,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
-    arg [CMakeFiles/cmTC_bda3d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_49d80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -238,94 +224,3 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
-Performing C++ SOURCE FILE Test has_std_17_flag succeeded with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_249a4/fast && /usr/bin/make  -f CMakeFiles/cmTC_249a4.dir/build.make CMakeFiles/cmTC_249a4.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_249a4.dir/src.cxx.o
-/usr/bin/c++    -Dhas_std_17_flag   -std=c++17 -std=gnu++17 -o CMakeFiles/cmTC_249a4.dir/src.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_249a4
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249a4.dir/link.txt --verbose=1
-/usr/bin/c++   -Dhas_std_17_flag    CMakeFiles/cmTC_249a4.dir/src.cxx.o  -o cmTC_249a4 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test has_std_1z_flag succeeded with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_e08d9/fast && /usr/bin/make  -f CMakeFiles/cmTC_e08d9.dir/build.make CMakeFiles/cmTC_e08d9.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e08d9.dir/src.cxx.o
-/usr/bin/c++    -Dhas_std_1z_flag   -std=c++1z -std=gnu++17 -o CMakeFiles/cmTC_e08d9.dir/src.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e08d9
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e08d9.dir/link.txt --verbose=1
-/usr/bin/c++   -Dhas_std_1z_flag    CMakeFiles/cmTC_e08d9.dir/src.cxx.o  -o cmTC_e08d9 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_44bdc/fast && /usr/bin/make  -f CMakeFiles/cmTC_44bdc.dir/build.make CMakeFiles/cmTC_44bdc.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44bdc.dir/src.cxx.o
-/usr/bin/c++    -DSUPPORTS_USER_DEFINED_LITERALS -std=c++17   -std=gnu++17 -o CMakeFiles/cmTC_44bdc.dir/src.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_44bdc
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bdc.dir/link.txt --verbose=1
-/usr/bin/c++   -DSUPPORTS_USER_DEFINED_LITERALS -std=c++17    CMakeFiles/cmTC_44bdc.dir/src.cxx.o  -o cmTC_44bdc 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-Source file was:
-
-  void operator"" _udl(long double);
-  int main() {}
-Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_fc80f/fast && /usr/bin/make  -f CMakeFiles/cmTC_fc80f.dir/build.make CMakeFiles/cmTC_fc80f.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fc80f.dir/src.cxx.o
-/usr/bin/c++    -DFMT_HAS_VARIANT -std=c++1z   -std=gnu++17 -o CMakeFiles/cmTC_fc80f.dir/src.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_fc80f
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc80f.dir/link.txt --verbose=1
-/usr/bin/c++   -DFMT_HAS_VARIANT -std=c++1z    CMakeFiles/cmTC_fc80f.dir/src.cxx.o  -o cmTC_fc80f 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-Source file was:
-
-  #include <variant>
-  int main() {}
-Determining if the strtod_l exist passed with the following output:
-Change Dir: /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_4601a/fast && /usr/bin/make  -f CMakeFiles/cmTC_4601a.dir/build.make CMakeFiles/cmTC_4601a.dir/build
-make[1]: Entering directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4601a.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -std=gnu++17 -o CMakeFiles/cmTC_4601a.dir/CheckSymbolExists.cxx.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_4601a
-/snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4601a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4601a.dir/CheckSymbolExists.cxx.o  -o cmTC_4601a 
-make[1]: Leaving directory '/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-File /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <stdlib.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef strtod_l
-  return ((int*)(&strtod_l))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}

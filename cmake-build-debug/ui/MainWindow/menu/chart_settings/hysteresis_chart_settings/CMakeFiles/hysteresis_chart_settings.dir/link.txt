@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhysteresis_chart_settings.a CMakeFiles/hysteresis_chart_settings.dir/hysteresis_chart_settings_autogen/mocs_compilation.cpp.o CMakeFiles/hysteresis_chart_settings.dir/src/hysteresis_chart_settings.cpp.o CMakeFiles/hysteresis_chart_settings.dir/include/moc_hysteresis_chart_settings.cpp.o
+/usr/bin/ranlib libhysteresis_chart_settings.a

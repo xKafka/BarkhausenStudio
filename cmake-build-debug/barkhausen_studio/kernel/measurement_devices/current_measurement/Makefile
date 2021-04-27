@@ -241,33 +241,6 @@ include/moc_current_measurement_device_worker.cpp.s:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.s
 .PHONY : include/moc_current_measurement_device_worker.cpp.s
 
-src/agilent_u2541a_wrapped.o: src/agilent_u2541a_wrapped.cpp.o
-
-.PHONY : src/agilent_u2541a_wrapped.o
-
-# target to build an object file
-src/agilent_u2541a_wrapped.cpp.o:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o
-.PHONY : src/agilent_u2541a_wrapped.cpp.o
-
-src/agilent_u2541a_wrapped.i: src/agilent_u2541a_wrapped.cpp.i
-
-.PHONY : src/agilent_u2541a_wrapped.i
-
-# target to preprocess a source file
-src/agilent_u2541a_wrapped.cpp.i:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.i
-.PHONY : src/agilent_u2541a_wrapped.cpp.i
-
-src/agilent_u2541a_wrapped.s: src/agilent_u2541a_wrapped.cpp.s
-
-.PHONY : src/agilent_u2541a_wrapped.s
-
-# target to generate assembly for a file
-src/agilent_u2541a_wrapped.cpp.s:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.s
-.PHONY : src/agilent_u2541a_wrapped.cpp.s
-
 src/current_measurement_device.o: src/current_measurement_device.cpp.o
 
 .PHONY : src/current_measurement_device.o
@@ -322,33 +295,6 @@ src/current_measurement_device_worker.cpp.s:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.s
 .PHONY : src/current_measurement_device_worker.cpp.s
 
-src/settings.o: src/settings.cpp.o
-
-.PHONY : src/settings.o
-
-# target to build an object file
-src/settings.cpp.o:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.o
-.PHONY : src/settings.cpp.o
-
-src/settings.i: src/settings.cpp.i
-
-.PHONY : src/settings.i
-
-# target to preprocess a source file
-src/settings.cpp.i:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.i
-.PHONY : src/settings.cpp.i
-
-src/settings.s: src/settings.cpp.s
-
-.PHONY : src/settings.s
-
-# target to generate assembly for a file
-src/settings.cpp.s:
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.s
-.PHONY : src/settings.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -368,18 +314,12 @@ help:
 	@echo "... include/moc_current_measurement_device_worker.o"
 	@echo "... include/moc_current_measurement_device_worker.i"
 	@echo "... include/moc_current_measurement_device_worker.s"
-	@echo "... src/agilent_u2541a_wrapped.o"
-	@echo "... src/agilent_u2541a_wrapped.i"
-	@echo "... src/agilent_u2541a_wrapped.s"
 	@echo "... src/current_measurement_device.o"
 	@echo "... src/current_measurement_device.i"
 	@echo "... src/current_measurement_device.s"
 	@echo "... src/current_measurement_device_worker.o"
 	@echo "... src/current_measurement_device_worker.i"
 	@echo "... src/current_measurement_device_worker.s"
-	@echo "... src/settings.o"
-	@echo "... src/settings.i"
-	@echo "... src/settings.s"
 .PHONY : help
 
 

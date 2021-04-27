@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/core
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/core
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/core/include/moc_data_core.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/core/include/data_core.h

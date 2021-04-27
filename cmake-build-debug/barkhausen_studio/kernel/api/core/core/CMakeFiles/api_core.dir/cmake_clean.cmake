@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/api_core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/api_core_autogen.dir/ParseCache.txt"
+  "api_core_autogen"
+  "CMakeFiles/api_core.dir/api_core_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/api_core.dir/data_buffer/include/moc_data_buffer.cpp.o"
+  "CMakeFiles/api_core.dir/data_buffer/include/moc_measurement_data.cpp.o"
+  "CMakeFiles/api_core.dir/data_buffer/include/moc_statistical_data.cpp.o"
+  "CMakeFiles/api_core.dir/data_buffer/include/moc_ui_data.cpp.o"
+  "CMakeFiles/api_core.dir/data_buffer/src/data_buffer.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/data_math/include/moc_data_math.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/data_math/include/moc_data_math_worker.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/data_math/src/data_math.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/data_math/src/data_math_worker.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/include/moc_data_creator.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/include/moc_data_creator_worker.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/src/data_creator.cpp.o"
+  "CMakeFiles/api_core.dir/data_creator/src/data_creator_worker.cpp.o"
+  "CMakeFiles/api_core.dir/include/moc_core.cpp.o"
+  "CMakeFiles/api_core.dir/measurement_device_holder/include/moc_data_parser.cpp.o"
+  "CMakeFiles/api_core.dir/measurement_device_holder/include/moc_measurement_device_holder.cpp.o"
+  "CMakeFiles/api_core.dir/measurement_device_holder/src/data_parser.cpp.o"
+  "CMakeFiles/api_core.dir/measurement_device_holder/src/measurement_device_holder.cpp.o"
+  "CMakeFiles/api_core.dir/src/core.cpp.o"
+  "data_buffer/include/moc_data_buffer.cpp"
+  "data_buffer/include/moc_measurement_data.cpp"
+  "data_buffer/include/moc_statistical_data.cpp"
+  "data_buffer/include/moc_ui_data.cpp"
+  "data_creator/data_math/include/moc_data_math.cpp"
+  "data_creator/data_math/include/moc_data_math_worker.cpp"
+  "data_creator/include/moc_data_creator.cpp"
+  "data_creator/include/moc_data_creator_worker.cpp"
+  "include/moc_core.cpp"
+  "libapi_core.a"
+  "libapi_core.pdb"
+  "measurement_device_holder/include/moc_data_parser.cpp"
+  "measurement_device_holder/include/moc_measurement_device_holder.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/api_core.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

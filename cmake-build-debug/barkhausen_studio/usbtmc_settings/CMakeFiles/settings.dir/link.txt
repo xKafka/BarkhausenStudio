@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsettings.a CMakeFiles/settings.dir/src/usbtmc_settings_base.cpp.o
+/usr/bin/ranlib libsettings.a

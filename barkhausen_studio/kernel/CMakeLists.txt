@@ -1,3 +1,4 @@
 add_subdirectory(api)
-add_subdirectory(command_multiplexer)
-add_subdirectory(measurement_devices)
+add_subdirectory(core)
+add_subdirectory(MainWindow)
+add_subdirectory(hardware_devices)

@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device_settings
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device_settings
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device_settings/include/moc_meas_device_settings.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device_settings/include/meas_device_settings.h

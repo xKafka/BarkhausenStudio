@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbarkhausen_noise_chart.a  CMakeFiles/barkhausen_noise_chart.dir/barkhausen_noise_chart_autogen/mocs_compilation.cpp.o CMakeFiles/barkhausen_noise_chart.dir/src/barkhausennoisechart.cpp.o CMakeFiles/barkhausen_noise_chart.dir/include/moc_barkhausennoisechart.cpp.o
+/usr/bin/ranlib libbarkhausen_noise_chart.a

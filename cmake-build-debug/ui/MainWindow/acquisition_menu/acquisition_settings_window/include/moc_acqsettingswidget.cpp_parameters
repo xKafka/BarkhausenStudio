@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/acquisition_menu
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/acquisition_menu/acquisition_settings_window/include/moc_acqsettingswidget.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu/acquisition_settings_window/include/acqsettingswidget.h

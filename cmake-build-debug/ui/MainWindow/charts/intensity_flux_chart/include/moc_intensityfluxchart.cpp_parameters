@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/intensity_flux_chart
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/intensity_flux_chart
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/intensity_flux_chart/include/moc_intensityfluxchart.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/intensity_flux_chart/include/intensityfluxchart.h

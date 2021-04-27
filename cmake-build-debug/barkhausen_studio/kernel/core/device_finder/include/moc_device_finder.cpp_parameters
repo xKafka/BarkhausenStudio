@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder/include/moc_device_finder.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include/device_finder.h

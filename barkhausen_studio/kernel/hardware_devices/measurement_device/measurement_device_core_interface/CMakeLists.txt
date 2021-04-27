@@ -1,0 +1,3 @@
+add_library(measurement_device_standard_interface INTERFACE)
+
+target_include_directories(measurement_device_standard_interface INTERFACE include)

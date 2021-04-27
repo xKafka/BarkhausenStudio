@@ -5,7 +5,7 @@
 		<Option title="FMT"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\fmt\;CMake Files\external\fmt\support\;CMake Files\external\fmt\support\cmake\;CMake Files\ui\;CMake Files\ui\MainWindow\;CMake Files\ui\current_chart\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\barkhausen_studio\;CMake Files\barkhausen_studio\kernel\;CMake Files\barkhausen_studio\kernel\api\;CMake Files\barkhausen_studio\kernel\command_multiplexer\;CMake Files\barkhausen_studio\kernel\measurement_devices\;CMake Files\barkhausen_studio\kernel\measurement_devices\current_measurement\;CMake Files\barkhausen_studio\exceptions\;CMake Files\barkhausen_studio\utility\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ui\;CMake Files\ui\MainWindow\;CMake Files\ui\current_chart\;CMake Files\ui\command_list\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\;CMake Files\barkhausen_studio\;CMake Files\barkhausen_studio\kernel\;CMake Files\barkhausen_studio\kernel\api\;CMake Files\barkhausen_studio\kernel\command_multiplexer\;CMake Files\barkhausen_studio\kernel\measurement_devices\;CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\;CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\measurement_device_core_interface\;CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\usbtmc\;CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\usbtmc_device_finder\;CMake Files\barkhausen_studio\kernel\measurement_devices\command_list\;CMake Files\barkhausen_studio\kernel\command_creator\;CMake Files\barkhausen_studio\exceptions\;CMake Files\barkhausen_studio\utility\;CMake Files\barkhausen_studio\settings\;CMake Files\external\;CMake Files\external\fmt\;CMake Files\external\fmt\support\;CMake Files\external\fmt\support\cmake\;CMake Files\external\json\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt"/>
@@ -124,18 +124,6 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\external\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\external\fmt\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/JoinPaths.cmake">
-			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/cxx14.cmake">
-			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
-		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ui\"/>
 		</Unit>
@@ -144,6 +132,9 @@
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ui\current_chart\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/ui/command_list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui\command_list\"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
@@ -274,26 +265,14 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Multimedia\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/../../../../usr/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\"/>
@@ -310,14 +289,47 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\current_measurement\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/measurement_device_core_interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\measurement_device_core_interface\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/usbtmc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\usbtmc\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/usbtmc_device_finder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\measurement_device\usbtmc_device_finder\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/command_list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\measurement_devices\command_list\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_creator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\command_creator\"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\exceptions\"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\utility\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/settings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\settings\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\fmt\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\external\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/external/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\json\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

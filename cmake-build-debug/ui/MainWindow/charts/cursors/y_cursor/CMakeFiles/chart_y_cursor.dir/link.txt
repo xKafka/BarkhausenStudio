@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchart_y_cursor.a CMakeFiles/chart_y_cursor.dir/src/chart_y_cursor.cpp.o
+/usr/bin/ranlib libchart_y_cursor.a

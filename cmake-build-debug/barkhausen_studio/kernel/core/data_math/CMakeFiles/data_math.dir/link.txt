@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_math.a CMakeFiles/data_math.dir/data_math_autogen/mocs_compilation.cpp.o CMakeFiles/data_math.dir/src/data_math.cpp.o CMakeFiles/data_math.dir/src/data_math_worker.cpp.o CMakeFiles/data_math.dir/include/moc_data_math.cpp.o CMakeFiles/data_math.dir/include/moc_data_math_worker.cpp.o
+/usr/bin/ranlib libdata_math.a

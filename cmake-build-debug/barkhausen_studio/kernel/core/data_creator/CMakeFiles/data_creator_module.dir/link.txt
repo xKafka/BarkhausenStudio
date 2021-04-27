@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_creator_module.a CMakeFiles/data_creator_module.dir/data_creator_module_autogen/mocs_compilation.cpp.o CMakeFiles/data_creator_module.dir/src/data_creator.cpp.o CMakeFiles/data_creator_module.dir/src/data_creator_worker.cpp.o CMakeFiles/data_creator_module.dir/src/data_math.cpp.o CMakeFiles/data_creator_module.dir/include/moc_data_creator.cpp.o CMakeFiles/data_creator_module.dir/include/moc_data_creator_worker.cpp.o CMakeFiles/data_creator_module.dir/include/moc_data_math.cpp.o
+/usr/bin/ranlib libdata_creator_module.a

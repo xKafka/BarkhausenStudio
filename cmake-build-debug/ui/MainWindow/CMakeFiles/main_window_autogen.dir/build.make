@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug
 include ui/MainWindow/CMakeFiles/main_window_autogen.dir/progress.make
 
 ui/MainWindow/CMakeFiles/main_window_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target main_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main_window"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow && /snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_autogen /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/CMakeFiles/main_window_autogen.dir/AutogenInfo.json Debug
 
 main_window_autogen: ui/MainWindow/CMakeFiles/main_window_autogen

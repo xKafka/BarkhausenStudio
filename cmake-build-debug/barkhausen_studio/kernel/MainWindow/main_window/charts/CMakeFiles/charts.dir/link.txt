@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcharts.a CMakeFiles/charts.dir/charts_autogen/mocs_compilation.cpp.o CMakeFiles/charts.dir/src/B_H_chart.cpp.o CMakeFiles/charts.dir/src/barkhausen_chart.cpp.o CMakeFiles/charts.dir/src/hysteresis_chart.cpp.o CMakeFiles/charts.dir/include/moc_B_H_chart.cpp.o CMakeFiles/charts.dir/include/moc_barkhausen_chart.cpp.o CMakeFiles/charts.dir/include/moc_hysteresis_chart.cpp.o
+/usr/bin/ranlib libcharts.a

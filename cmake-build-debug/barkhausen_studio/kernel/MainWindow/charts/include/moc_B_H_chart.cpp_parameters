@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/include/moc_B_H_chart.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include/B_H_chart.h

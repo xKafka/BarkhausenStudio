@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_core.a CMakeFiles/data_core.dir/data_core_autogen/mocs_compilation.cpp.o CMakeFiles/data_core.dir/src/data_core.cpp.o CMakeFiles/data_core.dir/include/moc_data_core.cpp.o
+/usr/bin/ranlib libdata_core.a

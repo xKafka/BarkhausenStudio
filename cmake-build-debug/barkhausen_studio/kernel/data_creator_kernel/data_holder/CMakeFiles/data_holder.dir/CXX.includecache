@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/data_holder/src/data_holder.cpp
+
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/data_holder/data_holder_autogen/mocs_compilation.cpp
+

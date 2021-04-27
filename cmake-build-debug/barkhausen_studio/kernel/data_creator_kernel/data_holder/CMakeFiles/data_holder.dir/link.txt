@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_holder.a CMakeFiles/data_holder.dir/data_holder_autogen/mocs_compilation.cpp.o CMakeFiles/data_holder.dir/src/data_holder.cpp.o
+/usr/bin/ranlib libdata_holder.a

@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/moc_barkhausen_chart_settings.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/barkhausen_chart_settings.h

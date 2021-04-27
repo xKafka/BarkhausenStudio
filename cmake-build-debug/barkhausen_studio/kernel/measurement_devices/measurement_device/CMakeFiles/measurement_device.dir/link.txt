@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeasurement_device.a CMakeFiles/measurement_device.dir/measurement_device_autogen/mocs_compilation.cpp.o CMakeFiles/measurement_device.dir/src/measurement_device.cpp.o CMakeFiles/measurement_device.dir/src/measurement_device_worker.cpp.o CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o CMakeFiles/measurement_device.dir/include/moc_measurement_device.cpp.o CMakeFiles/measurement_device.dir/include/moc_measurement_device_worker.cpp.o
+/usr/bin/ranlib libmeasurement_device.a

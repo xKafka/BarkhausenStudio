@@ -1,5 +1,5 @@
 /********************************************************************************
-** Form generated from reading UI file 'currentchart.ui'
+** Form generated from reading UI file 'current_chart.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.12.8
 **

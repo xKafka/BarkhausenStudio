@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/data_buffer
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/data_buffer
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/data_creator_kernel/data_buffer/include/moc_measurement_data.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator_kernel/data_buffer/include/measurement_data.h

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbuttons.a  CMakeFiles/buttons.dir/buttons_autogen/mocs_compilation.cpp.o CMakeFiles/buttons.dir/src/tool_button_settings_points_per_chunk.cpp.o CMakeFiles/buttons.dir/include/moc_tool_button_settings_points_per_chunk.cpp.o
-/usr/bin/ranlib libbuttons.a

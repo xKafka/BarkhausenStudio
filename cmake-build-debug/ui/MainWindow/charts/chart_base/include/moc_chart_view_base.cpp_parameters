@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/chart_base
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/chart_base
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/chart_base/include/moc_chart_view_base.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/chart_base/include/chart_view_base.h

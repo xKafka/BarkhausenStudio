@@ -1,0 +1,154 @@
+{
+	"BUILD_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/main_window_autogen",
+	"CMAKE_BINARY_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow",
+	"CMAKE_EXECUTABLE" : "/snap/clion/145/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/CMakeLists.txt",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/fkafka/rpi/qt5.15/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/main_window_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/main_window_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/settings/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_creator/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu/acquisition_menu/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/command_list/measurement_device",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/command_list/main_window",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/measurement_device_core_interface/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/measurement_device/usbtmc/include",
+		"/home/fkafka/rpi/qt5.15/include",
+		"/home/fkafka/rpi/qt5.15/include/QtWidgets",
+		"/home/fkafka/rpi/qt5.15/include/QtGui",
+		"/home/fkafka/rpi/qt5.15/include/QtCore",
+		"/home/fkafka/rpi/qt5.15/mkspecs/devices/linux-rasp-pi4-v3d-g++",
+		"/home/fkafka/rpi/qt5.15/include/QtCharts",
+		"/usr/include",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/snap/clion/145/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/main_window_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include/main_menu.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include/mainwindow.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/CMakeFiles/main_window_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/fkafka/rpi/qt5.15/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/fkafka/rpi/qt5.15/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/CMakeFiles/main_window_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/main_menu.cpp",
+			"MU"
+		],
+		[
+			"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [ "/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src" ],
+	"UIC_SKIP" : 
+	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu/acquisition_settings_window/src/AcqSettingsWidget.ui",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/src/mainwindow.ui"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

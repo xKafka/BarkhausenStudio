@@ -1,0 +1,13 @@
+//
+// Created by fkafka on 15. 4. 2021.
+//
+
+#ifndef BARKHAUSEN_STUDIO_STATISTICAL_DATA_H
+#define BARKHAUSEN_STUDIO_STATISTICAL_DATA_H
+
+struct StatisticalData
+{
+
+};
+
+#endif //BARKHAUSEN_STUDIO_STATISTICAL_DATA_H

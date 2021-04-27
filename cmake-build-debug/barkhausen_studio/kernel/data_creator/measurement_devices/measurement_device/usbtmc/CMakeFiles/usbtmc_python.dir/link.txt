@@ -1,0 +1,2 @@
+/usr/bin/ar qc libusbtmc_python.a CMakeFiles/usbtmc_python.dir/src/agilent_u2541a_python.cpp.o
+/usr/bin/ranlib libusbtmc_python.a

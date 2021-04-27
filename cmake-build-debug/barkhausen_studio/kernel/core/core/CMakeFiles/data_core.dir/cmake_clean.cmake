@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/data_core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/data_core_autogen.dir/ParseCache.txt"
+  "data_core_autogen"
+  "CMakeFiles/data_core.dir/data_buffer/include/moc_data_buffer.cpp.o"
+  "CMakeFiles/data_core.dir/data_buffer/include/moc_measurement_data.cpp.o"
+  "CMakeFiles/data_core.dir/data_buffer/include/moc_statistical_data.cpp.o"
+  "CMakeFiles/data_core.dir/data_buffer/include/moc_ui_data.cpp.o"
+  "CMakeFiles/data_core.dir/data_buffer/src/data_buffer.cpp.o"
+  "CMakeFiles/data_core.dir/data_core_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/data_math/include/moc_data_math.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/data_math/include/moc_data_math_worker.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/data_math/src/data_math.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/data_math/src/data_math_worker.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/include/moc_data_creator.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/include/moc_data_creator_worker.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/src/data_creator.cpp.o"
+  "CMakeFiles/data_core.dir/data_creator/src/data_creator_worker.cpp.o"
+  "CMakeFiles/data_core.dir/include/moc_core.cpp.o"
+  "CMakeFiles/data_core.dir/settings_storage/include/moc_settings_storage.cpp.o"
+  "CMakeFiles/data_core.dir/settings_storage/src/settings_storage.cpp.o"
+  "CMakeFiles/data_core.dir/src/core.cpp.o"
+  "data_buffer/include/moc_data_buffer.cpp"
+  "data_buffer/include/moc_measurement_data.cpp"
+  "data_buffer/include/moc_statistical_data.cpp"
+  "data_buffer/include/moc_ui_data.cpp"
+  "data_creator/data_math/include/moc_data_math.cpp"
+  "data_creator/data_math/include/moc_data_math_worker.cpp"
+  "data_creator/include/moc_data_creator.cpp"
+  "data_creator/include/moc_data_creator_worker.cpp"
+  "include/moc_core.cpp"
+  "libdata_core.a"
+  "libdata_core.pdb"
+  "settings_storage/include/moc_settings_storage.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/data_core.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchart_settings_window.a CMakeFiles/chart_settings_window.dir/chart_settings_window_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libchart_settings_window.a

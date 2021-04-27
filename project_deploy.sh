@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pi_adress="192.168.0.59"
+pi_adress="192.168.1.228"
 project_adress="/home/pi/Documents/Barkhausen_studio"
 
 echo "Deploying to raspberry on adress pi@$pi_adress"

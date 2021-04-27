@@ -12,7 +12,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "FMT_LOCALE"
   "QT_CHARTS_LIB"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
@@ -26,8 +25,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "ui/current_chart/current_chart_autogen/include"
   "../ui/current_chart/src"
   "../ui/current_chart/include"
+  "../barkhausen_studio/usbtmc_settings/include"
+  "../barkhausen_studio/kernel/command_multiplexer/creator/include"
   "../barkhausen_studio/utility/include"
-  "../external/fmt/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
@@ -38,7 +38,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/usbtmc_settings/CMakeFiles/settings.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

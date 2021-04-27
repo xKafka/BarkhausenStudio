@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchart_base_module.a CMakeFiles/chart_base_module.dir/chart_base_module_autogen/mocs_compilation.cpp.o CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o CMakeFiles/chart_base_module.dir/src/cursors.cpp.o CMakeFiles/chart_base_module.dir/include/moc_chart_base.cpp.o CMakeFiles/chart_base_module.dir/include/moc_chart_view.cpp.o CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o CMakeFiles/chart_base_module.dir/include/moc_cursors.cpp.o
+/usr/bin/ranlib libchart_base_module.a

@@ -81,9 +81,9 @@ ui/current_chart/include/moc_currentchart.cpp: ../ui/current_chart/include/curre
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/moc_currentchart.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/include/moc_currentchart.cpp_parameters
 
-ui/current_chart/ui_currentchart.h: ../ui/current_chart/src/currentchart.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_currentchart.h"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart && /usr/lib/qt5/bin/uic -o /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/ui_currentchart.h /home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/currentchart.ui
+ui/current_chart/ui_current_chart.h: ../ui/current_chart/src/current_chart.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_current_chart.h"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart && /usr/lib/qt5/bin/uic -o /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/ui_current_chart.h /home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/current_chart.ui
 
 ui/current_chart/CMakeFiles/current_chart.dir/current_chart_autogen/mocs_compilation.cpp.o: ui/current_chart/CMakeFiles/current_chart.dir/flags.make
 ui/current_chart/CMakeFiles/current_chart.dir/current_chart_autogen/mocs_compilation.cpp.o: ui/current_chart/current_chart_autogen/mocs_compilation.cpp
@@ -152,7 +152,7 @@ ui/current_chart/CMakeFiles/current_chart.dir/clean:
 .PHONY : ui/current_chart/CMakeFiles/current_chart.dir/clean
 
 ui/current_chart/CMakeFiles/current_chart.dir/depend: ui/current_chart/include/moc_currentchart.cpp
-ui/current_chart/CMakeFiles/current_chart.dir/depend: ui/current_chart/ui_currentchart.h
+ui/current_chart/CMakeFiles/current_chart.dir/depend: ui/current_chart/ui_current_chart.h
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fkafka/QtProjects/Barkhausen_studio /home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/CMakeFiles/current_chart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ui/current_chart/CMakeFiles/current_chart.dir/depend
 

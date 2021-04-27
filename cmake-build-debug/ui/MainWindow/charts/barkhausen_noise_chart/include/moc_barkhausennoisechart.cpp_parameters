@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/barkhausen_noise_chart
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/barkhausen_noise_chart
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/charts/barkhausen_noise_chart/include/moc_barkhausennoisechart.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/charts/barkhausen_noise_chart/include/barkhausennoisechart.h

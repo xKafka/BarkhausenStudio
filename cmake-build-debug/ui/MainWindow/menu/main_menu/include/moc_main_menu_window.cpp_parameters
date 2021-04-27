@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/menu/main_menu
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/menu/main_menu
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/menu/main_menu/include/moc_main_menu_window.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/menu/main_menu/include/main_menu_window.h

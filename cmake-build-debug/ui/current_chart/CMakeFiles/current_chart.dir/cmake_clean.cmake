@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "include/moc_currentchart.cpp"
   "libcurrent_chart.a"
   "libcurrent_chart.pdb"
-  "ui_currentchart.h"
+  "ui_current_chart.h"
 )
 
 # Per-language clean rules from dependency scanning.

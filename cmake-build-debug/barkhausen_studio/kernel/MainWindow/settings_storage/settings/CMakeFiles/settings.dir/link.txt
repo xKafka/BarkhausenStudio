@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsettings.a CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o CMakeFiles/settings.dir/src/ui_settings.cpp.o CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o CMakeFiles/settings.dir/include/moc_device_description.cpp.o CMakeFiles/settings.dir/include/moc_settings_names.cpp.o CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o
+/usr/bin/ranlib libsettings.a

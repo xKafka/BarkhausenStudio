@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeas_device_settings.a CMakeFiles/meas_device_settings.dir/meas_device_settings_autogen/mocs_compilation.cpp.o CMakeFiles/meas_device_settings.dir/src/meas_device_settings.cpp.o CMakeFiles/meas_device_settings.dir/include/moc_meas_device_settings.cpp.o
+/usr/bin/ranlib libmeas_device_settings.a

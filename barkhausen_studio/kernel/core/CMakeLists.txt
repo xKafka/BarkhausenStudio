@@ -1,0 +1,5 @@
+add_subdirectory(core)
+add_subdirectory(data_buffer)
+add_subdirectory(data_creator)
+add_subdirectory(device_finder)
+add_subdirectory(measurement_device_holder)

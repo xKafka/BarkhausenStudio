@@ -7,6 +7,7 @@ ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: ui
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: ../ui/current_chart/include/currentchart.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QChartGlobal
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchartglobal.h
+ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -75,6 +76,7 @@ ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /u
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
@@ -119,7 +121,6 @@ ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /u
 ui/current_chart/CMakeFiles/current_chart.dir/include/moc_currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: ../ui/current_chart/include/currentchart.h
-ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: ../ui/current_chart/include/ui_current_chart.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: ../ui/current_chart/src/currentchart.cpp
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractAxis
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractSeries
@@ -139,8 +140,10 @@ ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/inclu
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qlineseries.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qvalueaxis.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qxyseries.h
+ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
@@ -216,6 +219,7 @@ ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/inclu
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
@@ -302,4 +306,5 @@ ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/inclu
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ui/current_chart/CMakeFiles/current_chart.dir/src/currentchart.cpp.o: ui/current_chart/ui_current_chart.h
 

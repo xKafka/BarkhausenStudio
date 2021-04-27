@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchart_window.a  CMakeFiles/chart_window.dir/chart_window_autogen/mocs_compilation.cpp.o CMakeFiles/chart_window.dir/src/chartwindow.cpp.o
+/usr/bin/ranlib libchart_window.a

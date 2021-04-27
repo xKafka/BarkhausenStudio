@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsettings_storage.a CMakeFiles/settings_storage.dir/settings_storage_autogen/mocs_compilation.cpp.o CMakeFiles/settings_storage.dir/src/settings_storage.cpp.o CMakeFiles/settings_storage.dir/include/moc_settings_storage.cpp.o
+/usr/bin/ranlib libsettings_storage.a

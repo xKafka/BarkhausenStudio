@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/menu/measurement_settings
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/menu/measurement_settings
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/MainWindow/menu/measurement_settings/include/moc_measurementsettings.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/menu/measurement_settings/include/measurementsettings.h

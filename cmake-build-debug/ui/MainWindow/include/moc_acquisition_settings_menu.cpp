@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../ui/MainWindow/include/acquisition_settings_menu.h"
+#include "acquisition_menu/acquisition_settings_menu/include/acquisition_settings_menu.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

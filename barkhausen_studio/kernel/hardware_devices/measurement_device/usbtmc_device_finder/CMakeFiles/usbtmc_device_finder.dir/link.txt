@@ -1,0 +1,2 @@
+/usr/bin/ar qc libusbtmc_device_finder.a  CMakeFiles/usbtmc_device_finder.dir/src/usbtmc_device_finder_python.cpp.o
+/usr/bin/ranlib libusbtmc_device_finder.a

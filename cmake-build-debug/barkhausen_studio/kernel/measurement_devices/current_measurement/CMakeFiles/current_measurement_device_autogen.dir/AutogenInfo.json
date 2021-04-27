@@ -65,7 +65,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "FMT_LOCALE", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -81,7 +81,6 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include",
-		"/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
@@ -124,19 +123,11 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp",
-			"Mu"
-		],
-		[
 			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device.cpp",
 			"Mu"
 		],
 		[
 			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device_worker.cpp",
-			"Mu"
-		],
-		[
-			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp",
 			"Mu"
 		]
 	],

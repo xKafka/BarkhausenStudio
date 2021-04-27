@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/settings_storage
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/settings_storage
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/settings_storage/include/moc_settings_storage.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/settings_storage/include/settings_storage.h

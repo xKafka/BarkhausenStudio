@@ -98,22 +98,9 @@ barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/curr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/current_measurement_device.dir/current_measurement_device_autogen/mocs_compilation.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/current_measurement_device_autogen/mocs_compilation.cpp -o CMakeFiles/current_measurement_device.dir/current_measurement_device_autogen/mocs_compilation.cpp.s
 
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o: ../barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp
-
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp > CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.i
-
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/agilent_u2541a_wrapped.cpp -o CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.s
-
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o: ../barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device.cpp
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.i: cmake_force
@@ -126,7 +113,7 @@ barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/curr
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o: ../barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device_worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device_worker.cpp
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.i: cmake_force
@@ -137,22 +124,9 @@ barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/curr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/current_measurement_device_worker.cpp -o CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.s
 
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.o: ../barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.o"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/src/settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp
-
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/current_measurement_device.dir/src/settings.cpp.i"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp > CMakeFiles/current_measurement_device.dir/src/settings.cpp.i
-
-barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/current_measurement_device.dir/src/settings.cpp.s"
-	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/src/settings.cpp -o CMakeFiles/current_measurement_device.dir/src/settings.cpp.s
-
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device.cpp
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.i: cmake_force
@@ -165,7 +139,7 @@ barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/curr
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/flags.make
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o: barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device_worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement/include/moc_current_measurement_device_worker.cpp
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.i: cmake_force
@@ -179,10 +153,8 @@ barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/curr
 # Object files for target current_measurement_device
 current_measurement_device_OBJECTS = \
 "CMakeFiles/current_measurement_device.dir/current_measurement_device_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o" \
 "CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o" \
 "CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o" \
-"CMakeFiles/current_measurement_device.dir/src/settings.cpp.o" \
 "CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o" \
 "CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o"
 
@@ -190,15 +162,13 @@ current_measurement_device_OBJECTS = \
 current_measurement_device_EXTERNAL_OBJECTS =
 
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/current_measurement_device_autogen/mocs_compilation.cpp.o
-barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/agilent_u2541a_wrapped.cpp.o
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device.cpp.o
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/current_measurement_device_worker.cpp.o
-barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/src/settings.cpp.o
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device.cpp.o
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/include/moc_current_measurement_device_worker.cpp.o
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/build.make
 barkhausen_studio/kernel/measurement_devices/current_measurement/libcurrent_measurement_device.a: barkhausen_studio/kernel/measurement_devices/current_measurement/CMakeFiles/current_measurement_device.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libcurrent_measurement_device.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcurrent_measurement_device.a"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && $(CMAKE_COMMAND) -P CMakeFiles/current_measurement_device.dir/cmake_clean_target.cmake
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/measurement_devices/current_measurement && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/current_measurement_device.dir/link.txt --verbose=$(VERBOSE)
 

@@ -56,14 +56,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/module_multiplexer_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/command_multiplexer/module_multiplexer_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"FMT_LOCALE",
-		"QT_CHARTS_LIB",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_WIDGETS_LIB"
-	],
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -79,22 +72,29 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/settings/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_creator/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include",
-		"/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/measurement_devices/current_measurement/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/MainWindow/acquisition_menu/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator/measurement_devices/command_list/measurement_device",
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/command_list/main_window",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator/measurement_devices/measurement_device/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator/measurement_devices/measurement_device/measurement_device_core_interface/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator/measurement_devices/measurement_device/usbtmc/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/data_creator/measurement_devices/measurement_device/usbtmc_device_finder/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCharts",
+		"/usr/include",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",
 		"/usr/include/c++/10/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],

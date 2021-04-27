@@ -1,0 +1,4 @@
+add_subdirectory(main_window)
+add_subdirectory(menu)
+add_subdirectory(charts)
+add_subdirectory(settings_storage)

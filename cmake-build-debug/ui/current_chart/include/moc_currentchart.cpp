@@ -71,7 +71,7 @@ void CurrentChart::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         auto *_t = static_cast<CurrentChart *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->new_data((*reinterpret_cast< const unsigned char*(*)>(_a[1])),(*reinterpret_cast< const std::size_t(*)>(_a[2])),(*reinterpret_cast< const std::size_t(*)>(_a[3]))); break;
+        case 0: _t->new_data((*reinterpret_cast< const unsigned char*(*)>(_a[1])),(*reinterpret_cast< std::size_t(*)>(_a[2])),(*reinterpret_cast< std::size_t(*)>(_a[3]))); break;
         default: ;
         }
     }

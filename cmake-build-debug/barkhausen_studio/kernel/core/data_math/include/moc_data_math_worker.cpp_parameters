@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_math
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/data_math
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/data_math/include/moc_data_math_worker.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_math/include/data_math_worker.h

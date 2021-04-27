@@ -74,7 +74,7 @@ CMAKE_BINARY_DIR = /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug
 include ui/current_chart/CMakeFiles/current_chart_autogen.dir/progress.make
 
 ui/current_chart/CMakeFiles/current_chart_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target current_chart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target current_chart"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart && /snap/clion/145/bin/cmake/linux/bin/cmake -E cmake_autogen /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/CMakeFiles/current_chart_autogen.dir/AutogenInfo.json Debug
 
 current_chart_autogen: ui/current_chart/CMakeFiles/current_chart_autogen

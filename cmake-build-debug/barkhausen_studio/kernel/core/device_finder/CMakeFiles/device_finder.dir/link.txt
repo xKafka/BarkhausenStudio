@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdevice_finder.a CMakeFiles/device_finder.dir/device_finder_autogen/mocs_compilation.cpp.o CMakeFiles/device_finder.dir/src/device_finder.cpp.o CMakeFiles/device_finder.dir/include/moc_device_finder.cpp.o
+/usr/bin/ranlib libdevice_finder.a

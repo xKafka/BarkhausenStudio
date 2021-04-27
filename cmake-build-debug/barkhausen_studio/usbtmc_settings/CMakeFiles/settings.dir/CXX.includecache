@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../barkhausen_studio/usbtmc_settings/include/usbtmc_settings_base.h
+unordered_map
+-
+string
+-
+usbtmc_standard_settings_data.h
+-
+
+../barkhausen_studio/usbtmc_settings/include/usbtmc_standard_settings_data.h
+string_view
+-
+
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/usbtmc_settings/src/usbtmc_settings_base.cpp
+usbtmc_settings_base.h
+-
+nlohmann/json.hpp
+-
+

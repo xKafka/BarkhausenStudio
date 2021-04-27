@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmain_menu_window.a CMakeFiles/main_menu_window.dir/main_menu_window_autogen/mocs_compilation.cpp.o CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o
+/usr/bin/ranlib libmain_menu_window.a

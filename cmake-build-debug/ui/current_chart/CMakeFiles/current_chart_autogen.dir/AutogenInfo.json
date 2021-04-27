@@ -51,14 +51,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Charts/Qt5ChartsConfig.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio",
 	"DEP_FILE" : "",
@@ -67,14 +60,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/current_chart_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/current_chart_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"FMT_LOCALE",
-		"QT_CHARTS_LIB",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_WIDGETS_LIB"
-	],
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -88,21 +74,22 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart",
 		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src",
 		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/usbtmc_settings/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/command_multiplexer/creator/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utility/include",
-		"/home/fkafka/QtProjects/Barkhausen_studio/external/fmt/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCharts",
+		"/usr/include",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",
 		"/usr/include/c++/10/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -125,7 +112,7 @@
 	"PARALLEL" : 6,
 	"PARSE_CACHE_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/CMakeFiles/current_chart_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
 	"SETTINGS_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/ui/current_chart/CMakeFiles/current_chart_autogen.dir/AutogenUsed.txt",
@@ -133,8 +120,15 @@
 	[
 		[
 			"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/currentchart.cpp",
-			"Mu"
+			"MU"
 		]
 	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/ui/current_chart/src/current_chart.ui"
+	],
+	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }
