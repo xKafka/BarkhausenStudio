@@ -147,11 +147,11 @@ QWidget
 -
 memory
 -
-parsed_command.h
--
 usbtmc_settings.h
 -
 device_finder.h
+-
+core.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
@@ -164,6 +164,8 @@ meas_device_settings.h
 settings_storage.h
 -
 device_finder.h
+-
+core.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/menu/window/include/mainmenuwindow.h
@@ -178,6 +180,8 @@ data_creator.h
 device_finder.h
 -
 mem_types.h
+-
+core.h
 -
 QWidget
 -
@@ -208,6 +212,10 @@ QObject
 ini_file.h
 -
 nlohmann/json.hpp
+-
+array
+-
+mem_types.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -295,8 +303,6 @@ QString
 -
 usbtmc_device_finder_wrapper.h
 -
-parsed_command.h
--
 QFileSystemWatcher
 -
 
@@ -382,14 +388,6 @@ usbtmc_settings.h
 mem_types.h
 -
 
-../barkhausen_studio/utils/command_creator/include/parsed_command.h
-string
--
-QMetaType
--
-sstream
--
-
 ../barkhausen_studio/utils/ini/include/ini_file.h
 QSettings
 -
@@ -404,6 +402,12 @@ memory
 string
 -
 QDir
+-
+cmath
+-
+sstream
+-
+type_traits
 -
 
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/include/mainwindow.h
@@ -5956,5 +5960,7 @@ barkhausen_chart.h
 hysteresis_chart.h
 -
 mainmenuwindow.h
+-
+core.h
 -
 

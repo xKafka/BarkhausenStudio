@@ -40,7 +40,6 @@ barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cp
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/include/moc_barkhausen_studio.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -645,7 +644,6 @@ barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/barkhausen_studio.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -1250,7 +1248,6 @@ barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_st
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/src/main.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h

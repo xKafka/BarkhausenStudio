@@ -29,6 +29,10 @@ ini_file.h
 -
 nlohmann/json.hpp
 -
+array
+-
+mem_types.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
 QObject
@@ -165,33 +169,17 @@ string
 -
 QDir
 -
-
-/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
-QObject
+cmath
 -
-mem_types.h
+sstream
 -
-measurement_device.h
--
-settings_storage.h
--
-usbtmc_device_finder_wrapper.h
--
-data_buffer.h
+type_traits
 -
 
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/src/measurement_device_holder.cpp
 measurement_device_holder.h
 -
 data_parser.h
--
-
-/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/measurement_device_holder/include/moc_measurement_device_holder.cpp
-../../../../../../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
-/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir

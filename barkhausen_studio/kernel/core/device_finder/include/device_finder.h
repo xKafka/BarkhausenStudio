@@ -8,7 +8,6 @@
 #include <QObject>
 #include <QString>
 #include <usbtmc_device_finder_wrapper.h>
-#include <parsed_command.h>
 #include <QFileSystemWatcher>
 
 class DeviceFinder : public QObject

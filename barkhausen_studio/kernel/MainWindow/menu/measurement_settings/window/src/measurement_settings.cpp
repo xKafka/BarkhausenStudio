@@ -7,10 +7,10 @@
 #include <measurement_settings.h>
 #include <ui_measurement_settings.h>
 
-MeasurementSettings::MeasurementSettings(QWidget *parent)
+MeasurementSettings::MeasurementSettings(Core *core, QWidget *parent)
     :   QWidget{ parent },
         m_ui{ std::make_unique<Ui::MeasurementSettings>() },
-        m_device_settings{ std::make_unique<MeasDeviceSettings>() }
+        m_device_settings{ std::make_unique<MeasDeviceSettings>(core) }
 {
     m_ui->setupUi(this);
 
@@ -34,16 +34,6 @@ MeasurementSettings::MeasurementSettings(QWidget *parent)
 
         m_device_settings->showFullScreen();
     });
-}
-
-void MeasurementSettings::set_usbtmc_settings_controller(SharedData<SettingsStorage> &settings)
-{
-    m_device_settings->set_usbtmc_settings_controller(settings->usbtmc_settings);
-}
-
-void MeasurementSettings::set_device_finder_controller(SharedData<DeviceFinder> &dev_finder)
-{
-    m_device_settings->set_device_finder_controller(dev_finder);
 }
 
 MeasurementSettings::~MeasurementSettings()

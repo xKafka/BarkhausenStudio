@@ -11,7 +11,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -19,7 +18,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: barkhausen_studio/kernel/core/device_finder/include/moc_device_finder.cpp
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
-barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/include/moc_device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
@@ -102,7 +100,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -110,7 +107,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
-barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/src/device_finder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString

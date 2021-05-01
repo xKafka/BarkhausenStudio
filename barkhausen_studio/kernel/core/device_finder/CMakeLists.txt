@@ -11,4 +11,4 @@ add_library(device_finder_module STATIC ${sources} ${qt_moc_headers})
 
 target_include_directories(device_finder_module PRIVATE src PUBLIC include)
 
-target_link_libraries(device_finder_module Qt5::Core Qt5::Widgets usbtmc_device_finder command_creator json)
+target_link_libraries(device_finder_module Qt5::Core Qt5::Widgets usbtmc_device_finder json)

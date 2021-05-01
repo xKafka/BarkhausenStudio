@@ -12,7 +12,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
- ../barkhausen_studio/utils/command_creator/include/parsed_command.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
@@ -20,7 +19,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder/include/moc_device_finder.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
@@ -103,7 +101,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
- ../barkhausen_studio/utils/command_creator/include/parsed_command.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
@@ -111,7 +108,6 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString

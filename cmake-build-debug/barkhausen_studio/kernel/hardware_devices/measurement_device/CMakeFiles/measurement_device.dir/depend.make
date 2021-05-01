@@ -393,6 +393,7 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurem
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/src/measuremet_device_core.cpp
+barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/src/measuremet_device_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings

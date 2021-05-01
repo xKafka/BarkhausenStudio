@@ -11,4 +11,4 @@ add_library(settings STATIC ${sources} ${qt_moc_headers})
 
 target_include_directories(settings PRIVATE src PUBLIC include)
 
-target_link_libraries(settings Qt5::Core Qt5::Widgets json ini)
+target_link_libraries(settings Qt5::Core Qt5::Widgets json ini utils)

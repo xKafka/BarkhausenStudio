@@ -82,6 +82,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp
@@ -237,6 +238,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir

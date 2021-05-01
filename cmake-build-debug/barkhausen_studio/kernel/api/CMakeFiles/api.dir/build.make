@@ -207,8 +207,6 @@ barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 barkhausen_studio/kernel/api/api: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/libusbtmc_python.a
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
@@ -226,6 +224,7 @@ barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 barkhausen_studio/kernel/api/api: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8

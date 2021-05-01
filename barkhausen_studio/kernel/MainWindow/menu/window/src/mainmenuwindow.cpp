@@ -8,11 +8,12 @@
 #include "mainmenuwindow.h"
 #include "ui_MainMenuWindow.h"
 
-MainMenuWindow::MainMenuWindow(QWidget *parent)
-    : QWidget{ parent },
-      m_ui{ std::make_unique<Ui::MainMenuWindow>() },
-      m_chart_settings_menu{std::make_unique<ChartSettingsMenu>(this) },
-      m_mes_settings_menu{ std::make_unique<MeasurementSettings>(this) }
+MainMenuWindow::MainMenuWindow(Core *core, QWidget *parent)
+    :   QWidget{ parent },
+        m_dev_finder{ core->device_finder_unsafe() },
+        m_ui{ std::make_unique<Ui::MainMenuWindow>() },
+        m_chart_settings_menu{std::make_unique<ChartSettingsMenu>(this) },
+        m_mes_settings_menu{ std::make_unique<MeasurementSettings>(core, this) }
 {
     m_ui->setupUi(this);
 
@@ -77,25 +78,6 @@ void MainMenuWindow::devices_not_available_window()
                                    QMessageBox::Cancel);
 }
 
-void MainMenuWindow::set_device_finder_controller(SharedData<DeviceFinder> &dev_finder)
-{
-    m_dev_finder = dev_finder;
-
-    m_mes_settings_menu->set_device_finder_controller(dev_finder);
-}
-
-void MainMenuWindow::set_settings_storage_controller(SharedData<SettingsStorage> &storage)
-{
-    m_mes_settings_menu->set_usbtmc_settings_controller(storage);
-
-    m_chart_settings_menu->set_chart_settings_controller(storage->ui_settings);
-}
-
-void MainMenuWindow::set_data_creator_controller(SharedData<DataCreator> &creator)
-{
-    m_data_creator = creator;
-}
-
 void MainMenuWindow::swap_widgets(QWidget *src, QWidget *des)
 {
     parentWidget()->layout()->replaceWidget(src, des);
@@ -105,7 +87,7 @@ void MainMenuWindow::start_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        m_data_creator->start_continuous_acq();
+        emit start();
 
         m_ui->pushButton_measurement_start->setDisabled(true);
         m_ui->pushButton_measurement_stop->setDisabled(false);
@@ -118,7 +100,7 @@ void MainMenuWindow::stop_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        m_data_creator->stop_continuous_acq();
+        emit stop();
 
         m_ui->pushButton_measurement_start->setDisabled(false);
         m_ui->pushButton_measurement_stop->setDisabled(true);
@@ -131,7 +113,7 @@ void MainMenuWindow::single_shot_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        m_data_creator->single_shot_acq();
+        emit single_shot();
     }
     else
         devices_not_available_window();

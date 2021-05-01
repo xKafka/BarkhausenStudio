@@ -101,6 +101,12 @@ string
 -
 QDir
 -
+cmath
+-
+sstream
+-
+type_traits
+-
 
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/barkhausen_chart_settings.h
 QWidget

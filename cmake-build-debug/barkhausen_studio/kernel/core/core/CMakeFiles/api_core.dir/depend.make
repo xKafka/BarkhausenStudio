@@ -24,7 +24,6 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -33,7 +32,6 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
@@ -132,7 +130,6 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../ba
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -140,7 +137,6 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../ba
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings

@@ -21,20 +21,14 @@ class DataCreator : public QObject
     std::unique_ptr<QThread> m_thread;
 
 public:
-    DataCreator();
+    explicit DataCreator(SharedData<SettingsStorage> &settings_storage, SharedData<DataBuffer> &buffer);
 
     ~DataCreator();
 
     inline auto *worker() const { return m_worker.get(); }
 
-    void set_settings_storage_controller(SharedData<SettingsStorage> &settings);
-
-    void start_continuous_acq();
-
-    void stop_continuous_acq();
-
-    void single_shot_acq();
-
+public slots:
+    void process_data();
 };
 
 #endif //BARKHAUSEN_STUDIO_DATA_CREATOR_H

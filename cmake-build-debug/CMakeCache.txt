@@ -255,7 +255,7 @@ data_buffer_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;gen
 data_creator_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;settings_storage;general;data_buffer_module;general;measurement_device_holder_module;
 
 //Dependencies for the target
-device_finder_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;usbtmc_device_finder;general;command_creator;general;json;
+device_finder_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;usbtmc_device_finder;general;json;
 
 //Dependencies for the target
 hysteresis_chart_settings_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;settings;general;charts;
@@ -267,13 +267,13 @@ main_menu_window_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;gener
 main_window_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;api_core;general;charts;general;main_menu_window;
 
 //Dependencies for the target
-meas_device_settings_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;api_core;general;charts;
+meas_device_settings_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;api_core;general;charts;general;utils;
 
 //Dependencies for the target
 measurement_device_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;usbtmc_python;general;settings_storage;general;usbtmc_device_finder;general;utils;
 
 //Dependencies for the target
-measurement_device_holder_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;data_buffer_module;general;command_creator;general;json;
+measurement_device_holder_module_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;data_buffer_module;general;json;
 
 //Dependencies for the target
 measurement_settings_window_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;meas_device_settings;general;charts;
@@ -282,7 +282,7 @@ measurement_settings_window_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5:
 nlohmann_json_DIR:PATH=/usr/lib/cmake/nlohmann_json
 
 //Dependencies for the target
-settings_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;json;general;ini;
+settings_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;json;general;ini;general;utils;
 
 //Dependencies for the target
 settings_storage_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;settings;
@@ -386,7 +386,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=39
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

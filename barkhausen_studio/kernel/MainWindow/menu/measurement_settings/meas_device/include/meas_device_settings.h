@@ -7,9 +7,9 @@
 
 #include <QWidget>
 #include <memory>
-#include <parsed_command.h>
 #include <usbtmc_settings.h>
 #include <device_finder.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MeasDeviceSettings; }
@@ -19,13 +19,33 @@ class MeasDeviceSettings : public QWidget
 {
     Q_OBJECT
 
+    std::unique_ptr<Ui::MeasDeviceSettings> m_ui;
+
     ReadWriteRef<UsbtmcSettings> m_settings_ref;
 
     ReadOnlyRef<DeviceFinder> m_dev_finder_ref;
 
-    double m_sample_rate_max_val;
-    double m_points_per_chunk_max_val;
-    double m_voltage_range_max_val;
+    struct Limits
+    {
+        double sample_rate{ 0.0 }, points_per_chunk{ 0.0 }, voltage_range{ 0.0 }, source_voltage{ 0.0 };
+    };
+
+    struct Tune
+    {
+        double fine_step{ 0.0 }, standard_step{ 0.0 };
+
+        int fine_val{ 0 }, standard_val{ 0 };
+    };
+
+    Limits m_limits;
+
+    Tune m_tune;
+
+    bool m_is_voltage_settings_active;
+
+    void fine_tune_val(int dial_val);
+
+    void tune_val(int dial_val);
 
     template<typename LeftType, typename RightType>
     double per_to_absolute(const LeftType &val, const RightType &max_val)
@@ -39,30 +59,28 @@ class MeasDeviceSettings : public QWidget
 
     void select_resource();
 
+    void setup_ranges();
+
+    void setup_shown();
+
+    void set_voltage();
+
 public:
-    explicit MeasDeviceSettings(QWidget *parent = nullptr);
+    explicit MeasDeviceSettings(Core *core, QWidget *parent = nullptr);
 
     ~MeasDeviceSettings() override;
-
-    void write_settings();
-
-    void set_usbtmc_settings_controller(SharedData<UsbtmcSettings> &settings);
-
-    void set_device_finder_controller(SharedData<DeviceFinder> &dev_finder);
 
 public slots:
     void save_settings();
 
-private slots:
     void update_shown();
+
+    void write_settings();
 
 signals:
     void back_clicked();
 
-    void command(const std::vector<uint8_t> &);
 
-private:
-    std::unique_ptr<Ui::MeasDeviceSettings> m_ui;
 };
 
 

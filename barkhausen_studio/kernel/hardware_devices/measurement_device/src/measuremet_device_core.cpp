@@ -4,10 +4,13 @@
 
 #include <measurement_device_core.h>
 #include <settings_names.h>
+#include <utils.h>
+#include <QDebug>
 
-MeasurementDeviceCore::MeasurementDeviceCore()
+MeasurementDeviceCore::MeasurementDeviceCore(SharedData<UsbtmcSettings> &usbtmc_settings)
+    :   m_buffer{ },
+        m_settings_ref{ usbtmc_settings }
 {
-
 }
 
 MeasurementDeviceCore::~MeasurementDeviceCore()
@@ -16,21 +19,9 @@ MeasurementDeviceCore::~MeasurementDeviceCore()
         cont_acq_stop();
 }
 
-void MeasurementDeviceCore::set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref)
-{
-    if(!settings_ref.is_empty())
-    {
-        m_settings_ref = settings_ref;
-    }
-    else
-    {
-        throw std::runtime_error("MeasurementDeviceCore::set_settings_storage_controller settings pointer value error");
-    }
-}
-
 void MeasurementDeviceCore::init()
 {
-    if(m_device.init_agilent(m_settings_ref->resource))
+    if(m_device.init_agilent(m_settings_ref->get(UsbtmcSettingName::Resource)))
     {
         set_open();
     }
@@ -46,10 +37,9 @@ std::string MeasurementDeviceCore::get_device_name() const
 
 void MeasurementDeviceCore::set_data_len(std::string_view size)
 {
-    const auto int_data_len = std::atoi(m_settings_ref->points_per_chunk.data()) * 4;
+    const auto int_data_len = m_settings_ref->get<int>(UsbtmcSettingName::PointsPerChunk) * 4;
 
     m_device.set_data_len(std::to_string(int_data_len));
-
 }
 
 void MeasurementDeviceCore::wait_for_data_ready()
@@ -64,6 +54,32 @@ void MeasurementDeviceCore::send_command(std::string_view command)
 
 char* MeasurementDeviceCore::read() const
 {
+
+}
+
+void MeasurementDeviceCore::set_ref_voltage()
+{
+    auto send_it = [&]()
+    {
+        m_device.send_message(
+                                "SOUR:VOLT " +
+                                m_settings_ref->get(UsbtmcSettingName::SourceVoltage) +
+                                ",(@" +
+                                m_settings_ref->get(UsbtmcSettingName::SourcePort) +
+                                ")"
+                                );
+    };
+
+    if(m_device.is_open())
+    {
+        send_it();
+    }
+    else
+    {
+        init();
+
+        send_it();
+    }
 
 }
 
@@ -128,7 +144,6 @@ void MeasurementDeviceCore::cont_acq_start()
 {
     m_continuous_acq = true;
 
-    set_data_len(m_settings_ref->points_per_chunk);
-
+    set_data_len(m_settings_ref->get(UsbtmcSettingName::PointsPerChunk));
 }
 

@@ -24,16 +24,14 @@ class MeasurementDeviceCore : public MeasurementDeviceImpl
 
     ReadOnlyRef<UsbtmcSettings> m_settings_ref;
 
-    unsigned char m_buffer[buffer_max_len]{};
+    unsigned char m_buffer[buffer_max_len];
 
     bool m_continuous_acq{ false };
 
 public:
-    MeasurementDeviceCore();
+    explicit MeasurementDeviceCore(SharedData<UsbtmcSettings> &usbtmc_settings);
 
     ~MeasurementDeviceCore() override;
-
-    void set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref);
 
     void init();
 
@@ -48,6 +46,8 @@ public:
     void cont_acq_start();
 
     void cont_acq_stop();
+
+    void set_ref_voltage();
 
     [[nodiscard]] std::string get_device_name() const override;
 

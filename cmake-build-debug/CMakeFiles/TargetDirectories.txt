@@ -107,8 +107,6 @@
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/exceptions/CMakeFiles/exceptions.dir
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/CMakeFiles/rebuild_cache.dir
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/CMakeFiles/edit_cache.dir
-/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/command_creator/CMakeFiles/rebuild_cache.dir
-/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/command_creator/CMakeFiles/edit_cache.dir
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/ini/CMakeFiles/rebuild_cache.dir
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/ini/CMakeFiles/edit_cache.dir
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/utils/utils/CMakeFiles/edit_cache.dir

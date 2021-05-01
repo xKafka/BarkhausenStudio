@@ -21,11 +21,9 @@ class MeasurementDevice : public QObject
     bool m_is_opened{ false };
 
 public:
-    explicit MeasurementDevice();
+    explicit MeasurementDevice(SharedData<UsbtmcSettings> &usbtmc_settings);
 
     ~MeasurementDevice() noexcept override;
-
-    void set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref);
 
     [[nodiscard]] inline auto worker() const { return m_worker.get(); }
 
@@ -38,6 +36,8 @@ public:
     void single_shot();
 
     void device_name();
+
+    void set_ref_voltage();
 
     bool is_opened() const;
 };

@@ -27,6 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include"
   "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"
   "../barkhausen_studio/utils/ini/include"
+  "../barkhausen_studio/utils/utils/include"
   "../barkhausen_studio/kernel/MainWindow/charts/include"
   "../barkhausen_studio/kernel/MainWindow/charts/chart_base/include"
   "/usr/include/x86_64-linux-gnu/qt5"

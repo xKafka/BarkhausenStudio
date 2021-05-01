@@ -19,6 +19,10 @@ ini_file.h
 -
 nlohmann/json.hpp
 -
+array
+-
+mem_types.h
+-
 
 ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 QObject
@@ -26,8 +30,6 @@ QObject
 QString
 -
 usbtmc_device_finder_wrapper.h
--
-parsed_command.h
 -
 QFileSystemWatcher
 -
@@ -76,14 +78,6 @@ usbtmc_settings.h
 mem_types.h
 -
 
-../barkhausen_studio/utils/command_creator/include/parsed_command.h
-string
--
-QMetaType
--
-sstream
--
-
 ../barkhausen_studio/utils/ini/include/ini_file.h
 QSettings
 -
@@ -99,6 +93,12 @@ string
 -
 QDir
 -
+cmath
+-
+sstream
+-
+type_traits
+-
 
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 QObject
@@ -106,8 +106,6 @@ QObject
 QString
 -
 usbtmc_device_finder_wrapper.h
--
-parsed_command.h
 -
 QFileSystemWatcher
 -
@@ -137,10 +135,6 @@ qdir.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
 qfilesystemwatcher.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
-qmetatype.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h

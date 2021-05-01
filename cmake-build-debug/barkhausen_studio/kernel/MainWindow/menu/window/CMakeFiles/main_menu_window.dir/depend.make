@@ -19,6 +19,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
+barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/core/include/core.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/measurement_data.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
@@ -35,7 +36,6 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/include/moc_mainmenuwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -622,6 +622,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
+barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/core/include/core.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/measurement_data.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
@@ -638,7 +639,6 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
-barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/utils/command_creator/include/parsed_command.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/src/mainmenuwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h

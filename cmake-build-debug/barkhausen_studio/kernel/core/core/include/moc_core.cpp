@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Core_t {
-    QByteArrayData data[4];
-    char stringdata0[39];
+    QByteArrayData data[7];
+    char stringdata0[99];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,10 +34,15 @@ static const qt_meta_stringdata_Core_t qt_meta_stringdata_Core = {
 QT_MOC_LITERAL(0, 0, 4), // "Core"
 QT_MOC_LITERAL(1, 5, 21), // "new_ui_data_available"
 QT_MOC_LITERAL(2, 27, 0), // ""
-QT_MOC_LITERAL(3, 28, 10) // "DataBuffer"
+QT_MOC_LITERAL(3, 28, 10), // "DataBuffer"
+QT_MOC_LITERAL(4, 39, 19), // "start_meas_sequence"
+QT_MOC_LITERAL(5, 59, 18), // "stop_meas_sequence"
+QT_MOC_LITERAL(6, 78, 20) // "single_meas_sequence"
 
     },
-    "Core\0new_ui_data_available\0\0DataBuffer"
+    "Core\0new_ui_data_available\0\0DataBuffer\0"
+    "start_meas_sequence\0stop_meas_sequence\0"
+    "single_meas_sequence"
 };
 #undef QT_MOC_LITERAL
 
@@ -47,7 +52,7 @@ static const uint qt_meta_data_Core[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -55,10 +60,20 @@ static const uint qt_meta_data_Core[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   19,    2, 0x06 /* Public */,
+       1,    1,   34,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       4,    0,   37,    2, 0x0a /* Public */,
+       5,    0,   38,    2, 0x0a /* Public */,
+       6,    0,   39,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    2,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -70,6 +85,9 @@ void Core::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->new_ui_data_available((*reinterpret_cast< const DataBuffer(*)>(_a[1]))); break;
+        case 1: _t->start_meas_sequence(); break;
+        case 2: _t->stop_meas_sequence(); break;
+        case 3: _t->single_meas_sequence(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -113,13 +131,13 @@ int Core::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 4)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 1;
+        _id -= 4;
     }
     return _id;
 }

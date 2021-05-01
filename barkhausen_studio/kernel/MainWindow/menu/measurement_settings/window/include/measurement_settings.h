@@ -10,6 +10,7 @@
 #include <meas_device_settings.h>
 #include <settings_storage.h>
 #include <device_finder.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MeasurementSettings; }
@@ -24,13 +25,9 @@ class MeasurementSettings : public QWidget
     std::unique_ptr<MeasDeviceSettings> m_device_settings;
 
 public:
-    explicit MeasurementSettings(QWidget *parent = nullptr);
+    explicit MeasurementSettings(Core *core, QWidget *parent = nullptr);
 
     ~MeasurementSettings() override;
-
-    void set_usbtmc_settings_controller(SharedData<SettingsStorage> &settings);
-
-    void set_device_finder_controller(SharedData<DeviceFinder> &dev_finder);
 
 signals:
     void back_clicked();

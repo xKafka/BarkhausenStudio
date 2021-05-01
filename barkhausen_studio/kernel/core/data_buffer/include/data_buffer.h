@@ -15,7 +15,7 @@ struct DataBuffer
 {
     MeasurementData measurement_data;
     StatisticalData statistical_data;
-    UiData iu_data;
+    UiData ui_data;
 };
 
 #endif //BARKHAUSEN_STUDIO_DATA_BUFFER_H

@@ -3,49 +3,24 @@
 //
 
 #include <data_creator_worker.h>
+#include <utils.h>
 #include <QDebug>
 
-DataCreatorWorker::DataCreatorWorker()
-    :   m_buffer{ },
-        m_device{ std::make_unique<MeasurementDeviceHolder>(m_buffer) }
+DataCreatorWorker::DataCreatorWorker(SharedData<SettingsStorage> &settings_storage, SharedData<DataBuffer> &buffer)
+    :   m_buffer{ buffer },
+        m_settings{ settings_storage },
+        m_device{ std::make_unique<MeasurementDeviceHolder>(settings_storage, buffer) }
 {
-    connect(m_device.get(), &MeasurementDeviceHolder::new_data_available, this, &DataCreatorWorker::process_new_measured_data);
+    connect(m_device.get(), &MeasurementDeviceHolder::new_data_available, this, &DataCreatorWorker::process_data);
 }
 
-void DataCreatorWorker::set_settings_storage_controller(SharedData<SettingsStorage> &settings)
+void DataCreatorWorker::process_data()
 {
-    if(!settings.is_empty())
-    {
-        m_settings_storage_ref = settings;
+    using namespace Utility::Cast;
 
-        m_device->set_settings_storage_controller(settings);
-    }
-    else
-    {
-        throw std::runtime_error("DataCreatorWorker::set_settings_storage_controller pointer value error");
-    }
-}
+    auto &sett = m_settings->usbtmc_settings;
 
-void DataCreatorWorker::start_continuous_acq()
-{
-    m_device->start_continuous_acq();
-}
-
-void DataCreatorWorker::stop_continuous_acq()
-{
-    m_device->stop_continuous_acq();
-}
-
-void DataCreatorWorker::single_shot_acq()
-{
-    m_device->single_shot();
-}
-
-void DataCreatorWorker::process_new_measured_data()
-{
-    auto &sett = m_settings_storage_ref->usbtmc_settings;
-
-    const auto sample_rate = std::atof(sett->sample_rate.data());
+    const auto sample_rate = sett->get<double>(UsbtmcSettingName::SampleRate);
 
     const auto &bark_data = m_buffer->measurement_data.barkhausen_data();
 
@@ -57,7 +32,7 @@ void DataCreatorWorker::process_new_measured_data()
 
     for(const auto value : bark_data)
     {
-        m_buffer->iu_data.barkhausen_ui_data.push_back({ start, value });
+        m_buffer->ui_data.barkhausen_ui_data.push_back({ start, value });
 
         start += time_step;
     }
@@ -66,7 +41,7 @@ void DataCreatorWorker::process_new_measured_data()
 /*
     for(const auto value : *B_H_data)
     {
-        m_buffer->iu_data.B_H_ui_data.push_back({ start, value });
+        m_buffer->ui_data.B_H_ui_data.push_back({ start, value });
 
         start += time_step;
     }*/

@@ -11,4 +11,4 @@ add_library(measurement_device_holder_module STATIC ${sources} ${qt_moc_headers}
 
 target_include_directories(measurement_device_holder_module PRIVATE src PUBLIC include)
 
-target_link_libraries(measurement_device_holder_module Qt5::Core Qt5::Widgets data_buffer_module command_creator json)
+target_link_libraries(measurement_device_holder_module Qt5::Core Qt5::Widgets data_buffer_module json)

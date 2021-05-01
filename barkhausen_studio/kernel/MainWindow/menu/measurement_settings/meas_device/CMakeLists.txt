@@ -19,4 +19,4 @@ add_library(meas_device_settings STATIC ${sources} ${qt_moc_headers} ${qt_uic_fo
 
 target_include_directories(meas_device_settings PRIVATE src PUBLIC include)
 
-target_link_libraries(meas_device_settings Qt5::Widgets Qt5::Core api_core charts)
+target_link_libraries(meas_device_settings Qt5::Widgets Qt5::Core api_core charts utils)

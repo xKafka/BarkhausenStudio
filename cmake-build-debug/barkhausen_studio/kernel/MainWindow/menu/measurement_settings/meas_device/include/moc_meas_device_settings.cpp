@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MeasDeviceSettings_t {
-    QByteArrayData data[7];
-    char stringdata0[89];
+    QByteArrayData data[6];
+    char stringdata0[75];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,15 +34,13 @@ static const qt_meta_stringdata_MeasDeviceSettings_t qt_meta_stringdata_MeasDevi
 QT_MOC_LITERAL(0, 0, 18), // "MeasDeviceSettings"
 QT_MOC_LITERAL(1, 19, 12), // "back_clicked"
 QT_MOC_LITERAL(2, 32, 0), // ""
-QT_MOC_LITERAL(3, 33, 7), // "command"
-QT_MOC_LITERAL(4, 41, 20), // "std::vector<uint8_t>"
-QT_MOC_LITERAL(5, 62, 13), // "save_settings"
-QT_MOC_LITERAL(6, 76, 12) // "update_shown"
+QT_MOC_LITERAL(3, 33, 13), // "save_settings"
+QT_MOC_LITERAL(4, 47, 12), // "update_shown"
+QT_MOC_LITERAL(5, 60, 14) // "write_settings"
 
     },
     "MeasDeviceSettings\0back_clicked\0\0"
-    "command\0std::vector<uint8_t>\0save_settings\0"
-    "update_shown"
+    "save_settings\0update_shown\0write_settings"
 };
 #undef QT_MOC_LITERAL
 
@@ -57,21 +55,21 @@ static const uint qt_meta_data_MeasDeviceSettings[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       2,       // signalCount
+       1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
        1,    0,   34,    2, 0x06 /* Public */,
-       3,    1,   35,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   38,    2, 0x0a /* Public */,
-       6,    0,   39,    2, 0x08 /* Private */,
+       3,    0,   35,    2, 0x0a /* Public */,
+       4,    0,   36,    2, 0x0a /* Public */,
+       5,    0,   37,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 4,    2,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -85,9 +83,9 @@ void MeasDeviceSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->back_clicked(); break;
-        case 1: _t->command((*reinterpret_cast< const std::vector<uint8_t>(*)>(_a[1]))); break;
-        case 2: _t->save_settings(); break;
-        case 3: _t->update_shown(); break;
+        case 1: _t->save_settings(); break;
+        case 2: _t->update_shown(); break;
+        case 3: _t->write_settings(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -99,14 +97,8 @@ void MeasDeviceSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
                 return;
             }
         }
-        {
-            using _t = void (MeasDeviceSettings::*)(const std::vector<uint8_t> & );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MeasDeviceSettings::command)) {
-                *result = 1;
-                return;
-            }
-        }
     }
+    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject MeasDeviceSettings::staticMetaObject = { {
@@ -153,13 +145,6 @@ int MeasDeviceSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void MeasDeviceSettings::back_clicked()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
-}
-
-// SIGNAL 1
-void MeasDeviceSettings::command(const std::vector<uint8_t> & _t1)
-{
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
-    QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

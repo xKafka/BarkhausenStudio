@@ -3,15 +3,27 @@
 
 barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings.dir/include/moc_meas_device_settings.cpp.o
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
+ ../barkhausen_studio/kernel/core/core/include/core.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/measurement_data.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
+ ../barkhausen_studio/kernel/core/data_creator/include/data_creator.h
+ ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
  ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
+ ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+ ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
+ ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include/measurement_device_impl.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
- ../barkhausen_studio/utils/command_creator/include/parsed_command.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
@@ -19,10 +31,11 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/moc_meas_device_settings.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -92,6 +105,7 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -99,6 +113,7 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QList
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -136,16 +151,26 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
+ ../barkhausen_studio/kernel/core/core/include/core.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/measurement_data.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
+ ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
+ ../barkhausen_studio/kernel/core/data_creator/include/data_creator.h
+ ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
  ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
+ ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+ ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
+ ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include/measurement_device_impl.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
- ../barkhausen_studio/utils/command_creator/include/command_creator.h
- ../barkhausen_studio/utils/command_creator/include/parsed_command.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
@@ -153,10 +178,11 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -231,6 +257,7 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
@@ -238,6 +265,7 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QList
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -270,8 +298,10 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDial
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLCDNumber
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
@@ -286,12 +316,14 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeF
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdial.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h

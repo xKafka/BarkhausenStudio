@@ -394,6 +394,7 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurem
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/src/measuremet_device_core.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings

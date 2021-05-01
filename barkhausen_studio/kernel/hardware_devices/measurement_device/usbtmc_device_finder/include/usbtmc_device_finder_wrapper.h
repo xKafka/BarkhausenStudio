@@ -44,11 +44,9 @@ class UsbtmcDeviceFinder
     {
         SharedData<UsbtmcSettings> settings;
 
-        settings->resource = resource;
+        settings->change(UsbtmcSettingName::Resource, resource);
 
-        MeasurementDeviceCore device;
-
-        device.set_settings_storage_controller(settings);
+        MeasurementDeviceCore device{ settings };
 
         device.init();
 

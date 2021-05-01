@@ -32,6 +32,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../barkhausen_studio/kernel/MainWindow/charts/chart_base/include"
   "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"
   "../barkhausen_studio/utils/ini/include"
+  "../barkhausen_studio/utils/utils/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

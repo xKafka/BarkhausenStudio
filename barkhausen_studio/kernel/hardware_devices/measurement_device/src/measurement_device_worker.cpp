@@ -8,26 +8,13 @@
 
 #include <QDebug>
 
-MeasurementDeviceWorker::MeasurementDeviceWorker(QObject *parent)
+MeasurementDeviceWorker::MeasurementDeviceWorker(SharedData<UsbtmcSettings> &usbtmc_settings, QObject *parent)
         :   QObject{ parent },
-            m_core{ std::make_unique<MeasurementDeviceCore>() },
+            m_settings_ref{ usbtmc_settings },
+            m_core{ std::make_unique<MeasurementDeviceCore>(usbtmc_settings) },
             m_is_preset_done{ false }
 {
     connect(this, &MeasurementDeviceWorker::read_next, this, &MeasurementDeviceWorker::read_chunk);
-}
-
-void MeasurementDeviceWorker::set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref)
-{
-    if(!settings_ref.is_empty())
-    {
-        m_settings_ref = settings_ref;
-
-        m_core->set_settings_storage_controller(settings_ref);
-    }
-    else
-    {
-        throw std::runtime_error("MeasurementDevice::set_settings_storage_controller settings pointer value error");
-    }
 }
 
 void MeasurementDeviceWorker::single_acquisition()
@@ -52,6 +39,11 @@ void MeasurementDeviceWorker::stop()
 void MeasurementDeviceWorker::device_name()
 {
     emit echo(m_core->get_device_name());
+}
+
+void MeasurementDeviceWorker::set_ref_voltage()
+{
+    m_core->set_ref_voltage();
 }
 
 void MeasurementDeviceWorker::open_port()
@@ -99,21 +91,29 @@ void MeasurementDeviceWorker::std_preset()
 
     qDebug() << "ROUT:ENAB 1, (@101,102,103,104)\n";
 
-    m_core->send_command("ROUT:CHAN:RANG " + m_settings_ref->voltage_range + ",(@101,102,103,104)\n");
+    const auto &voltage_range = m_settings_ref->get(UsbtmcSettingName::VoltageRange);
 
-    qDebug() << std::string("ROUT:CHAN:RANG " + m_settings_ref->voltage_range + ",(@101,102,103,104)\n").data();
+    const std::string polarity = m_settings_ref->get(UsbtmcSettingName::Polarity);
 
-    m_core->send_command("ROUT:CHAN:POL " + m_settings_ref->polarity + ",(@101,102,103,104)\n");
+    const std::string sample_rate = m_settings_ref->get(UsbtmcSettingName::SampleRate);
 
-    qDebug() << std::string("ROUT:CHAN:POL " + m_settings_ref->polarity + ",(@101,102,103,104)\n").data();
+    const std::string points_per_chunk = m_settings_ref->get(UsbtmcSettingName::PointsPerChunk);
 
-    m_core->send_command("ACQ:SRAT " + m_settings_ref->sample_rate + '\n');
+    m_core->send_command("ROUT:CHAN:RANG " + voltage_range + ",(@101,102,103,104)\n");
 
-    qDebug() << std::string("ACQ:SRAT " + m_settings_ref->sample_rate + '\n').data();
+    qDebug() << std::string("ROUT:CHAN:RANG " + voltage_range + ",(@101,102,103,104)\n").data();
 
-    m_core->send_command("WAV:POIN " + m_settings_ref->points_per_chunk + '\n');
+    m_core->send_command("ROUT:CHAN:POL " + polarity + ",(@101,102,103,104)\n");
 
-    qDebug() << std::string("WAV:POIN " + m_settings_ref->points_per_chunk + '\n').data();
+    qDebug() << std::string("ROUT:CHAN:POL " + polarity + ",(@101,102,103,104)\n").data();
+
+    m_core->send_command("ACQ:SRAT " + sample_rate + '\n');
+
+    qDebug() << std::string("ACQ:SRAT " + sample_rate + '\n').data();
+
+    m_core->send_command("WAV:POIN " + points_per_chunk + '\n');
+
+    qDebug() << std::string("WAV:POIN " + points_per_chunk + '\n').data();
 
     m_is_preset_done = true;
 

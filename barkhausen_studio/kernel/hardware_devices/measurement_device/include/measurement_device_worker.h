@@ -39,11 +39,9 @@ class MeasurementDeviceWorker : public QObject
     void stop();
 
 public:
-    explicit MeasurementDeviceWorker(QObject *parent = nullptr);
+    explicit MeasurementDeviceWorker(SharedData<UsbtmcSettings> &usbtmc_settings, QObject *parent = nullptr);
 
     ~MeasurementDeviceWorker() {}
-
-    void set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref);
 
 public slots:
     void open();
@@ -55,6 +53,8 @@ public slots:
     void single_shot();
 
     void device_name();
+
+    void set_ref_voltage();
 
 signals:
     void new_data_available(const unsigned char *);

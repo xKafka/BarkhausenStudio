@@ -11,6 +11,7 @@
 #include <data_creator.h>
 #include <device_finder.h>
 #include <mem_types.h>
+#include <core.h>
 
 #include <QWidget>
 #include <QPushButton>
@@ -32,8 +33,6 @@ class MainMenuWindow : public QWidget
 
     std::unique_ptr<Ui::MainMenuWindow> m_ui;
 
-    ReadWriteRef<DataCreator> m_data_creator;
-
     ReadOnlyRef<DeviceFinder> m_dev_finder;
 
     void close_api();
@@ -49,22 +48,20 @@ class MainMenuWindow : public QWidget
     void swap_widgets(QWidget *src, QWidget *des);
 
 public:
-    explicit MainMenuWindow(QWidget *parent = nullptr);
+    MainMenuWindow(Core *core, QWidget *parent = nullptr);
 
     ~MainMenuWindow() override;
 
     inline auto *chart_settings_menu() { return m_chart_settings_menu.get(); }
 
-    void set_settings_storage_controller(SharedData<SettingsStorage> &storage);
-
-    void set_data_creator_controller(SharedData<DataCreator> &creator);
-
-    void set_device_finder_controller(SharedData<DeviceFinder> &dev_finder);
-
 signals:
-    void command(const std::vector<uint8_t> &);
-
     void back_clicked();
+
+    void start();
+
+    void stop();
+
+    void single_shot();
 };
 
 #endif //BARKHAUSEN_STUDIO_MAINMENUWINDOW_H

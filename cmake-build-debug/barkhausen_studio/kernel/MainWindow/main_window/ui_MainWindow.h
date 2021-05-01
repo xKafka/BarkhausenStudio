@@ -20,6 +20,7 @@
 #include <barkhausen_chart.h>
 #include <hysteresis_chart.h>
 #include <mainmenuwindow.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -35,7 +36,7 @@ public:
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
-    void setupUi(QMainWindow *MainWindow)
+    void setupUi(Core *core, QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
@@ -49,7 +50,7 @@ public:
 
         gridLayout->addWidget(hysteresis_chart, 0, 0, 1, 1);
 
-        widget_main_menu = new MainMenuWindow(centralwidget);
+        widget_main_menu = new MainMenuWindow(core, centralwidget);
         widget_main_menu->setObjectName(QString::fromUtf8("widget_main_menu"));
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);

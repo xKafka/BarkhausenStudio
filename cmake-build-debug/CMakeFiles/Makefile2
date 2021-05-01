@@ -755,43 +755,22 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finde
 # Directory level rules for directory barkhausen_studio/utils
 
 # Recursive "all" directory target.
-barkhausen_studio/utils/all: barkhausen_studio/utils/command_creator/all
 barkhausen_studio/utils/all: barkhausen_studio/utils/ini/all
 barkhausen_studio/utils/all: barkhausen_studio/utils/utils/all
 
 .PHONY : barkhausen_studio/utils/all
 
 # Recursive "preinstall" directory target.
-barkhausen_studio/utils/preinstall: barkhausen_studio/utils/command_creator/preinstall
 barkhausen_studio/utils/preinstall: barkhausen_studio/utils/ini/preinstall
 barkhausen_studio/utils/preinstall: barkhausen_studio/utils/utils/preinstall
 
 .PHONY : barkhausen_studio/utils/preinstall
 
 # Recursive "clean" directory target.
-barkhausen_studio/utils/clean: barkhausen_studio/utils/command_creator/clean
 barkhausen_studio/utils/clean: barkhausen_studio/utils/ini/clean
 barkhausen_studio/utils/clean: barkhausen_studio/utils/utils/clean
 
 .PHONY : barkhausen_studio/utils/clean
-
-#=============================================================================
-# Directory level rules for directory barkhausen_studio/utils/command_creator
-
-# Recursive "all" directory target.
-barkhausen_studio/utils/command_creator/all:
-
-.PHONY : barkhausen_studio/utils/command_creator/all
-
-# Recursive "preinstall" directory target.
-barkhausen_studio/utils/command_creator/preinstall:
-
-.PHONY : barkhausen_studio/utils/command_creator/preinstall
-
-# Recursive "clean" directory target.
-barkhausen_studio/utils/command_creator/clean:
-
-.PHONY : barkhausen_studio/utils/command_creator/clean
 
 #=============================================================================
 # Directory level rules for directory barkhausen_studio/utils/ini

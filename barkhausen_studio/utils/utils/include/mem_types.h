@@ -19,6 +19,12 @@ public:
     SharedData(Type &&data)
             :   m_data{ std::make_unique<Type>(data) }
     {}
+    template<typename ...Types>
+    SharedData(Types &...args)
+        : m_data{ std::make_unique<Type>(args...) }
+    {
+
+    }
 
     auto *get() { return m_data.get(); }
 

@@ -4,9 +4,9 @@
 
 #include <measurement_device.h>
 
-MeasurementDevice::MeasurementDevice()
+MeasurementDevice::MeasurementDevice(SharedData<UsbtmcSettings> &usbtmc_settings)
         : m_thread{ std::make_unique<QThread>(this) },
-          m_worker{ std::make_unique<MeasurementDeviceWorker>() }
+          m_worker{ std::make_unique<MeasurementDeviceWorker>(usbtmc_settings) }
 {
     m_worker->moveToThread(m_thread.get());
 
@@ -19,18 +19,6 @@ MeasurementDevice::~MeasurementDevice()
 {
     m_thread->wait();
     m_thread->quit();
-}
-
-void MeasurementDevice::set_settings_storage_controller(SharedData<UsbtmcSettings> &settings_ref)
-{
-    if(!settings_ref.is_empty())
-    {
-        m_worker->set_settings_storage_controller(settings_ref);
-    }
-    else
-    {
-        throw std::runtime_error("MeasurementDevice::set_settings_storage_controller settings pointer value error");
-    }
 }
 
 bool MeasurementDevice::is_opened() const
@@ -54,6 +42,11 @@ void MeasurementDevice::continuous_acquisition_start()
 void MeasurementDevice::continuous_acquisition_stop()
 {
     QMetaObject::invokeMethod(m_worker.get(), "continuous_acquisition_stop", Qt::AutoConnection);
+}
+
+void MeasurementDevice::set_ref_voltage()
+{
+    QMetaObject::invokeMethod(m_worker.get(), "set_ref_voltage", Qt::AutoConnection);
 }
 
 void MeasurementDevice::single_shot()

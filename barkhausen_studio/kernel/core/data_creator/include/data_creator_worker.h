@@ -16,27 +16,19 @@ class DataCreatorWorker : public QObject
 {
     Q_OBJECT
 
-    SharedData<DataBuffer> m_buffer;
+    ReadWriteRef<DataBuffer> m_buffer;
 
-    ReadOnlyRef<SettingsStorage> m_settings_storage_ref;
+    ReadOnlyRef<SettingsStorage> m_settings;
 
     std::unique_ptr<MeasurementDeviceHolder> m_device;
 
 public:
-    DataCreatorWorker();
+    explicit DataCreatorWorker(SharedData<SettingsStorage> &settings_storage, SharedData<DataBuffer> &buffer);
 
-    void set_settings_storage_controller(SharedData<SettingsStorage> &settings);
-
-    auto &buffer() const { return m_buffer; }
+    [[nodiscard]] auto &buffer() const { return m_buffer; }
 
 public slots:
-    void process_new_measured_data();
-
-    void start_continuous_acq();
-
-    void stop_continuous_acq();
-
-    void single_shot_acq();
+    void process_data();
 
 signals:
     void new_ui_data_available();

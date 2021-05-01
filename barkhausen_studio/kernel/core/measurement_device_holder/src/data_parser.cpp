@@ -6,7 +6,7 @@
 #include <string_view>
 #include <cstdlib>
 
-//data going in using format { "#800000000<first_channel_lsb><first_channel_msb><second_channel_lsb><..." };
+//data going in are using format { "#800000000<first_channel_lsb><first_channel_msb><second_channel_lsb><..." };
 
 constexpr std::string_view starting_sequence { "#800000000" };
 

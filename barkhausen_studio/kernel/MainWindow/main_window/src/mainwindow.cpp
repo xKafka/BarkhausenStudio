@@ -5,23 +5,12 @@
 
 MainWindow::MainWindow(QWidget *parent)
     :   QMainWindow(parent),
-        m_settings_storage{ },
         m_ui{ std::make_unique<Ui::MainWindow>() },
         m_api_core{ std::make_unique<Core>() }
 {
-    m_ui->setupUi(this);
+    m_ui->setupUi(m_api_core.get(), this);
 
     connect(m_api_core->data_creator_unsafe()->worker(), &DataCreatorWorker::new_ui_data_available, this, &MainWindow::process_data);
-
-    m_ui->widget_main_menu->set_device_finder_controller(m_api_core->device_finder_unsafe());
-
-    m_ui->widget_main_menu->chart_settings_menu()->set_charts(m_ui->hysteresis_chart, m_ui->barkhausen_chart, m_ui->B_H_chart);
-
-    m_api_core->data_creator_unsafe()->set_settings_storage_controller(m_settings_storage);
-
-    m_ui->widget_main_menu->set_data_creator_controller(m_api_core->data_creator_unsafe());
-
-    m_ui->widget_main_menu->set_settings_storage_controller(m_settings_storage);
 
     auto widgets_resize_factor = [&]()
     {
@@ -50,18 +39,18 @@ MainWindow::~MainWindow() = default;
 
 void MainWindow::process_data()
 {
-    const auto &buffer = m_api_core->data_creator_unsafe()->worker()->buffer();
+    const auto &buffer = m_api_core->buffer_unsafe();
 
-    if(!buffer->iu_data.barkhausen_ui_data.isEmpty())
+    if(!buffer->ui_data.barkhausen_ui_data.isEmpty())
     {
-        m_ui->barkhausen_chart->update_data(buffer->iu_data.barkhausen_ui_data);
+        m_ui->barkhausen_chart->update_data(buffer->ui_data.barkhausen_ui_data);
     }
 
-    if(!buffer->iu_data.B_H_ui_data.isEmpty())
+    if(!buffer->ui_data.B_H_ui_data.isEmpty())
     {
-        m_ui->B_H_chart->update_data(buffer->iu_data.B_H_ui_data);
+        m_ui->B_H_chart->update_data(buffer->ui_data.B_H_ui_data);
     }
 
-    buffer->iu_data.barkhausen_ui_data.clear();
-    buffer->iu_data.B_H_ui_data.clear();
+    buffer->ui_data.barkhausen_ui_data.clear();
+    buffer->ui_data.B_H_ui_data.clear();
 }
