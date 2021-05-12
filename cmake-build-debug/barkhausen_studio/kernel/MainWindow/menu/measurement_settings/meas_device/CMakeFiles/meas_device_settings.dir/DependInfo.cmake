@@ -40,6 +40,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../barkhausen_studio/kernel/core/measurement_device_holder/include"
   "../barkhausen_studio/kernel/MainWindow/charts/include"
   "../barkhausen_studio/kernel/MainWindow/charts/chart_base/include"
+  "../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
@@ -58,9 +59,10 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/DependInfo.cmake"
-  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/DependInfo.cmake"
   )
 

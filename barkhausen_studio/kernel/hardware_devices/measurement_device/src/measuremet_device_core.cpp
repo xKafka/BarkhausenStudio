@@ -57,13 +57,13 @@ char* MeasurementDeviceCore::read() const
 
 }
 
-void MeasurementDeviceCore::set_ref_voltage()
+void MeasurementDeviceCore::set_ref_voltage(const double val)
 {
     auto send_it = [&]()
     {
         m_device.send_message(
                                 "SOUR:VOLT " +
-                                m_settings_ref->get(UsbtmcSettingName::SourceVoltage) +
+                                Utility::Cast::to_string(val) +
                                 ",(@" +
                                 m_settings_ref->get(UsbtmcSettingName::SourcePort) +
                                 ")"
@@ -78,7 +78,8 @@ void MeasurementDeviceCore::set_ref_voltage()
     {
         init();
 
-        send_it();
+        if(m_device.is_open())
+            send_it();
     }
 
 }

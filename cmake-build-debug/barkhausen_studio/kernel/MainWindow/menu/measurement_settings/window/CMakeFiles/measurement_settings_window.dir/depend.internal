@@ -3,7 +3,10 @@
 
 barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window.dir/include/moc_measurement_settings.cpp.o
  ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
@@ -151,7 +154,10 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/
 barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window.dir/src/measurement_settings.cpp.o
  ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
  ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h

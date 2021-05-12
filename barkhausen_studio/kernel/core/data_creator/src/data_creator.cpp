@@ -21,7 +21,32 @@ DataCreator::~DataCreator()
     m_thread->quit();
 }
 
+void DataCreator::change_acquisition_time(double time)
+{
+    QMetaObject::invokeMethod(m_worker.get(), "change_acquisition_time",Qt::AutoConnection, Q_ARG(double, time));
+}
+
+void DataCreator::change_acquisition_pause_time(double time)
+{
+    QMetaObject::invokeMethod(m_worker.get(), "change_acquisition_pause_time", Qt::AutoConnection, Q_ARG(double, time));
+}
+
 void DataCreator::process_data()
 {
     QMetaObject::invokeMethod(m_worker.get(), "process_data", Qt::AutoConnection);
+}
+
+void DataCreator::start_meas_sequence()
+{
+    QMetaObject::invokeMethod(m_worker.get(), "start_meas_sequence",Qt::AutoConnection);
+}
+
+void DataCreator::stop_meas_sequence()
+{
+    QMetaObject::invokeMethod(m_worker.get(), "stop_meas_sequence", Qt::AutoConnection);
+}
+
+void DataCreator::single_meas_sequence()
+{
+    QMetaObject::invokeMethod(m_worker.get(), "single_meas_sequence", Qt::AutoConnection);
 }

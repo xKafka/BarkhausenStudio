@@ -41,6 +41,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../barkhausen_studio/kernel/core/measurement_device_holder/include"
   "../barkhausen_studio/kernel/MainWindow/charts/include"
   "../barkhausen_studio/kernel/MainWindow/charts/chart_base/include"
+  "../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
@@ -53,6 +54,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/DependInfo.cmake"

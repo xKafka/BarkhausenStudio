@@ -61,7 +61,7 @@ public:
     {
         const auto key_val = get_name(key).data();
 
-        m_data.at(key_val) = Utility::Cast::to_string(val);
+        m_data[key_val] = Utility::Cast::to_string(val);
     }
 
     void from_ini(std::string_view file_name);

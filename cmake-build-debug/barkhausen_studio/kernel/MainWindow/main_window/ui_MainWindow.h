@@ -45,13 +45,21 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        hysteresis_chart = new HysteresisChart(centralwidget);
+
+        hysteresis_chart = new HysteresisChart(core->settings_storage_unsafe(), centralwidget);
         hysteresis_chart->setObjectName(QString::fromUtf8("hysteresis_chart"));
+
+        B_H_chart = new BHChart(core->settings_storage_unsafe(), centralwidget);
+        B_H_chart->setObjectName(QString::fromUtf8("B_H_chart"));
+
+        barkhausen_chart = new BarkhausenChart(core->settings_storage_unsafe(), centralwidget);
+        barkhausen_chart->setObjectName(QString::fromUtf8("barkhausen_chart"));
+
+        widget_main_menu = new MainMenuWindow(core, hysteresis_chart, barkhausen_chart, B_H_chart, centralwidget);
+        widget_main_menu->setObjectName(QString::fromUtf8("widget_main_menu"));
 
         gridLayout->addWidget(hysteresis_chart, 0, 0, 1, 1);
 
-        widget_main_menu = new MainMenuWindow(core, centralwidget);
-        widget_main_menu->setObjectName(QString::fromUtf8("widget_main_menu"));
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -60,17 +68,12 @@ public:
 
         gridLayout->addWidget(widget_main_menu, 0, 2, 2, 1);
 
-        B_H_chart = new BHChart(centralwidget);
-        B_H_chart->setObjectName(QString::fromUtf8("B_H_chart"));
-
         gridLayout->addWidget(B_H_chart, 0, 1, 1, 1);
 
-        barkhausen_chart = new BarkhausenChart(centralwidget);
-        barkhausen_chart->setObjectName(QString::fromUtf8("barkhausen_chart"));
+        gridLayout->addWidget(barkhausen_chart, 1, 0, 1, 2);
+
         sizePolicy.setHeightForWidth(barkhausen_chart->sizePolicy().hasHeightForWidth());
         barkhausen_chart->setSizePolicy(sizePolicy);
-
-        gridLayout->addWidget(barkhausen_chart, 1, 0, 1, 2);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);

@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_HysteresisChartSettings_t {
     QByteArrayData data[6];
-    char stringdata0[75];
+    char stringdata0[82];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,13 +34,13 @@ static const qt_meta_stringdata_HysteresisChartSettings_t qt_meta_stringdata_Hys
 QT_MOC_LITERAL(0, 0, 23), // "HysteresisChartSettings"
 QT_MOC_LITERAL(1, 24, 12), // "back_clicked"
 QT_MOC_LITERAL(2, 37, 0), // ""
-QT_MOC_LITERAL(3, 38, 12), // "change_y_val"
-QT_MOC_LITERAL(4, 51, 3), // "val"
-QT_MOC_LITERAL(5, 55, 19) // "change_timebase_val"
+QT_MOC_LITERAL(3, 38, 19), // "change_peak_to_peak"
+QT_MOC_LITERAL(4, 58, 3), // "val"
+QT_MOC_LITERAL(5, 62, 19) // "change_timebase_val"
 
     },
     "HysteresisChartSettings\0back_clicked\0"
-    "\0change_y_val\0val\0change_timebase_val"
+    "\0change_peak_to_peak\0val\0change_timebase_val"
 };
 #undef QT_MOC_LITERAL
 
@@ -81,8 +81,8 @@ void HysteresisChartSettings::qt_static_metacall(QObject *_o, QMetaObject::Call 
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->back_clicked(); break;
-        case 1: _t->change_y_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
-        case 2: _t->change_timebase_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
+        case 1: _t->change_peak_to_peak((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->change_timebase_val((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

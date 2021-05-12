@@ -4,7 +4,7 @@
 
 #include <usbtmc_settings.h>
 
-inline constexpr std::array names{
+inline constexpr std::array usbtmc_sett_name{
             "max_points_per_chunk",
             "max_sample_rate",
             "max_voltage_range",
@@ -34,14 +34,14 @@ void UsbtmcSettings::voltage_changed()
 
 std::string_view UsbtmcSettings::get_name(const UsbtmcSettingName name) const
 {
-    return names.at(name);
+    return usbtmc_sett_name.at(name);
 }
 
 void UsbtmcSettings::to_ini_write(std::string_view file_name)
 {
     IniFile file(file_name);
 
-    for(const auto &name : names)
+    for(const auto &name : usbtmc_sett_name)
     {
         const auto &map_itr = m_data.at(name);
 
@@ -56,7 +56,7 @@ void UsbtmcSettings::from_ini(std::string_view file_name)
 {
     IniFile file(file_name);
 
-    for(const auto &name : names)
+    for(const auto &name : usbtmc_sett_name)
     {
         m_data.emplace(name, file.get_value(name));
     }
@@ -64,7 +64,7 @@ void UsbtmcSettings::from_ini(std::string_view file_name)
 
 void UsbtmcSettings::brute_change(const UsbtmcSettings &other)
 {
-    for(const auto &name : names)
+    for(const auto &name : usbtmc_sett_name)
     {
         auto &map_itr = m_data.at(name);
 
@@ -76,7 +76,7 @@ void UsbtmcSettings::brute_change(const UsbtmcSettings &other)
 
 void UsbtmcSettings::concat(const UsbtmcSettings &other)
 {
-    for(const auto &name : names)
+    for(const auto &name : usbtmc_sett_name)
     {
         const auto &map_itr = other.m_data.at(name);
 

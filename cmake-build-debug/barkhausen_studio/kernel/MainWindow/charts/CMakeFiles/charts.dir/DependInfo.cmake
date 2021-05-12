@@ -33,6 +33,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"
   "../barkhausen_studio/utils/ini/include"
   "../barkhausen_studio/utils/utils/include"
+  "../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"
+  "../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
@@ -44,7 +46,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

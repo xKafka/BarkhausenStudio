@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeas_settings.a CMakeFiles/meas_settings.dir/meas_settings_autogen/mocs_compilation.cpp.o CMakeFiles/meas_settings.dir/src/measurement_settings.cpp.o CMakeFiles/meas_settings.dir/include/moc_measurement_settings.cpp.o
+/usr/bin/ranlib libmeas_settings.a

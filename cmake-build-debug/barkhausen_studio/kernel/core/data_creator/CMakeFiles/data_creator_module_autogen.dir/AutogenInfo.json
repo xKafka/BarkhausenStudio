@@ -80,6 +80,7 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",

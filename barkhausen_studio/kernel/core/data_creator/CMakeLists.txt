@@ -11,4 +11,4 @@ add_library(data_creator_module STATIC ${sources} ${qt_moc_headers})
 
 target_include_directories(data_creator_module PRIVATE src PUBLIC include)
 
-target_link_libraries(data_creator_module Qt5::Core Qt5::Widgets settings_storage data_buffer_module measurement_device_holder_module)
+target_link_libraries(data_creator_module Qt5::Core Qt5::Widgets settings_storage data_buffer_module measurement_device_holder_module signal_source_holder)

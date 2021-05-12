@@ -7,7 +7,7 @@
 
 #include <chartsettingsmenu.h>
 #include <chartwindow.h>
-#include <measurement_settings.h>
+#include <measurement_settings_window.h>
 #include <data_creator.h>
 #include <device_finder.h>
 #include <mem_types.h>
@@ -29,11 +29,13 @@ class MainMenuWindow : public QWidget
 
     std::unique_ptr<ChartSettingsMenu> m_chart_settings_menu;
 
-    std::unique_ptr<MeasurementSettings> m_mes_settings_menu;
+    std::unique_ptr<MeasurementSettingsWindow> m_mes_settings_menu;
 
     std::unique_ptr<Ui::MainMenuWindow> m_ui;
 
     ReadOnlyRef<DeviceFinder> m_dev_finder;
+
+    Core *m_core;
 
     void close_api();
 
@@ -48,7 +50,7 @@ class MainMenuWindow : public QWidget
     void swap_widgets(QWidget *src, QWidget *des);
 
 public:
-    MainMenuWindow(Core *core, QWidget *parent = nullptr);
+    MainMenuWindow(Core *core, HysteresisChart *hy_ch, BarkhausenChart *ba_ch, BHChart *B_H_chart, QWidget *parent = nullptr);
 
     ~MainMenuWindow() override;
 
@@ -56,12 +58,6 @@ public:
 
 signals:
     void back_clicked();
-
-    void start();
-
-    void stop();
-
-    void single_shot();
 };
 
 #endif //BARKHAUSEN_STUDIO_MAINMENUWINDOW_H

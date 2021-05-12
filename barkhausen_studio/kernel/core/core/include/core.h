@@ -9,6 +9,7 @@
 #include <data_creator.h>
 #include <data_buffer.h>
 #include <measurement_device_holder.h>
+#include <signal_source_holder.h>
 #include <device_finder.h>
 #include <mem_types.h>
 
@@ -22,8 +23,6 @@ class Core : public QObject
 
     SharedData<DeviceFinder> m_device_finder;
 
-    SharedData<MeasurementDeviceHolder> m_device;
-
     SharedData<DataCreator> m_data_creator;
 
 public:
@@ -33,11 +32,15 @@ public:
 
     auto &buffer_unsafe() { return m_buffer; }
 
-    auto &mes_device_unsafe() { return m_device; }
-
     auto &data_creator_unsafe() { return m_data_creator; }
 
     auto &settings_storage_unsafe() { return m_settings_storage; }
+
+    template<typename CastType>
+    void change_setting(MeasurementSetting key, const CastType &val)
+    {
+        m_settings_storage->measurement_settings->template change(key, val);
+    }
 
 public slots:
     void start_meas_sequence();

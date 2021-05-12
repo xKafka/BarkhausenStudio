@@ -7,8 +7,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chart_view.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_chart_view.cpp
 
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
@@ -432,10 +437,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -572,6 +580,9 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_cursors.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_cursors.cpp
 
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_info_table.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_info_table.cpp
+
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
@@ -991,10 +1002,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -1129,8 +1143,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
@@ -1557,10 +1576,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -1696,9 +1718,27 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/ui_ChartWindow.h
 
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/src/cursors.cpp
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractAxis
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractSeries
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QChart
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QChartGlobal
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QLegend
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qabstractaxis.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qabstractseries.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchart.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchartglobal.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/qlegend.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -1717,6 +1757,10 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -1724,6 +1768,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -1745,6 +1790,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -1763,22 +1809,31 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QPen
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
@@ -1789,13 +1844,39 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicslayoutitem.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicssceneevent.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicswidget.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtableview.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtablewidget.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 

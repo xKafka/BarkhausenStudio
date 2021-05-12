@@ -41,12 +41,18 @@ public:
 
     void set_ref_voltage(double val);
 
-    auto change_setting(const std::string &key, const std::string &val);
+    template<typename CastType>
+    void change_setting(UsbtmcSettingName key, const CastType &val)
+    {
+        m_settings_storage_ref->usbtmc_settings->change(key, val);
+    }
 
     auto &settings() { return m_settings_storage_ref->usbtmc_settings; }
 
 signals:
     void new_data_available();
+
+    void opened();
 };
 
 #endif //BARKHAUSEN_STUDIO_MEASUREMENT_DEVICE_HOLDER_H

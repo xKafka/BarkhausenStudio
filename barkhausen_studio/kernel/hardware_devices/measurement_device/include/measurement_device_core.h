@@ -10,7 +10,7 @@
 #include <agilent_u2541a_wrapper.h>
 #include <mem_types.h>
 
-constexpr auto buffer_max_len { 1 << 13 }; //2^13 -> 8192
+constexpr auto buffer_max_len { 1 << 22 }; //2^13 -> 8192
 
 enum BufferPolicy
 {
@@ -47,7 +47,7 @@ public:
 
     void cont_acq_stop();
 
-    void set_ref_voltage();
+    void set_ref_voltage(double val);
 
     [[nodiscard]] std::string get_device_name() const override;
 

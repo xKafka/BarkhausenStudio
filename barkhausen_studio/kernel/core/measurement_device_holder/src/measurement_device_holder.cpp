@@ -19,6 +19,8 @@ MeasurementDeviceHolder::MeasurementDeviceHolder(SharedData<SettingsStorage> &se
         emit new_data_available();
     });
 
+    connect(m_measurement_device.worker(), &MeasurementDeviceWorker::opened, this, [&](){ emit opened(); });
+
     connect(m_settings_storage_ref->usbtmc_settings.get(), &UsbtmcSettings::changed, this, &MeasurementDeviceHolder::reload_settings);
 
     //connect(m_settings_storage_ref->usbtmc_settings.get(), &UsbtmcSettings::voltage, this, &MeasurementDeviceHolder::set_ref_voltage);
@@ -30,14 +32,10 @@ MeasurementDeviceHolder::~MeasurementDeviceHolder() noexcept
 {
 }
 
-auto MeasurementDeviceHolder::change_setting(const std::string &key, const std::string &val)
-{
 
-}
-
-void MeasurementDeviceHolder::set_ref_voltage(const double val)
+void MeasurementDeviceHolder::set_ref_voltage(double val)
 {
-    m_measurement_device.set_ref_voltage();
+    m_measurement_device.set_ref_voltage(val);
 }
 
 void MeasurementDeviceHolder::reload_settings()

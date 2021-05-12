@@ -8,8 +8,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chart_view.cpp.o
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_chart_view.cpp
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
+ ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
@@ -433,10 +438,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -572,7 +580,10 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_cursors.cpp.o
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_cursors.cpp
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_info_table.cpp.o
+ /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_info_table.cpp
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
@@ -992,10 +1003,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -1130,8 +1144,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
+ ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
@@ -1558,10 +1577,13 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -1697,9 +1719,27 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
  barkhausen_studio/kernel/MainWindow/charts/chart_base/ui_ChartWindow.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/cursors.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+ ../barkhausen_studio/utils/utils/include/utils.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/src/cursors.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractAxis
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractSeries
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/QChart
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/QChartGlobal
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/QLegend
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/qabstractaxis.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/qabstractseries.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchart.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/qchartglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCharts/qlegend.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -1718,6 +1758,10 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -1725,6 +1769,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -1746,6 +1791,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -1764,22 +1810,31 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPen
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
@@ -1790,12 +1845,38 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicslayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicssceneevent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicswidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtableview.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtablewidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

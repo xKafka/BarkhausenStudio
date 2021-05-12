@@ -10,20 +10,22 @@ MainWindow::MainWindow(QWidget *parent)
 {
     m_ui->setupUi(m_api_core.get(), this);
 
+    setMouseTracking(true);
+
     connect(m_api_core->data_creator_unsafe()->worker(), &DataCreatorWorker::new_ui_data_available, this, &MainWindow::process_data);
 
     auto widgets_resize_factor = [&]()
     {
         QRect out;
-        const auto bark_geo = m_ui->barkhausen_chart->geometry();
+        const auto bark_geo = geometry();
 
-        out.setTopLeft({ bark_geo.topLeft().x(), bark_geo.topLeft().y() / 2 });
+        out.setTopLeft({ bark_geo.topLeft().x(), bark_geo.topLeft().y() });
 
-        out.setTopRight({ bark_geo.topRight().x(), bark_geo.topRight().y() / 2 });
+        out.setTopRight({ static_cast<int>(bark_geo.topRight().x() * 0.78), bark_geo.topRight().y() });
 
-        out.setBottomLeft({ bark_geo.bottomLeft().x(), bark_geo.bottomLeft().y() });
+        out.setBottomLeft({ bark_geo.bottomLeft().x(), static_cast<int>(bark_geo.bottomLeft().y() * 0.95) });
 
-        out.setBottomRight({ bark_geo.bottomRight().x(), bark_geo.bottomRight().y() });
+        out.setBottomRight({ static_cast<int>(bark_geo.bottomRight().x() * 0.78), static_cast<int>(bark_geo.bottomRight().y() * 0.95) });
 
         return out;
     };
@@ -37,6 +39,13 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow() = default;
 
+void MainWindow::mouseMoveEvent(QMouseEvent *event)
+{
+    m_ui->barkhausen_chart->view()->chart()->cursors()->table()->setPos(event->pos());
+
+    QMainWindow::mouseMoveEvent(event);
+}
+
 void MainWindow::process_data()
 {
     const auto &buffer = m_api_core->buffer_unsafe();
@@ -44,13 +53,12 @@ void MainWindow::process_data()
     if(!buffer->ui_data.barkhausen_ui_data.isEmpty())
     {
         m_ui->barkhausen_chart->update_data(buffer->ui_data.barkhausen_ui_data);
+
+        buffer->ui_data.barkhausen_ui_data.clear();
     }
 
     if(!buffer->ui_data.B_H_ui_data.isEmpty())
     {
         m_ui->B_H_chart->update_data(buffer->ui_data.B_H_ui_data);
     }
-
-    buffer->ui_data.barkhausen_ui_data.clear();
-    buffer->ui_data.B_H_ui_data.clear();
 }

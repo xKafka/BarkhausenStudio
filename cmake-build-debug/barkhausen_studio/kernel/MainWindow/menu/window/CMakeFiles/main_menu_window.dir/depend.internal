@@ -6,17 +6,25 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chartwindow.h
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/B_H_chart.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/barkhausen_chart.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/hysteresis_chart.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include/B_H_chart_settings.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/barkhausen_chart_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include/state_changing_dial.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include/hysteresis_chart_settings.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/include/chartsettingsmenu.h
- ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
- ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include/meas_device_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/include/measurement_and_signal_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/include/measurement_settings_window.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -29,6 +37,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
  ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
  ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+ ../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -141,6 +150,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
@@ -337,7 +347,6 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QList
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix3x3
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix4x4
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLContext
@@ -460,14 +469,18 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDial
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets
@@ -608,18 +621,26 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chartwindow.h
  ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
+ ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/B_H_chart.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/barkhausen_chart.h
  ../barkhausen_studio/kernel/MainWindow/charts/include/hysteresis_chart.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include/B_H_chart_settings.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/barkhausen_chart_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include/state_changing_dial.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include/hysteresis_chart_settings.h
  ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/include/chartsettingsmenu.h
- ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
- ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include/meas_device_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/include/measurement_and_signal_settings.h
+ ../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/include/measurement_settings_window.h
  ../barkhausen_studio/kernel/MainWindow/menu/window/include/mainmenuwindow.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -632,6 +653,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
  ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
  ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+ ../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -743,6 +765,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
@@ -939,7 +962,6 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QList
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix3x3
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix4x4
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLContext
@@ -1062,9 +1084,12 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDial
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
@@ -1072,6 +1097,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets

@@ -6,12 +6,16 @@
 #include <chartsettingsmenu.h>
 #include <ui_ChartSettingsMenu.h>
 
-ChartSettingsMenu::ChartSettingsMenu(QWidget *parent)
+ChartSettingsMenu::ChartSettingsMenu(HysteresisChart *hysteresis_chart,
+                                     BarkhausenChart *bark_chart,
+                                     BHChart *B_H_chart,
+                                     Core *core,
+                                     QWidget *parent)
     :   QWidget(parent),
         m_ui{ std::make_unique<Ui::ChartSettingsMenu>() },
-        m_B_H_settings{ std::make_unique<BHChartSettings>(this) },
-        m_hysteresis_settings{ std::make_unique<HysteresisChartSettings>(this) },
-        m_barkhausen_settings{ std::make_unique<BarkhausenChartSettings>(this) }
+        m_B_H_settings{ std::make_unique<BHChartSettings>(B_H_chart, core, this) },
+        m_hysteresis_settings{ std::make_unique<HysteresisChartSettings>(hysteresis_chart, core,this) },
+        m_barkhausen_settings{ std::make_unique<BarkhausenChartSettings>(bark_chart, core, this) }
 {
     m_ui->setupUi(this);
 
@@ -76,20 +80,6 @@ ChartSettingsMenu::ChartSettingsMenu(QWidget *parent)
 
         hide();
     });
-}
-
-void ChartSettingsMenu::set_chart_settings_controller(SharedData<UiSettings> &storage)
-{
-    m_barkhausen_settings->set_chart_settings_controller(&storage->barkhausen);
-    m_B_H_settings->set_chart_settings_controller(&storage->B_H_chart);
-    m_hysteresis_settings->set_chart_settings_controller(&storage->hysteresis);
-}
-
-void ChartSettingsMenu::set_charts(HysteresisChart *hysteresis_chart, BarkhausenChart *bark_chart, BHChart *B_H_chart)
-{
-    m_barkhausen_settings->set_chart(bark_chart);
-    m_hysteresis_settings->set_chart(hysteresis_chart);
-    m_B_H_settings->set_chart(B_H_chart);
 }
 
 ChartSettingsMenu::~ChartSettingsMenu()

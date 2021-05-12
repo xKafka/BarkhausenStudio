@@ -44,9 +44,9 @@ void MeasurementDevice::continuous_acquisition_stop()
     QMetaObject::invokeMethod(m_worker.get(), "continuous_acquisition_stop", Qt::AutoConnection);
 }
 
-void MeasurementDevice::set_ref_voltage()
+void MeasurementDevice::set_ref_voltage(const double val)
 {
-    QMetaObject::invokeMethod(m_worker.get(), "set_ref_voltage", Qt::AutoConnection);
+    QMetaObject::invokeMethod(m_worker.get(), "set_ref_voltage", Q_ARG(double, val));
 }
 
 void MeasurementDevice::single_shot()

@@ -11,6 +11,7 @@
 #include <barkhausen_chart_settings.h>
 #include <hysteresis_chart_settings.h>
 #include <mem_types.h>
+#include <core.h>
 
 #include <QWidget>
 #include <memory>
@@ -24,13 +25,13 @@ class ChartSettingsMenu : public QWidget
     Q_OBJECT
 
 public:
-    explicit ChartSettingsMenu(QWidget *parent = nullptr);
+    explicit ChartSettingsMenu(HysteresisChart *hysteresis_chart,
+                               BarkhausenChart *bark_chart,
+                               BHChart *B_H_chart,
+                               Core *core,
+                               QWidget *parent = nullptr);
 
     ~ChartSettingsMenu() override;
-
-    void set_charts(HysteresisChart *hysteresis_chart, BarkhausenChart *bark_chart, BHChart *B_H_chart);
-
-    void set_chart_settings_controller(SharedData<UiSettings> &storage);
 
 private:
     std::unique_ptr<Ui::ChartSettingsMenu> m_ui;

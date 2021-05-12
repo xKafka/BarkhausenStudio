@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_BHChartSettings_t {
     QByteArrayData data[6];
-    char stringdata0[67];
+    char stringdata0[74];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,13 +34,13 @@ static const qt_meta_stringdata_BHChartSettings_t qt_meta_stringdata_BHChartSett
 QT_MOC_LITERAL(0, 0, 15), // "BHChartSettings"
 QT_MOC_LITERAL(1, 16, 12), // "back_clicked"
 QT_MOC_LITERAL(2, 29, 0), // ""
-QT_MOC_LITERAL(3, 30, 12), // "change_y_val"
-QT_MOC_LITERAL(4, 43, 3), // "val"
-QT_MOC_LITERAL(5, 47, 19) // "change_timebase_val"
+QT_MOC_LITERAL(3, 30, 19), // "change_peak_to_peak"
+QT_MOC_LITERAL(4, 50, 3), // "val"
+QT_MOC_LITERAL(5, 54, 19) // "change_timebase_val"
 
     },
     "BHChartSettings\0back_clicked\0\0"
-    "change_y_val\0val\0change_timebase_val"
+    "change_peak_to_peak\0val\0change_timebase_val"
 };
 #undef QT_MOC_LITERAL
 
@@ -81,8 +81,8 @@ void BHChartSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->back_clicked(); break;
-        case 1: _t->change_y_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
-        case 2: _t->change_timebase_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
+        case 1: _t->change_peak_to_peak((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->change_timebase_val((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

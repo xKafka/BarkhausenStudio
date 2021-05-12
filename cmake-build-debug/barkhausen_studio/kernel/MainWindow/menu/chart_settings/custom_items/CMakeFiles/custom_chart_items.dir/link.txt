@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcustom_chart_items.a CMakeFiles/custom_chart_items.dir/custom_chart_items_autogen/mocs_compilation.cpp.o CMakeFiles/custom_chart_items.dir/include/moc_state_changing_dial.cpp.o
+/usr/bin/ranlib libcustom_chart_items.a

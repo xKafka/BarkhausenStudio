@@ -6,20 +6,72 @@
 
 #IncludeRegexTransform: 
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+typeindex
+-
+any
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
 string
 -
 nlohmann/json.hpp
 -
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 QObject
 -
 ini_file.h
 -
+mem_types.h
+-
 nlohmann/json.hpp
+-
+hysteresis_settings.h
+-
+B_H_settings.h
+-
+barkhausen_settings.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
@@ -45,6 +97,10 @@ settings_names.h
 -
 mem_types.h
 -
+signal_soure_settings.h
+-
+measurement_settings.h
+-
 
 ../barkhausen_studio/kernel/core/core/include/core.h
 QObject
@@ -54,6 +110,8 @@ data_creator.h
 data_buffer.h
 -
 measurement_device_holder.h
+-
+signal_source_holder.h
 -
 device_finder.h
 -
@@ -77,7 +135,7 @@ deque
 ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
 
 ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
-QList
+QVector
 -
 QPointF
 -
@@ -111,6 +169,10 @@ settings_storage.h
 -
 mem_types.h
 -
+signal_source_holder.h
+-
+chrono
+-
 
 ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 QObject
@@ -132,6 +194,16 @@ measurement_device.h
 settings_storage.h
 -
 usbtmc_device_finder_wrapper.h
+-
+data_buffer.h
+-
+
+../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
+QObject
+-
+mem_types.h
+-
+settings_storage.h
 -
 data_buffer.h
 -
@@ -235,6 +307,8 @@ data_buffer.h
 -
 measurement_device_holder.h
 -
+signal_source_holder.h
+-
 device_finder.h
 -
 mem_types.h
@@ -260,10 +334,6 @@ qdir.h
 qfilesystemwatcher.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QList
-qlist.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
@@ -283,6 +353,10 @@ qstring.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
 qthread.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
+qvector.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h

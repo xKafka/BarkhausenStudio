@@ -1,3 +1,4 @@
 add_subdirectory(chart_settings)
 add_subdirectory(window)
-add_subdirectory(measurement_settings)
+add_subdirectory(measurement_device_settings)
+add_subdirectory(measurement_device_settings/measurement_settings)

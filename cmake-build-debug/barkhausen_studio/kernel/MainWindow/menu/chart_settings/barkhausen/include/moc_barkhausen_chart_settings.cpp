@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_BarkhausenChartSettings_t {
-    QByteArrayData data[6];
-    char stringdata0[75];
+    QByteArrayData data[8];
+    char stringdata0[124];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,13 +34,16 @@ static const qt_meta_stringdata_BarkhausenChartSettings_t qt_meta_stringdata_Bar
 QT_MOC_LITERAL(0, 0, 23), // "BarkhausenChartSettings"
 QT_MOC_LITERAL(1, 24, 12), // "back_clicked"
 QT_MOC_LITERAL(2, 37, 0), // ""
-QT_MOC_LITERAL(3, 38, 12), // "change_y_val"
-QT_MOC_LITERAL(4, 51, 3), // "val"
-QT_MOC_LITERAL(5, 55, 19) // "change_timebase_val"
+QT_MOC_LITERAL(3, 38, 15), // "change_timebase"
+QT_MOC_LITERAL(4, 54, 5), // "value"
+QT_MOC_LITERAL(5, 60, 22), // "change_timebase_offset"
+QT_MOC_LITERAL(6, 83, 16), // "change_amplitude"
+QT_MOC_LITERAL(7, 100, 23) // "change_amplitude_offset"
 
     },
     "BarkhausenChartSettings\0back_clicked\0"
-    "\0change_y_val\0val\0change_timebase_val"
+    "\0change_timebase\0value\0change_timebase_offset\0"
+    "change_amplitude\0change_amplitude_offset"
 };
 #undef QT_MOC_LITERAL
 
@@ -50,7 +53,7 @@ static const uint qt_meta_data_BarkhausenChartSettings[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -58,16 +61,20 @@ static const uint qt_meta_data_BarkhausenChartSettings[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x06 /* Public */,
+       1,    0,   39,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    1,   30,    2, 0x0a /* Public */,
-       5,    1,   33,    2, 0x0a /* Public */,
+       3,    1,   40,    2, 0x0a /* Public */,
+       5,    1,   43,    2, 0x0a /* Public */,
+       6,    1,   46,    2, 0x0a /* Public */,
+       7,    1,   49,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
 
  // slots: parameters
+    QMetaType::Void, QMetaType::Int,    4,
+    QMetaType::Void, QMetaType::Int,    4,
     QMetaType::Void, QMetaType::Int,    4,
     QMetaType::Void, QMetaType::Int,    4,
 
@@ -81,8 +88,10 @@ void BarkhausenChartSettings::qt_static_metacall(QObject *_o, QMetaObject::Call 
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->back_clicked(); break;
-        case 1: _t->change_y_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
-        case 2: _t->change_timebase_val((*reinterpret_cast< const int(*)>(_a[1]))); break;
+        case 1: _t->change_timebase((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->change_timebase_offset((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 3: _t->change_amplitude((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 4: _t->change_amplitude_offset((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -126,13 +135,13 @@ int BarkhausenChartSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 5)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 3;
+        _id -= 5;
     }
     return _id;
 }

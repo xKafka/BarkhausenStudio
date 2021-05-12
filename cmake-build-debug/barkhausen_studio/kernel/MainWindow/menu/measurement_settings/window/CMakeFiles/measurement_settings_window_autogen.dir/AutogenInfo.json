@@ -88,6 +88,7 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",

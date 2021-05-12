@@ -54,14 +54,14 @@ public slots:
 
     void device_name();
 
-    void set_ref_voltage();
+    void set_ref_voltage(double val);
 
 signals:
     void new_data_available(const unsigned char *);
 
     void read_next();
 
-    void echo(const std::string &);
+    void opened();
 };
 
 #endif //BARKHAUSEN_STUDIO_MEASUREMENT_DEVICE_WORKER_H

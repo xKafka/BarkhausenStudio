@@ -38,12 +38,11 @@ void MeasurementDeviceWorker::stop()
 
 void MeasurementDeviceWorker::device_name()
 {
-    emit echo(m_core->get_device_name());
 }
 
-void MeasurementDeviceWorker::set_ref_voltage()
+void MeasurementDeviceWorker::set_ref_voltage(const double val)
 {
-    m_core->set_ref_voltage();
+    m_core->set_ref_voltage(val);
 }
 
 void MeasurementDeviceWorker::open_port()
@@ -54,12 +53,8 @@ void MeasurementDeviceWorker::open_port()
 
         if(m_core->is_open())
         {
-            emit echo("Port opened");
+            emit opened();
         }
-    }
-    else
-    {
-        emit echo("Could not open");
     }
 }
 
@@ -70,7 +65,7 @@ void MeasurementDeviceWorker::close_port()
 
 void MeasurementDeviceWorker::read()
 {
-    emit echo(m_core->read());
+
 }
 
 void MeasurementDeviceWorker::read_chunk()
@@ -85,6 +80,11 @@ void MeasurementDeviceWorker::read_chunk()
 
 void MeasurementDeviceWorker::std_preset()
 {
+    if(!m_core->is_open())
+    {
+        return;
+    }
+
     m_core->reset();
 
     m_core->send_command("ROUT:ENAB 1, (@101,102,103,104)\n");
@@ -116,9 +116,6 @@ void MeasurementDeviceWorker::std_preset()
     qDebug() << std::string("WAV:POIN " + points_per_chunk + '\n').data();
 
     m_is_preset_done = true;
-
-    emit echo("device is set using preconfigured settings");
-
 }
 
 void MeasurementDeviceWorker::open()
@@ -136,7 +133,8 @@ void MeasurementDeviceWorker::continuous_acquisition_start()
 
 void MeasurementDeviceWorker::continuous_acquisition_stop()
 {
-    stop();
+    if(m_core->is_cont_acq_running())
+        stop();
 }
 
 void MeasurementDeviceWorker::single_shot()

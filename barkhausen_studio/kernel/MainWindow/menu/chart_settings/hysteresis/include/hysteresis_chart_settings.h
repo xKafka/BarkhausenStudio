@@ -8,6 +8,8 @@
 #include <QWidget>
 #include <memory>
 #include <hysteresis_chart.h>
+#include <mem_types.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class HysteresisChartSettings; }
@@ -19,24 +21,19 @@ class HysteresisChartSettings : public QWidget
 
     HysteresisChart *m_chart;
 
-    ChartSettings *m_settings;
-
     void disable_cursor_buttons();
 
     void enable_cursor_buttons();
 
 public:
-    explicit HysteresisChartSettings(QWidget *parent = nullptr);
+    explicit HysteresisChartSettings(HysteresisChart *chart, Core *core, QWidget *parent = nullptr);
 
     ~HysteresisChartSettings() override;
 
-    void set_chart(HysteresisChart *chart);
-
-    void set_chart_settings_controller(ChartSettings *settings);
-
 public slots:
-    void change_y_val(const int val);
-    void change_timebase_val(const int val);
+    void change_peak_to_peak(int val);
+    void change_timebase_val(int val);
+
 private:
     std::unique_ptr<Ui::HysteresisChartSettings> m_ui;
 

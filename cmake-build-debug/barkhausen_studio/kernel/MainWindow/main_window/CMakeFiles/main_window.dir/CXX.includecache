@@ -39,6 +39,8 @@ QVBoxLayout
 -
 QDebug
 -
+QtWidgets/QGraphicsTextItem
+-
 chart_base.h
 ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h
 
@@ -69,19 +71,59 @@ QGraphicsScene
 -
 QPainter
 -
+info_table.h
+-
 QDebug
+-
+QtCharts/QChart
+-
+
+../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
+QTableWidgetItem
+-
+QGraphicsTextItem
+-
+QGraphicsSceneMouseEvent
+-
+QGraphicsScene
+-
+QDebug
+-
+memory
 -
 
 ../barkhausen_studio/kernel/MainWindow/charts/include/B_H_chart.h
 chartwindow.h
 -
+mem_types.h
+-
+settings_storage.h
+-
+ui_settings.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/charts/include/barkhausen_chart.h
 chartwindow.h
 -
+mem_types.h
+-
+settings_storage.h
+-
+state_changing_dial.h
+-
+ui_settings.h
+-
+utils.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/charts/include/hysteresis_chart.h
 chartwindow.h
+-
+mem_types.h
+-
+settings_storage.h
+-
+ui_settings.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/main_window/include/mainwindow.h
@@ -109,11 +151,25 @@ memory
 -
 B_H_chart.h
 -
+mem_types.h
+-
+core.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include/barkhausen_chart_settings.h
 QWidget
 -
 barkhausen_chart.h
+-
+mem_types.h
+-
+core.h
+-
+
+../barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include/state_changing_dial.h
+QDial
+-
+array
 -
 
 ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include/hysteresis_chart_settings.h
@@ -122,6 +178,10 @@ QWidget
 memory
 -
 hysteresis_chart.h
+-
+mem_types.h
+-
+core.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/include/chartsettingsmenu.h
@@ -137,12 +197,14 @@ hysteresis_chart_settings.h
 -
 mem_types.h
 -
+core.h
+-
 QWidget
 -
 memory
 -
 
-../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/include/meas_device_settings.h
+../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include/meas_device_settings.h
 QWidget
 -
 memory
@@ -153,8 +215,22 @@ device_finder.h
 -
 core.h
 -
+measurement_device_holder.h
+-
 
-../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/include/measurement_and_signal_settings.h
+QWidget
+-
+memory
+-
+chartwindow.h
+-
+core.h
+-
+signal_source_holder.h
+-
+
+../barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/include/measurement_settings_window.h
 QWidget
 -
 memory
@@ -165,6 +241,8 @@ settings_storage.h
 -
 device_finder.h
 -
+measurement_and_signal_settings.h
+-
 core.h
 -
 
@@ -173,7 +251,7 @@ chartsettingsmenu.h
 -
 chartwindow.h
 -
-measurement_settings.h
+measurement_settings_window.h
 -
 data_creator.h
 -
@@ -190,20 +268,72 @@ QPushButton
 memory
 -
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+typeindex
+-
+any
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
 string
 -
 nlohmann/json.hpp
 -
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 QObject
 -
 ini_file.h
 -
+mem_types.h
+-
 nlohmann/json.hpp
+-
+hysteresis_settings.h
+-
+B_H_settings.h
+-
+barkhausen_settings.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
@@ -229,6 +359,10 @@ settings_names.h
 -
 mem_types.h
 -
+signal_soure_settings.h
+-
+measurement_settings.h
+-
 
 ../barkhausen_studio/kernel/core/core/include/core.h
 QObject
@@ -238,6 +372,8 @@ data_creator.h
 data_buffer.h
 -
 measurement_device_holder.h
+-
+signal_source_holder.h
 -
 device_finder.h
 -
@@ -261,7 +397,7 @@ deque
 ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
 
 ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
-QList
+QVector
 -
 QPointF
 -
@@ -295,6 +431,10 @@ settings_storage.h
 -
 mem_types.h
 -
+signal_source_holder.h
+-
+chrono
+-
 
 ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 QObject
@@ -316,6 +456,16 @@ measurement_device.h
 settings_storage.h
 -
 usbtmc_device_finder_wrapper.h
+-
+data_buffer.h
+-
+
+../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
+QObject
+-
+mem_types.h
+-
+settings_storage.h
 -
 data_buffer.h
 -
@@ -1091,6 +1241,10 @@ qthread.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
+qvector.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
 QtCore/QtCoreDepends
@@ -2974,10 +3128,6 @@ qfont.h
 qimage.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QList
-qevent.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix3x3
 qgenericmatrix.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qgenericmatrix.h
@@ -4454,6 +4604,10 @@ qapplication.h
 qcommonstyle.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcommonstyle.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDial
+qdial.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdial.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsLineItem
 qgraphicsitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
@@ -4465,6 +4619,14 @@ qgraphicsscene.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneEvent
 qgraphicssceneevent.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicssceneevent.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsSceneMouseEvent
+qgraphicssceneevent.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicssceneevent.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem
+qgraphicsitem.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
 qgraphicsview.h
@@ -4505,6 +4667,10 @@ qscrollerproperties.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidgetItem
+qtablewidget.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtablewidget.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QToolButton
 qtoolbutton.h

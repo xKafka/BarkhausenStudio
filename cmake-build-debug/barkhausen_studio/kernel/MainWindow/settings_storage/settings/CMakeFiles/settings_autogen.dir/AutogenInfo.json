@@ -100,8 +100,13 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h"
 	],

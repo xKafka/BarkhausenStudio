@@ -4,8 +4,13 @@
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_data_parser.cpp.o
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/measurement_device_holder/include/moc_data_parser.cpp
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -27,11 +32,11 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/measurement_device_holder/include/moc_measurement_device_holder.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -110,9 +115,9 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
  ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
  ../barkhausen_studio/kernel/core/measurement_device_holder/include/data_parser.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/src/data_parser.cpp
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -162,10 +167,16 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -188,11 +199,11 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
  ../barkhausen_studio/utils/utils/include/utils.h
  /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/src/measurement_device_holder.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h

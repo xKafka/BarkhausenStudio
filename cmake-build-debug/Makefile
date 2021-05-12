@@ -286,6 +286,32 @@ measurement_device_holder_module_autogen/fast:
 .PHONY : measurement_device_holder_module_autogen/fast
 
 #=============================================================================
+# Target rules for targets named signal_source_holder
+
+# Build rule for target.
+signal_source_holder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal_source_holder
+.PHONY : signal_source_holder
+
+# fast build rule for target.
+signal_source_holder/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/build
+.PHONY : signal_source_holder/fast
+
+#=============================================================================
+# Target rules for targets named signal_source_holder_autogen
+
+# Build rule for target.
+signal_source_holder_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal_source_holder_autogen
+.PHONY : signal_source_holder_autogen
+
+# fast build rule for target.
+signal_source_holder_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/build
+.PHONY : signal_source_holder_autogen/fast
+
+#=============================================================================
 # Target rules for targets named main_window
 
 # Build rule for target.
@@ -416,6 +442,32 @@ hysteresis_chart_settings_autogen/fast:
 .PHONY : hysteresis_chart_settings_autogen/fast
 
 #=============================================================================
+# Target rules for targets named custom_chart_items
+
+# Build rule for target.
+custom_chart_items: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 custom_chart_items
+.PHONY : custom_chart_items
+
+# fast build rule for target.
+custom_chart_items/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/build
+.PHONY : custom_chart_items/fast
+
+#=============================================================================
+# Target rules for targets named custom_chart_items_autogen
+
+# Build rule for target.
+custom_chart_items_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 custom_chart_items_autogen
+.PHONY : custom_chart_items_autogen
+
+# fast build rule for target.
+custom_chart_items_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/build
+.PHONY : custom_chart_items_autogen/fast
+
+#=============================================================================
 # Target rules for targets named main_menu_window
 
 # Build rule for target.
@@ -451,7 +503,7 @@ meas_device_settings: cmake_check_build_system
 
 # fast build rule for target.
 meas_device_settings/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/build
 .PHONY : meas_device_settings/fast
 
 #=============================================================================
@@ -464,7 +516,7 @@ meas_device_settings_autogen: cmake_check_build_system
 
 # fast build rule for target.
 meas_device_settings_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build
 .PHONY : meas_device_settings_autogen/fast
 
 #=============================================================================
@@ -477,7 +529,7 @@ measurement_settings_window: cmake_check_build_system
 
 # fast build rule for target.
 measurement_settings_window/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/build
 .PHONY : measurement_settings_window/fast
 
 #=============================================================================
@@ -490,8 +542,34 @@ measurement_settings_window_autogen: cmake_check_build_system
 
 # fast build rule for target.
 measurement_settings_window_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/build
 .PHONY : measurement_settings_window_autogen/fast
+
+#=============================================================================
+# Target rules for targets named meas_settings
+
+# Build rule for target.
+meas_settings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 meas_settings
+.PHONY : meas_settings
+
+# fast build rule for target.
+meas_settings/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/build
+.PHONY : meas_settings/fast
+
+#=============================================================================
+# Target rules for targets named meas_settings_autogen
+
+# Build rule for target.
+meas_settings_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 meas_settings_autogen
+.PHONY : meas_settings_autogen
+
+# fast build rule for target.
+meas_settings_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build
+.PHONY : meas_settings_autogen/fast
 
 #=============================================================================
 # Target rules for targets named charts
@@ -677,6 +755,7 @@ help:
 	@echo "... chart_base_module_autogen"
 	@echo "... chart_settings_window_autogen"
 	@echo "... charts_autogen"
+	@echo "... custom_chart_items_autogen"
 	@echo "... data_buffer_module_autogen"
 	@echo "... data_creator_module_autogen"
 	@echo "... device_finder_module_autogen"
@@ -684,11 +763,13 @@ help:
 	@echo "... main_menu_window_autogen"
 	@echo "... main_window_autogen"
 	@echo "... meas_device_settings_autogen"
+	@echo "... meas_settings_autogen"
 	@echo "... measurement_device_autogen"
 	@echo "... measurement_device_holder_module_autogen"
 	@echo "... measurement_settings_window_autogen"
 	@echo "... settings_autogen"
 	@echo "... settings_storage_autogen"
+	@echo "... signal_source_holder_autogen"
 	@echo "... B_H_chart_settings"
 	@echo "... api"
 	@echo "... api_core"
@@ -696,6 +777,7 @@ help:
 	@echo "... chart_base_module"
 	@echo "... chart_settings_window"
 	@echo "... charts"
+	@echo "... custom_chart_items"
 	@echo "... data_buffer_module"
 	@echo "... data_creator_module"
 	@echo "... device_finder_module"
@@ -704,11 +786,13 @@ help:
 	@echo "... main_menu_window"
 	@echo "... main_window"
 	@echo "... meas_device_settings"
+	@echo "... meas_settings"
 	@echo "... measurement_device"
 	@echo "... measurement_device_holder_module"
 	@echo "... measurement_settings_window"
 	@echo "... settings"
 	@echo "... settings_storage"
+	@echo "... signal_source_holder"
 	@echo "... usbtmc_device_finder"
 	@echo "... usbtmc_python"
 .PHONY : help

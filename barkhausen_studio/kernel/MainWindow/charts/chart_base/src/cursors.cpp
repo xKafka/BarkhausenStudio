@@ -3,36 +3,185 @@
 //
 
 #include "../include/cursors.h"
+#include <utils.h>
 
 Cursors::Cursors(QGraphicsScene *scene)
     :   m_scene{ scene },
-        m_mov_x_1{ false },
-        m_mov_x_2{ false },
-        m_mov_y_1{ false },
-        m_mov_y_2{ false },
+        m_A_moving{ false },
+        m_B_moving{ false },
+        m_horizontal{ false },
+        m_vertical{ false },
         m_is_visible{ false },
-        m_is_drown{ false }
+        m_is_drown{ false },
+        m_info{ },
+        m_after_resize{ },
+        m_before_resize{ },
+        m_pen_A{ Qt::red },
+        m_pen_B{ Qt::green }
 {
+    m_pen_A.setWidth(1);
+    m_pen_B.setWidth(1);
+
+    m_A_ver.setPen(m_pen_A);
+    m_A_hor.setPen(m_pen_A);
+    m_B_ver.setPen(m_pen_B);
+    m_B_hor.setPen(m_pen_B);
+
+    m_A_ver.setZValue(std::numeric_limits<qreal>::max());
+    m_A_hor.setZValue(std::numeric_limits<qreal>::max());
+    m_B_ver.setZValue(std::numeric_limits<qreal>::max());
+    m_B_hor.setZValue(std::numeric_limits<qreal>::max());
+
+    m_scene->addItem(&m_A_ver);
+    m_scene->addItem(&m_A_hor);
+    m_scene->addItem(&m_B_ver);
+    m_scene->addItem(&m_B_hor);
+    m_scene->addItem(&m_info);
+
+    m_info.show_overridden();
+}
+
+void Cursors::set_horizontal()
+{
+    m_horizontal = true;
+    m_vertical = false;
+}
+
+void Cursors::set_vertical()
+{
+    m_horizontal = false;
+    m_vertical = true;
+}
+
+void Cursors::set_moving_A()
+{
+    m_A_moving = true;
+    m_B_moving = false;
+}
+
+void Cursors::set_moving_B()
+{
+    m_A_moving = false;
+    m_B_moving = true;
 }
 
 void Cursors::hide()
 {
-    m_x_1.hide();
-    m_x_2.hide();
-    m_y_1.hide();
-    m_y_2.hide();
+    m_A_ver.hide();
+    m_A_hor.hide();
+    m_B_ver.hide();
+    m_B_hor.hide();
+    m_info.hide_overridden();
 
     m_is_visible = false;
 }
 
 void Cursors::show()
 {
-    m_x_1.show();
-    m_x_2.show();
-    m_y_1.show();
-    m_y_2.show();
+    m_A_ver.show();
+    m_A_hor.show();
+    m_B_ver.show();
+    m_B_hor.show();
+    m_info.show_overridden();
 
     m_is_visible = true;
+}
+
+void Cursors::move_horizontal_cursor(QtCharts::QChart *on_chart, const std::vector<QPointF> &chart_points, const QPointF &mouse_position)
+{
+    auto comparator_x = [](const QPointF &left, const QPointF &right)
+    {
+        return left.x() < right.x();
+    };
+
+    const auto mapped_val = on_chart->mapToValue(mouse_position);
+
+    const auto &vertical_cursor_with_points = std::lower_bound(chart_points.begin(), chart_points.end(), mapped_val, comparator_x);
+
+    const auto &horizontal_position = on_chart->mapToPosition(*vertical_cursor_with_points.base());
+
+    if(m_A_moving)
+    {
+        m_A_cursor_data = *vertical_cursor_with_points.base();
+
+        m_A_ver.setX(horizontal_position.x());
+        m_A_hor.setY(horizontal_position.y());
+
+        m_info.change_val("A_x", Utility::Cast::to_string(m_A_cursor_data.x()));
+        m_info.change_val("A_y", Utility::Cast::to_string(m_A_cursor_data.y()));
+    }
+    if(m_B_moving)
+    {
+        m_B_cursor_data = *vertical_cursor_with_points.base();
+
+        m_B_ver.setX(horizontal_position.x());
+        m_B_hor.setY(horizontal_position.y());
+
+        m_info.change_val("B_x", Utility::Cast::to_string(m_B_cursor_data.x()));
+        m_info.change_val("B_y", Utility::Cast::to_string(m_B_cursor_data.y()));
+    }
+
+    m_info.change_val("dX", Utility::Cast::to_string(m_B_cursor_data.x() - m_A_cursor_data.x()));
+
+    m_info.change_val("dY", Utility::Cast::to_string(m_B_cursor_data.y() - m_A_cursor_data.y()));
+}
+
+void Cursors::move_vertical_cursor(QtCharts::QChart *on_chart, const QPointF &mouse_position)
+{
+    const auto mapped_val = on_chart->mapToValue(mouse_position);
+
+    if(m_A_moving)
+    {
+        m_A_hor.setY(mouse_position.y());
+
+        m_A_cursor_data = mapped_val;
+    }
+    if(m_B_moving)
+    {
+        m_B_hor.setY(mouse_position.y());
+
+        m_B_cursor_data = mapped_val;
+    }
+
+    m_info.change_val("dX", "NaN");
+
+    m_info.change_val("dY", Utility::Cast::to_string(m_B_cursor_data.y() - m_A_cursor_data.y()));
+}
+
+void Cursors::update_pos(QtCharts::QChart *on_chart, const std::vector<QPointF> &shown_data, const QPointF &mouse_pos)
+{
+    if(m_horizontal)
+    {
+        move_horizontal_cursor(on_chart, shown_data, mouse_pos);
+    }
+    if(m_vertical)
+    {
+        move_vertical_cursor(on_chart, mouse_pos);
+    }
+}
+
+void Cursors::set_resize_factor(const QRect &geo)
+{
+    m_after_resize.A_ver = { geo.topLeft(), geo.bottomLeft() };
+    m_after_resize.A_hor = { geo.topLeft(), geo.topRight() };
+    m_after_resize.B_ver = { geo.topLeft(), geo.bottomLeft() };
+    m_after_resize.B_hor = { geo.topLeft(), geo.topRight() };
+}
+
+void Cursors::resize_to_big()
+{
+    m_A_ver.setLine(m_after_resize.A_ver);
+    m_A_hor.setLine(m_after_resize.A_hor);
+    m_B_ver.setLine(m_after_resize.B_ver);
+    m_B_hor.setLine(m_after_resize.B_hor);
+}
+
+void Cursors::resize_to_small()
+{
+    m_A_ver.setLine(m_before_resize.A_ver);
+    m_A_hor.setLine(m_before_resize.A_hor);
+    m_B_ver.setLine(m_before_resize.B_ver);
+    m_B_hor.setLine(m_before_resize.B_hor);
 }
 
 void Cursors::draw_cursors(QPainter* painter)
@@ -44,124 +193,34 @@ void Cursors::draw_cursors(QPainter* painter)
 
     const auto geometry = m_scene->sceneRect();
 
-    QPen pen(Qt::red);
+    painter->setPen(m_pen_A);
 
-    pen.setWidth(1);
+    m_before_resize.A_ver = { geometry.topLeft(), geometry.bottomLeft() };
+    m_before_resize.A_hor = { geometry.topLeft(), geometry.topRight() };
 
-    painter->setPen(pen);
+    m_A_ver.setLine(m_before_resize.A_ver);
+    m_A_hor.setLine(m_before_resize.A_hor);
 
-    m_x_1.setPen(pen);
-    m_x_2.setPen(pen);
-    m_y_1.setPen(pen);
-    m_y_2.setPen(pen);
+    painter->setPen(m_pen_B);
 
-    m_x_1.setLine({ geometry.topLeft(), geometry.bottomLeft() });
-    m_x_2.setLine({ geometry.topLeft(), geometry.bottomLeft() });
-    m_y_1.setLine({ geometry.topLeft(), geometry.topRight() });
-    m_y_2.setLine({ geometry.topLeft(), geometry.topRight() });
+    m_before_resize.B_ver = { geometry.topLeft(), geometry.bottomLeft() };
+    m_before_resize.B_hor = { geometry.topLeft(), geometry.topRight() };
 
-    m_scene->addItem(&m_x_1);
-    m_scene->addItem(&m_x_2);
-    m_scene->addItem(&m_y_1);
-    m_scene->addItem(&m_y_2);
+    m_B_ver.setLine(m_before_resize.B_ver);
+    m_B_hor.setLine(m_before_resize.B_hor);
+
+    m_info.create_text_field({
+                                     {"A_x", "A_x: " },
+                                     {"A_y", "A_y: " },
+                                     {"B_x", "B_x: " },
+                                     {"B_y", "B_y: " },
+                                     {"dX", "dX: " },
+                                     {"dY", "dY: " }
+                             });
+
+    m_info.hide_overridden();
+
+    m_info.change_pos(m_scene->sceneRect().center().toPoint());
 
     m_is_drown = true;
-}
-
-void Cursors::redraw()
-{
-    m_is_drown = false;
-
-    m_scene->removeItem(&m_x_1);
-    m_scene->removeItem(&m_x_2);
-    m_scene->removeItem(&m_y_1);
-    m_scene->removeItem(&m_y_2);
-}
-
-void Cursors::change_pos()
-{
-    if(!m_is_visible)
-    {
-        return;
-    }
-
-    if(m_mov_x_1)
-    {
-        m_x_1.setX(m_last_pos.x());
-    }
-    if(m_mov_x_2)
-    {
-        m_x_2.setX(m_last_pos.x());
-    }
-    if(m_mov_y_1)
-    {
-        m_y_1.setY(m_last_pos.y());
-    }
-    if(m_mov_y_2)
-    {
-        m_y_2.setY(m_last_pos.y());
-    }
-}
-
-void Cursors::update_pos(const QPointF &pos)
-{
-    m_last_pos = pos;
-
-    change_pos();
-
-    m_scene->update();
-}
-
-auto Cursors::position(Cursor cur) const
-{
-    switch (cur)
-    {
-        case X_1: return m_x_1.pos();
-
-        case X_2: return m_x_2.pos();
-
-        case Y_1: return m_y_1.pos();
-
-        case Y_2: return m_y_2.pos();
-
-        case All: break;
-    }
-
-    return QPointF{};
-}
-
-void Cursors::move(const Cursor cur)
-{
-    switch (cur)
-    {
-        case X_1:   m_mov_x_1 = true;
-                    m_mov_x_2 = false;
-                    m_mov_y_1 = false;
-                    m_mov_y_2 = false;
-
-                    return;
-
-        case X_2:   m_mov_x_1 = false;
-                    m_mov_x_2 = true;
-                    m_mov_y_1 = false;
-                    m_mov_y_2 = false;
-
-                    return;
-
-        case Y_1:   m_mov_x_1 = false;
-                    m_mov_x_2 = false;
-                    m_mov_y_1 = true;
-                    m_mov_y_2 = false;
-
-                    return;
-
-        case Y_2:   m_mov_x_1 = false;
-                    m_mov_x_2 = false;
-                    m_mov_y_1 = false;
-                    m_mov_y_2 = true;
-
-                    return;
-
-        case All: break;
-    }
 }

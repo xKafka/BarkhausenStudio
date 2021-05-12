@@ -37,7 +37,7 @@ public:
 
     void device_name();
 
-    void set_ref_voltage();
+    void set_ref_voltage(double val);
 
     bool is_opened() const;
 };

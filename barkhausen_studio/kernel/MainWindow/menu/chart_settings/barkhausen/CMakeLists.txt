@@ -19,4 +19,4 @@ add_library(barkhausen_chart_settings STATIC ${sources} ${qt_moc_headers} ${qt_u
 
 target_include_directories(barkhausen_chart_settings PRIVATE src PUBLIC include)
 
-target_link_libraries(barkhausen_chart_settings Qt5::Widgets Qt5::Core settings charts)
+target_link_libraries(barkhausen_chart_settings Qt5::Widgets Qt5::Core settings charts custom_chart_items api_core)

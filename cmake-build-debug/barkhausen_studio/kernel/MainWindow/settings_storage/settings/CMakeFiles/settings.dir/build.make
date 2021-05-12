@@ -76,25 +76,45 @@ include barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles
 # Include the compile flags for this target's objects.
 include barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/moc_B_H_settings.cpp"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp_parameters
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_barkhausen_settings.cpp"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp_parameters
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/moc_device_description.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/moc_device_description.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp_parameters
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/moc_hysteresis_settings.cpp"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp_parameters
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/moc_measurement_settings.cpp"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp_parameters
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/moc_settings_names.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/moc_settings_names.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp_parameters
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/moc_signal_soure_settings.cpp"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp_parameters
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/moc_ui_settings.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating include/moc_ui_settings.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp_parameters
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/moc_usbtmc_settings.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating include/moc_usbtmc_settings.cpp"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include && /usr/lib/qt5/bin/moc @/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp_parameters
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/settings_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/settings_autogen/mocs_compilation.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.i: cmake_force
@@ -107,7 +127,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/ui_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/src/ui_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/ui_settings.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.i: cmake_force
@@ -120,7 +140,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.i: cmake_force
@@ -131,9 +151,35 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/src/usbtmc_settings.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp -o CMakeFiles/settings.dir/src/usbtmc_settings.cpp.s
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.i"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp > CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.i
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.s"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp -o CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.s
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.i"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp > CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.i
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.s"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp -o CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.s
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_device_description.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.i: cmake_force
@@ -144,9 +190,35 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_device_description.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp -o CMakeFiles/settings.dir/include/moc_device_description.cpp.s
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.i"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp > CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.i
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.s"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp -o CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.s
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.i"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp > CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.i
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.s"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp -o CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.s
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_settings_names.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.i: cmake_force
@@ -157,9 +229,22 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_settings_names.cpp.s"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp -o CMakeFiles/settings.dir/include/moc_settings_names.cpp.s
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.i"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp > CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.i
+
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.s"
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp -o CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.s
+
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.i: cmake_force
@@ -172,7 +257,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/flags.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o -c /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp
 
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.i: cmake_force
@@ -188,8 +273,13 @@ settings_OBJECTS = \
 "CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/settings.dir/src/ui_settings.cpp.o" \
 "CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o" \
+"CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o" \
+"CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o" \
 "CMakeFiles/settings.dir/include/moc_device_description.cpp.o" \
+"CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o" \
+"CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o" \
 "CMakeFiles/settings.dir/include/moc_settings_names.cpp.o" \
+"CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o" \
 "CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o" \
 "CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o"
 
@@ -199,13 +289,18 @@ settings_EXTERNAL_OBJECTS =
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/ui_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/src/usbtmc_settings.cpp.o
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.o
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.o
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_ui_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_usbtmc_settings.cpp.o
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/libsettings.a: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libsettings.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libsettings.a"
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && $(CMAKE_COMMAND) -P CMakeFiles/settings.dir/cmake_clean_target.cmake
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/settings.dir/link.txt --verbose=$(VERBOSE)
 
@@ -218,8 +313,13 @@ barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/setting
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings && $(CMAKE_COMMAND) -P CMakeFiles/settings.dir/cmake_clean.cmake
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/clean
 
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp
+barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend: barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fkafka/QtProjects/Barkhausen_studio /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/DependInfo.cmake --color=$(COLOR)

@@ -12,6 +12,8 @@
 #include <QVBoxLayout>
 #include <QDebug>
 
+#include <QtWidgets/QGraphicsTextItem>
+
 #include "chart_base.h"
 
 class ChartView : public QtCharts::QChartView
@@ -26,14 +28,33 @@ class ChartView : public QtCharts::QChartView
 
     bool m_cursor_moving;
 
+    InfoTable m_info_table;
+
+    struct Range
+    {
+        double min, max;
+    };
+
+    Range m_x_axis, m_y_axis;
+
 public:
     explicit ChartView(QWidget *parent = nullptr);
 
     void update_data(const QVector<QPointF> &new_data);
 
-    void update_data(const QList<QPointF> &new_data);
-
     inline auto *chart() { return m_chart; }
+
+    inline auto *table() { return &m_info_table; }
+
+    void set_x_range(double min, double max);
+
+    void set_y_range(double min, double max);
+
+    void create_text_field(std::initializer_list<std::pair<std::string, std::string>> &&list);
+
+    void show_cursors();
+
+    void hide_cursors();
 
 protected:
     void mouseReleaseEvent(QMouseEvent *event) override;

@@ -3,8 +3,13 @@
 
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/api_core_autogen/mocs_compilation.cpp.o: barkhausen_studio/kernel/core/core/api_core_autogen/mocs_compilation.cpp
 
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -16,6 +21,7 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -31,12 +37,12 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: barkhausen_studio/kernel/core/core/include/moc_core.cpp
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -108,8 +114,13 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -122,6 +133,7 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../ba
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/core/signal_source_holder/include/signal_source_holder.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -136,12 +148,12 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../ba
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: ../barkhausen_studio/kernel/core/core/src/core.cpp
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h

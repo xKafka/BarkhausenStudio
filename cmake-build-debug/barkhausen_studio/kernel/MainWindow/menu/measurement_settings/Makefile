@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/151/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/clion/151/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,117 @@ depend:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/rule:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/rule
+.PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/rule
+
+# Convenience name for target.
+meas_settings: barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/rule
+
+.PHONY : meas_settings
+
+# fast build rule for target.
+meas_settings/fast:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build
+.PHONY : meas_settings/fast
+
+# Convenience name for target.
+barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule
+.PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule
+
+# Convenience name for target.
+meas_settings_autogen: barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule
+
+.PHONY : meas_settings_autogen
+
+# fast build rule for target.
+meas_settings_autogen/fast:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build
+.PHONY : meas_settings_autogen/fast
+
+include/moc_measurement_settings.o: include/moc_measurement_settings.cpp.o
+
+.PHONY : include/moc_measurement_settings.o
+
+# target to build an object file
+include/moc_measurement_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/include/moc_measurement_settings.cpp.o
+.PHONY : include/moc_measurement_settings.cpp.o
+
+include/moc_measurement_settings.i: include/moc_measurement_settings.cpp.i
+
+.PHONY : include/moc_measurement_settings.i
+
+# target to preprocess a source file
+include/moc_measurement_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/include/moc_measurement_settings.cpp.i
+.PHONY : include/moc_measurement_settings.cpp.i
+
+include/moc_measurement_settings.s: include/moc_measurement_settings.cpp.s
+
+.PHONY : include/moc_measurement_settings.s
+
+# target to generate assembly for a file
+include/moc_measurement_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/include/moc_measurement_settings.cpp.s
+.PHONY : include/moc_measurement_settings.cpp.s
+
+meas_settings_autogen/mocs_compilation.o: meas_settings_autogen/mocs_compilation.cpp.o
+
+.PHONY : meas_settings_autogen/mocs_compilation.o
+
+# target to build an object file
+meas_settings_autogen/mocs_compilation.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/meas_settings_autogen/mocs_compilation.cpp.o
+.PHONY : meas_settings_autogen/mocs_compilation.cpp.o
+
+meas_settings_autogen/mocs_compilation.i: meas_settings_autogen/mocs_compilation.cpp.i
+
+.PHONY : meas_settings_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+meas_settings_autogen/mocs_compilation.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/meas_settings_autogen/mocs_compilation.cpp.i
+.PHONY : meas_settings_autogen/mocs_compilation.cpp.i
+
+meas_settings_autogen/mocs_compilation.s: meas_settings_autogen/mocs_compilation.cpp.s
+
+.PHONY : meas_settings_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+meas_settings_autogen/mocs_compilation.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/meas_settings_autogen/mocs_compilation.cpp.s
+.PHONY : meas_settings_autogen/mocs_compilation.cpp.s
+
+src/measurement_settings.o: src/measurement_settings.cpp.o
+
+.PHONY : src/measurement_settings.o
+
+# target to build an object file
+src/measurement_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/src/measurement_settings.cpp.o
+.PHONY : src/measurement_settings.cpp.o
+
+src/measurement_settings.i: src/measurement_settings.cpp.i
+
+.PHONY : src/measurement_settings.i
+
+# target to preprocess a source file
+src/measurement_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/src/measurement_settings.cpp.i
+.PHONY : src/measurement_settings.cpp.i
+
+src/measurement_settings.s: src/measurement_settings.cpp.s
+
+.PHONY : src/measurement_settings.s
+
+# target to generate assembly for a file
+src/measurement_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_settings/CMakeFiles/meas_settings.dir/src/measurement_settings.cpp.s
+.PHONY : src/measurement_settings.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -137,6 +248,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... meas_settings_autogen"
+	@echo "... meas_settings"
+	@echo "... include/moc_measurement_settings.o"
+	@echo "... include/moc_measurement_settings.i"
+	@echo "... include/moc_measurement_settings.s"
+	@echo "... meas_settings_autogen/mocs_compilation.o"
+	@echo "... meas_settings_autogen/mocs_compilation.i"
+	@echo "... meas_settings_autogen/mocs_compilation.s"
+	@echo "... src/measurement_settings.o"
+	@echo "... src/measurement_settings.i"
+	@echo "... src/measurement_settings.s"
 .PHONY : help
 
 

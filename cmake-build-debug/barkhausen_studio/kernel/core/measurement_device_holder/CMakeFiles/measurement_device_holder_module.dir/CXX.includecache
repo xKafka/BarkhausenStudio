@@ -6,20 +6,72 @@
 
 #IncludeRegexTransform: 
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+typeindex
+-
+any
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
 string
 -
 nlohmann/json.hpp
 -
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 QObject
 -
 ini_file.h
 -
+mem_types.h
+-
 nlohmann/json.hpp
+-
+hysteresis_settings.h
+-
+B_H_settings.h
+-
+barkhausen_settings.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
@@ -45,6 +97,10 @@ settings_names.h
 -
 mem_types.h
 -
+signal_soure_settings.h
+-
+measurement_settings.h
+-
 
 ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
 QObject
@@ -63,7 +119,7 @@ deque
 ../barkhausen_studio/kernel/core/data_buffer/include/statistical_data.h
 
 ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
-QList
+QVector
 -
 QPointF
 -
@@ -176,19 +232,37 @@ sstream
 type_traits
 -
 
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+QObject
+-
+mem_types.h
+-
+measurement_device.h
+-
+settings_storage.h
+-
+usbtmc_device_finder_wrapper.h
+-
+data_buffer.h
+-
+
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/src/measurement_device_holder.cpp
 measurement_device_holder.h
 -
 data_parser.h
 -
 
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/measurement_device_holder/include/moc_measurement_device_holder.cpp
+../../../../../../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
 qdir.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QList
-qlist.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
@@ -205,6 +279,10 @@ qsettings.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
 qthread.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
+qvector.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h

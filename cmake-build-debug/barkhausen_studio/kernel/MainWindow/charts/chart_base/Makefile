@@ -294,6 +294,33 @@ include/moc_cursors.cpp.s:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_cursors.cpp.s
 .PHONY : include/moc_cursors.cpp.s
 
+include/moc_info_table.o: include/moc_info_table.cpp.o
+
+.PHONY : include/moc_info_table.o
+
+# target to build an object file
+include/moc_info_table.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_info_table.cpp.o
+.PHONY : include/moc_info_table.cpp.o
+
+include/moc_info_table.i: include/moc_info_table.cpp.i
+
+.PHONY : include/moc_info_table.i
+
+# target to preprocess a source file
+include/moc_info_table.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_info_table.cpp.i
+.PHONY : include/moc_info_table.cpp.i
+
+include/moc_info_table.s: include/moc_info_table.cpp.s
+
+.PHONY : include/moc_info_table.s
+
+# target to generate assembly for a file
+include/moc_info_table.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_info_table.cpp.s
+.PHONY : include/moc_info_table.cpp.s
+
 src/chart_view.o: src/chart_view.cpp.o
 
 .PHONY : src/chart_view.o
@@ -400,6 +427,9 @@ help:
 	@echo "... include/moc_cursors.o"
 	@echo "... include/moc_cursors.i"
 	@echo "... include/moc_cursors.s"
+	@echo "... include/moc_info_table.o"
+	@echo "... include/moc_info_table.i"
+	@echo "... include/moc_info_table.s"
 	@echo "... src/chart_view.o"
 	@echo "... src/chart_view.i"
 	@echo "... src/chart_view.s"

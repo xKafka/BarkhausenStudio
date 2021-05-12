@@ -8,6 +8,8 @@
 #include <QWidget>
 #include <memory>
 #include <B_H_chart.h>
+#include <mem_types.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class BHChartSettings; }
@@ -21,28 +23,21 @@ class BHChartSettings : public QWidget
 
     BHChart *m_chart;
 
-    ChartSettings *m_settings;
-
     void disable_cursor_buttons();
 
     void enable_cursor_buttons();
 
 public:
-    explicit BHChartSettings(QWidget *parent = nullptr);
+    explicit BHChartSettings(BHChart *chart, Core *core, QWidget *parent = nullptr);
 
     ~BHChartSettings() override;
 
-    void set_chart(BHChart *chart);
-
-    void set_chart_settings_controller(ChartSettings *settings);
-
 public slots:
-    void change_y_val(const int val);
-    void change_timebase_val(const int val);
+    void change_peak_to_peak(int val);
+    void change_timebase_val(int val);
 
 signals:
     void back_clicked();
 };
-
 
 #endif //BARKHAUSEN_STUDIO_B_H_CHART_SETTINGS_H

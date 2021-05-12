@@ -159,6 +159,60 @@ settings_autogen/fast:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings_autogen.dir/build
 .PHONY : settings_autogen/fast
 
+include/moc_B_H_settings.o: include/moc_B_H_settings.cpp.o
+
+.PHONY : include/moc_B_H_settings.o
+
+# target to build an object file
+include/moc_B_H_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.o
+.PHONY : include/moc_B_H_settings.cpp.o
+
+include/moc_B_H_settings.i: include/moc_B_H_settings.cpp.i
+
+.PHONY : include/moc_B_H_settings.i
+
+# target to preprocess a source file
+include/moc_B_H_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.i
+.PHONY : include/moc_B_H_settings.cpp.i
+
+include/moc_B_H_settings.s: include/moc_B_H_settings.cpp.s
+
+.PHONY : include/moc_B_H_settings.s
+
+# target to generate assembly for a file
+include/moc_B_H_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_B_H_settings.cpp.s
+.PHONY : include/moc_B_H_settings.cpp.s
+
+include/moc_barkhausen_settings.o: include/moc_barkhausen_settings.cpp.o
+
+.PHONY : include/moc_barkhausen_settings.o
+
+# target to build an object file
+include/moc_barkhausen_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.o
+.PHONY : include/moc_barkhausen_settings.cpp.o
+
+include/moc_barkhausen_settings.i: include/moc_barkhausen_settings.cpp.i
+
+.PHONY : include/moc_barkhausen_settings.i
+
+# target to preprocess a source file
+include/moc_barkhausen_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.i
+.PHONY : include/moc_barkhausen_settings.cpp.i
+
+include/moc_barkhausen_settings.s: include/moc_barkhausen_settings.cpp.s
+
+.PHONY : include/moc_barkhausen_settings.s
+
+# target to generate assembly for a file
+include/moc_barkhausen_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_barkhausen_settings.cpp.s
+.PHONY : include/moc_barkhausen_settings.cpp.s
+
 include/moc_device_description.o: include/moc_device_description.cpp.o
 
 .PHONY : include/moc_device_description.o
@@ -186,6 +240,60 @@ include/moc_device_description.cpp.s:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_device_description.cpp.s
 .PHONY : include/moc_device_description.cpp.s
 
+include/moc_hysteresis_settings.o: include/moc_hysteresis_settings.cpp.o
+
+.PHONY : include/moc_hysteresis_settings.o
+
+# target to build an object file
+include/moc_hysteresis_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.o
+.PHONY : include/moc_hysteresis_settings.cpp.o
+
+include/moc_hysteresis_settings.i: include/moc_hysteresis_settings.cpp.i
+
+.PHONY : include/moc_hysteresis_settings.i
+
+# target to preprocess a source file
+include/moc_hysteresis_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.i
+.PHONY : include/moc_hysteresis_settings.cpp.i
+
+include/moc_hysteresis_settings.s: include/moc_hysteresis_settings.cpp.s
+
+.PHONY : include/moc_hysteresis_settings.s
+
+# target to generate assembly for a file
+include/moc_hysteresis_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_hysteresis_settings.cpp.s
+.PHONY : include/moc_hysteresis_settings.cpp.s
+
+include/moc_measurement_settings.o: include/moc_measurement_settings.cpp.o
+
+.PHONY : include/moc_measurement_settings.o
+
+# target to build an object file
+include/moc_measurement_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.o
+.PHONY : include/moc_measurement_settings.cpp.o
+
+include/moc_measurement_settings.i: include/moc_measurement_settings.cpp.i
+
+.PHONY : include/moc_measurement_settings.i
+
+# target to preprocess a source file
+include/moc_measurement_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.i
+.PHONY : include/moc_measurement_settings.cpp.i
+
+include/moc_measurement_settings.s: include/moc_measurement_settings.cpp.s
+
+.PHONY : include/moc_measurement_settings.s
+
+# target to generate assembly for a file
+include/moc_measurement_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_measurement_settings.cpp.s
+.PHONY : include/moc_measurement_settings.cpp.s
+
 include/moc_settings_names.o: include/moc_settings_names.cpp.o
 
 .PHONY : include/moc_settings_names.o
@@ -212,6 +320,33 @@ include/moc_settings_names.s: include/moc_settings_names.cpp.s
 include/moc_settings_names.cpp.s:
 	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_settings_names.cpp.s
 .PHONY : include/moc_settings_names.cpp.s
+
+include/moc_signal_soure_settings.o: include/moc_signal_soure_settings.cpp.o
+
+.PHONY : include/moc_signal_soure_settings.o
+
+# target to build an object file
+include/moc_signal_soure_settings.cpp.o:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.o
+.PHONY : include/moc_signal_soure_settings.cpp.o
+
+include/moc_signal_soure_settings.i: include/moc_signal_soure_settings.cpp.i
+
+.PHONY : include/moc_signal_soure_settings.i
+
+# target to preprocess a source file
+include/moc_signal_soure_settings.cpp.i:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.i
+.PHONY : include/moc_signal_soure_settings.cpp.i
+
+include/moc_signal_soure_settings.s: include/moc_signal_soure_settings.cpp.s
+
+.PHONY : include/moc_signal_soure_settings.s
+
+# target to generate assembly for a file
+include/moc_signal_soure_settings.cpp.s:
+	cd /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug && $(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/include/moc_signal_soure_settings.cpp.s
+.PHONY : include/moc_signal_soure_settings.cpp.s
 
 include/moc_ui_settings.o: include/moc_ui_settings.cpp.o
 
@@ -358,12 +493,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... settings_autogen"
 	@echo "... settings"
+	@echo "... include/moc_B_H_settings.o"
+	@echo "... include/moc_B_H_settings.i"
+	@echo "... include/moc_B_H_settings.s"
+	@echo "... include/moc_barkhausen_settings.o"
+	@echo "... include/moc_barkhausen_settings.i"
+	@echo "... include/moc_barkhausen_settings.s"
 	@echo "... include/moc_device_description.o"
 	@echo "... include/moc_device_description.i"
 	@echo "... include/moc_device_description.s"
+	@echo "... include/moc_hysteresis_settings.o"
+	@echo "... include/moc_hysteresis_settings.i"
+	@echo "... include/moc_hysteresis_settings.s"
+	@echo "... include/moc_measurement_settings.o"
+	@echo "... include/moc_measurement_settings.i"
+	@echo "... include/moc_measurement_settings.s"
 	@echo "... include/moc_settings_names.o"
 	@echo "... include/moc_settings_names.i"
 	@echo "... include/moc_settings_names.s"
+	@echo "... include/moc_signal_soure_settings.o"
+	@echo "... include/moc_signal_soure_settings.i"
+	@echo "... include/moc_signal_soure_settings.s"
 	@echo "... include/moc_ui_settings.o"
 	@echo "... include/moc_ui_settings.i"
 	@echo "... include/moc_ui_settings.s"

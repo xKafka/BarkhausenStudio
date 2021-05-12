@@ -27,8 +27,19 @@ public:
 
     inline auto *worker() const { return m_worker.get(); }
 
+    void change_acquisition_time(double time);
+
+    void change_acquisition_pause_time(double time);
+
+
 public slots:
     void process_data();
+
+    void start_meas_sequence();
+
+    void stop_meas_sequence();
+
+    void single_meas_sequence();
 };
 
 #endif //BARKHAUSEN_STUDIO_DATA_CREATOR_H

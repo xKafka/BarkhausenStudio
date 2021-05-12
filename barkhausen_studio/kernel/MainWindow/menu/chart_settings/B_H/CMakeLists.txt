@@ -19,4 +19,4 @@ add_library(B_H_chart_settings STATIC ${sources} ${qt_moc_headers} ${qt_uic_form
 
 target_include_directories(B_H_chart_settings PRIVATE src PUBLIC include)
 
-target_link_libraries(B_H_chart_settings Qt5::Widgets Qt5::Core settings charts)
+target_link_libraries(B_H_chart_settings Qt5::Widgets Qt5::Core settings charts api_core)

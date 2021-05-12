@@ -6,3 +6,5 @@
 
 #IncludeRegexTransform: 
 
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/moc_settings_storage.cpp
+

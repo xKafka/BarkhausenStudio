@@ -7,8 +7,9 @@
 #include <B_H_chart_settings.h>
 #include <ui_B_H_chart_settings.h>
 
-BHChartSettings::BHChartSettings(QWidget *parent)
+BHChartSettings::BHChartSettings(BHChart *chart, Core *core, QWidget *parent)
     :   QWidget{ parent },
+        m_chart{ chart },
         m_ui{ std::make_unique<Ui::BHChartSettings>() }
 {
     m_ui->setupUi(this);
@@ -40,8 +41,6 @@ BHChartSettings::BHChartSettings(QWidget *parent)
 
     connect(m_ui->pushButton_cursor_x_1, &QPushButton::clicked, this, [&]()
     {
-        m_chart->view()->chart()->cursors()->move(Cursor::X_1);
-
         m_ui->pushButton_cursor_x_1->setDisabled(true);
         m_ui->pushButton_cursor_x_2->setDisabled(false);
         m_ui->pushButton_cursor_y_1->setDisabled(false);
@@ -50,8 +49,6 @@ BHChartSettings::BHChartSettings(QWidget *parent)
 
     connect(m_ui->pushButton_cursor_x_2, &QPushButton::clicked, this, [&]()
     {
-        m_chart->view()->chart()->cursors()->move(Cursor::X_2);
-
         m_ui->pushButton_cursor_x_1->setDisabled(false);
         m_ui->pushButton_cursor_x_2->setDisabled(true);
         m_ui->pushButton_cursor_y_1->setDisabled(false);
@@ -60,8 +57,6 @@ BHChartSettings::BHChartSettings(QWidget *parent)
 
     connect(m_ui->pushButton_cursor_y_1, &QPushButton::clicked, this, [&]()
     {
-        m_chart->view()->chart()->cursors()->move(Cursor::Y_1);
-
         m_ui->pushButton_cursor_x_1->setDisabled(false);
         m_ui->pushButton_cursor_x_2->setDisabled(false);
         m_ui->pushButton_cursor_y_1->setDisabled(true);
@@ -70,8 +65,6 @@ BHChartSettings::BHChartSettings(QWidget *parent)
 
     connect(m_ui->pushButton_cursor_y_2, &QPushButton::clicked, this, [&]()
     {
-        m_chart->view()->chart()->cursors()->move(Cursor::Y_2);
-
         m_ui->pushButton_cursor_x_1->setDisabled(false);
         m_ui->pushButton_cursor_x_2->setDisabled(false);
         m_ui->pushButton_cursor_y_1->setDisabled(false);
@@ -85,9 +78,9 @@ BHChartSettings::BHChartSettings(QWidget *parent)
         hide();
     });
 
-    connect(m_ui->dial_x, SIGNAL(valueChanged(int)), this, SLOT(change_timebase_val(int)));
+    connect(m_ui->dial_range, &QDial::valueChanged, this, &BHChartSettings::change_peak_to_peak);
 
-    connect(m_ui->dial_y, SIGNAL(valueChanged(int)), this, SLOT(change_y_val(int)));
+    connect(m_ui->dial_offset, &QDial::valueChanged, this, &BHChartSettings::change_timebase_val);
 }
 
 void BHChartSettings::disable_cursor_buttons()
@@ -106,31 +99,14 @@ void BHChartSettings::enable_cursor_buttons()
     m_ui->pushButton_cursor_y_2->setDisabled(false);
 }
 
-
-void BHChartSettings::change_y_val(const int val)
+void BHChartSettings::change_peak_to_peak(const int val)
 {
-    m_settings->max_y = std::to_string(val);
-
-    m_settings->settings_changed();
+    //m_chart->settings_unsafe()->change(ChartSettingName::PeakToPeak, val);
 }
 
 void BHChartSettings::change_timebase_val(const int val)
 {
-    m_settings->timebase = std::to_string(val);
 
-    m_settings->settings_changed();
-}
-
-void BHChartSettings::set_chart(BHChart *chart)
-{
-    m_chart = chart;
-}
-
-void BHChartSettings::set_chart_settings_controller(ChartSettings *settings)
-{
-    m_settings = settings;
-
-    m_chart->load_settings(m_settings);
 }
 
 BHChartSettings::~BHChartSettings()

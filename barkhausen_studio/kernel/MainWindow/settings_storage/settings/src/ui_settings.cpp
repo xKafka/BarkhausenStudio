@@ -4,93 +4,27 @@
 
 #include <ui_settings.h>
 
-void ChartSettings::brute_change(const ChartSettings &other)
+UiSettings::UiSettings()
+    :   hysteresis{ "hysteresis" },
+        barkhausen{ "barkhausen" },
+        B_H_chart{ "B_H_chart" }
 {
-    min_y = other.min_y;
-    max_y = other.max_y;
-    timebase = other.timebase;
-
-    settings_changed();
 }
 
-void ChartSettings::concat(const ChartSettings &other)
+void UiSettings::from_ini(std::string_view barkhausen_file_name,
+                          std::string_view hysteresis_file_name,
+                          std::string_view B_H_file_name)
 {
-    if(!other.min_y.empty())
-    {
-        min_y = other.min_y;
-    }
-    if(!other.max_y.empty())
-    {
-        max_y = other.max_y;
-    }
-    if(!other.timebase.empty())
-    {
-        timebase = other.timebase;
-    }
-
-    settings_changed();
+    barkhausen->from_ini(barkhausen_file_name);
+    hysteresis->from_ini(hysteresis_file_name);
+    B_H_chart->from_ini(B_H_file_name);
 }
 
-void ChartSettings::settings_changed()
+void UiSettings::to_ini_write(std::string_view barkhausen_file_name,
+                              std::string_view hysteresis_file_name,
+                              std::string_view B_H_file_name)
 {
-    emit changed();
-}
-
-void UiSettings::from_ini(std::string_view file_name)
-{
-    IniFile file(file_name);
-
-    barkhausen.min_y = file.get_value("barkhausen.min_y");
-    barkhausen.max_y = file.get_value("barkhausen.max_y");
-    barkhausen.timebase = file.get_value("barkhausen.timebase");
-
-    B_H_chart.min_y = file.get_value("B_H_chart.min_y");
-    B_H_chart.max_y = file.get_value("B_H_chart.max_y");
-    B_H_chart.timebase = file.get_value("B_H_chart.timebase");
-
-    hysteresis.min_y = file.get_value("hysteresis.min_y");
-    hysteresis.max_y = file.get_value("hysteresis.max_y");
-    hysteresis.timebase = file.get_value("hysteresis.timebase");
-}
-
-void UiSettings::to_ini_write(std::string_view file_name)
-{
-    IniFile file(file_name);
-
-    if(!barkhausen.min_y.empty())
-    {
-        file.set_value("barkhausen.min_y", barkhausen.min_y);
-    }
-    if(!barkhausen.max_y.empty())
-    {
-        file.set_value("barkhausen.max_y", barkhausen.max_y);
-    }
-    if(!barkhausen.timebase.empty())
-    {
-        file.set_value("barkhausen.timebase", barkhausen.timebase);
-    }
-    if(!B_H_chart.min_y.empty())
-    {
-        file.set_value("B_H_chart.min_y", B_H_chart.min_y);
-    }
-    if(!B_H_chart.max_y.empty())
-    {
-        file.set_value("B_H_chart.max_y", B_H_chart.max_y);
-    }
-    if(!B_H_chart.timebase.empty())
-    {
-        file.set_value("B_H_chart.timebase", B_H_chart.timebase);
-    }
-    if(!hysteresis.min_y.empty())
-    {
-        file.set_value("hysteresis.min_y", hysteresis.min_y);
-    }
-    if(!hysteresis.max_y.empty())
-    {
-        file.set_value("hysteresis.max_y", hysteresis.max_y);
-    }
-    if(!hysteresis.timebase.empty())
-    {
-        file.set_value("hysteresis.timebase", hysteresis.timebase);
-    }
+    barkhausen->to_ini_write(barkhausen_file_name);
+    hysteresis->to_ini_write(hysteresis_file_name);
+    B_H_chart->to_ini_write(B_H_file_name);
 }

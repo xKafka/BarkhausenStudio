@@ -107,7 +107,8 @@
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_base.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chartwindow.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h"
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,

@@ -7,34 +7,45 @@
 
 #include <QWidget>
 #include <barkhausen_chart.h>
+#include <mem_types.h>
+#include <core.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class BarkhausenChartSettings; }
 QT_END_NAMESPACE
 
-class BarkhausenChartSettings : public QWidget {
-Q_OBJECT
+class BarkhausenChartSettings : public QWidget
+{
+    Q_OBJECT
+
+    ReadWriteRef<DataCreator> m_d_creator;
 
     BarkhausenChart *m_chart;
 
-    ChartSettings *m_settings;
+    struct DialValue
+    {
+        int amplitude, ampl_offset, timebase, timebase_offset;
+    };
+
+    DialValue m_dial_prev;
 
     void disable_cursor_buttons();
 
     void enable_cursor_buttons();
 
 public:
-    explicit BarkhausenChartSettings(QWidget *parent = nullptr);
+    explicit BarkhausenChartSettings(BarkhausenChart *chart, Core *core, QWidget *parent = nullptr);
 
     ~BarkhausenChartSettings() override;
 
-    void set_chart(BarkhausenChart *chart);
-
-    void set_chart_settings_controller(ChartSettings *settings);
-
 public slots:
-    void change_y_val(const int val);
-    void change_timebase_val(const int val);
+    void change_timebase(int value);
+
+    void change_timebase_offset(int value);
+
+    void change_amplitude(int value);
+
+    void change_amplitude_offset(int value);
 
 private:
     std::unique_ptr<Ui::BarkhausenChartSettings> m_ui;

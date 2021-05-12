@@ -32,25 +32,35 @@ void ChartWindow::setup()
 
 void ChartWindow::set_resize_factor(const QRect &geo)
 {
+    m_original_geometry = geometry();
+
     m_after_double_click_geometry = geo;
+
+    m_view_base->chart()->cursors()->set_resize_factor(geo);
 }
 
 void ChartWindow::mouseDoubleClickEvent(QMouseEvent *event)
 {
-    emit double_clicked();
-
     if(is_resized())
     {
         setGeometry(m_original_geometry);
+
+        m_view_base->chart()->cursors()->resize_to_small();
     }
     else
     {
         m_original_geometry = geometry();
 
         setGeometry(m_after_double_click_geometry);
+
+        m_view_base->chart()->cursors()->resize_to_big();
+
+        raise();
     }
 
     m_resized = !m_resized;
+
+    QWidget::mouseDoubleClickEvent(event);
 }
 
 ChartWindow::~ChartWindow()

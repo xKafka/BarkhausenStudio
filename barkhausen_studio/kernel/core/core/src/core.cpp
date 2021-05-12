@@ -8,11 +8,8 @@ Core::Core()
     :   m_settings_storage{ },
         m_buffer{ },
         m_device_finder{  },
-        m_device{ m_settings_storage, m_buffer },
         m_data_creator{ m_settings_storage ,m_buffer }
 {
-    connect(m_device.get(), &MeasurementDeviceHolder::new_data_available, m_data_creator->worker(), &DataCreatorWorker::process_data);
-
     connect(m_settings_storage->usbtmc_settings.get(), &UsbtmcSettings::changed, this, [&]()
     {
         start_meas_sequence();
@@ -26,15 +23,15 @@ Core::Core()
 
 void Core::start_meas_sequence()
 {
-    m_device->start_continuous_acq();
+    m_data_creator->start_meas_sequence();
 }
 
 void Core::stop_meas_sequence()
 {
-    m_device->stop_continuous_acq();
+    m_data_creator->stop_meas_sequence();
 }
 
 void Core::single_meas_sequence()
 {
-    m_device->single_shot();
+    m_data_creator->single_meas_sequence();
 }

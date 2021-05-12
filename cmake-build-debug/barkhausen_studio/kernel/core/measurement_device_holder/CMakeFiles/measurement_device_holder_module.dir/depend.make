@@ -3,8 +3,13 @@
 
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_data_parser.cpp.o: barkhausen_studio/kernel/core/measurement_device_holder/include/moc_data_parser.cpp
 
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -26,11 +31,11 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/include/measurement_device_holder.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: barkhausen_studio/kernel/core/measurement_device_holder/include/moc_measurement_device_holder.cpp
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
-barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/include/moc_measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -109,9 +114,9 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: ../barkhausen_studio/kernel/core/data_buffer/include/ui_data.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/include/data_parser.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/src/data_parser.cpp
-barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -161,10 +166,16 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/data_parser.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
@@ -187,11 +198,11 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: ../barkhausen_studio/kernel/core/measurement_device_holder/src/measurement_device_holder.cpp
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
-barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/src/measurement_device_holder.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h

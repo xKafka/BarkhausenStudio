@@ -17,6 +17,8 @@ device_finder.h
 -
 core.h
 -
+measurement_device_holder.h
+-
 
 ../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
 QWidget
@@ -32,10 +34,38 @@ device_finder.h
 core.h
 -
 
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+typeindex
+-
+any
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
 string
 -
 nlohmann/json.hpp
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
@@ -45,7 +75,15 @@ QObject
 -
 ini_file.h
 -
+mem_types.h
+-
 nlohmann/json.hpp
+-
+hysteresis_settings.h
+-
+B_H_settings.h
+-
+barkhausen_settings.h
 -
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
@@ -136,6 +174,8 @@ measurement_device_holder.h
 settings_storage.h
 -
 mem_types.h
+-
+chrono
 -
 
 ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
@@ -252,10 +292,32 @@ sstream
 type_traits
 -
 
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+QWidget
+-
+memory
+-
+meas_device_settings.h
+-
+settings_storage.h
+-
+device_finder.h
+-
+core.h
+-
+
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/src/measurement_settings.cpp
 measurement_settings.h
 -
 ui_measurement_settings.h
+-
+
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/moc_measurement_settings.cpp
+../../../../../../../../barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_settings/window/include/measurement_settings.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir

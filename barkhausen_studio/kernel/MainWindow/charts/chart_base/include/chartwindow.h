@@ -54,14 +54,9 @@ public:
 
     void set_resize_factor(const QRect &geo);
 
-    void reload_settings();
-
     [[nodiscard]] inline auto is_resized() const { return m_resized; }
 
     [[nodiscard]] inline auto *view() const { return m_view_base; }
-
-signals:
-    void double_clicked();
 };
 
 #endif //BARKHAUSEN_STUDIO_CHARTWINDOW_H

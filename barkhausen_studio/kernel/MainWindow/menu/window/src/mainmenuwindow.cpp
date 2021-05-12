@@ -8,12 +8,13 @@
 #include "mainmenuwindow.h"
 #include "ui_MainMenuWindow.h"
 
-MainMenuWindow::MainMenuWindow(Core *core, QWidget *parent)
+MainMenuWindow::MainMenuWindow(Core *core, HysteresisChart *hy_ch, BarkhausenChart *ba_ch, BHChart *B_H_chart, QWidget *parent)
     :   QWidget{ parent },
         m_dev_finder{ core->device_finder_unsafe() },
+        m_core{ core },
         m_ui{ std::make_unique<Ui::MainMenuWindow>() },
-        m_chart_settings_menu{std::make_unique<ChartSettingsMenu>(this) },
-        m_mes_settings_menu{ std::make_unique<MeasurementSettings>(core, this) }
+        m_chart_settings_menu{std::make_unique<ChartSettingsMenu>(hy_ch, ba_ch, B_H_chart, core, this) },
+        m_mes_settings_menu{ std::make_unique<MeasurementSettingsWindow>(core, this) }
 {
     m_ui->setupUi(this);
 
@@ -32,7 +33,7 @@ MainMenuWindow::MainMenuWindow(Core *core, QWidget *parent)
         show();
     });
 
-    connect(m_mes_settings_menu.get(), &MeasurementSettings::back_clicked, this, [&]()
+    connect(m_mes_settings_menu.get(), &MeasurementSettingsWindow::back_clicked, this, [&]()
     {
         swap_widgets(m_mes_settings_menu.get(), this);
 
@@ -87,7 +88,7 @@ void MainMenuWindow::start_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        emit start();
+        m_core->start_meas_sequence();
 
         m_ui->pushButton_measurement_start->setDisabled(true);
         m_ui->pushButton_measurement_stop->setDisabled(false);
@@ -100,7 +101,7 @@ void MainMenuWindow::stop_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        emit stop();
+        m_core->stop_meas_sequence();
 
         m_ui->pushButton_measurement_start->setDisabled(false);
         m_ui->pushButton_measurement_stop->setDisabled(true);
@@ -113,7 +114,7 @@ void MainMenuWindow::single_shot_measurement()
 {
     if(m_dev_finder->usbtmc_available())
     {
-        emit single_shot();
+       m_core->single_meas_sequence();
     }
     else
         devices_not_available_window();
