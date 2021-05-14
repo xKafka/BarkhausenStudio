@@ -9,7 +9,7 @@
 #include <mem_types.h>
 #include <settings_storage.h>
 #include <state_changing_dial.h>
-#include <ui_settings.h>
+#include "../../settings_storage/settings/ui/ui_settings.h"
 #include <utils.h>
 
 class BarkhausenChart : public ChartWindow

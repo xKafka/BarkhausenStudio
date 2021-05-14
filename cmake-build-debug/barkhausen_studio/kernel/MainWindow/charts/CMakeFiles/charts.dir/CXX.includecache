@@ -6,5 +6,9 @@
 
 #IncludeRegexTransform: 
 
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/include/moc_B_H_chart.cpp
+
 /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/include/moc_barkhausen_chart.cpp
+
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/include/moc_hysteresis_chart.cpp
 

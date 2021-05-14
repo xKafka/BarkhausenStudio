@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1434</width>
-    <height>1080</height>
+    <width>1757</width>
+    <height>1566</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -68,41 +68,14 @@
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
          <layout class="QGridLayout" name="gridLayout_2">
-          <item row="0" column="0">
-           <widget class="QLabel" name="label_4">
-            <property name="text">
-             <string>Amplitude:</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
+          <item row="1" column="1">
            <widget class="QLabel" name="label_amplitude">
             <property name="text">
              <string>0.0</string>
             </property>
            </widget>
           </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_5">
-            <property name="text">
-             <string>Frequency:</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLabel" name="label_frequency">
-            <property name="text">
-             <string>0.0</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
+          <item row="3" column="0">
            <widget class="QLabel" name="label_6">
             <property name="text">
              <string>Offset:</string>
@@ -112,12 +85,45 @@
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Amplitude:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
            <widget class="QLabel" name="label_offset">
             <property name="text">
              <string>0.0</string>
             </property>
            </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Frequency:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="label_frequency">
+            <property name="text">
+             <string>0.0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QComboBox" name="comboBox_source_resource"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_source_port"/>
           </item>
          </layout>
         </item>
@@ -129,6 +135,55 @@
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
                <layout class="QGridLayout" name="gridLayout">
+                <item row="1" column="0">
+                 <widget class="StateChangingDial" name="dial_frequency"/>
+                </item>
+                <item row="1" column="1">
+                 <widget class="StateChangingDial" name="dial_amplitude"/>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="label_amplitude_state">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="StateChangingDial" name="dial_shift"/>
+                </item>
+                <item row="3" column="2">
+                 <widget class="QLabel" name="label_shift">
+                  <property name="text">
+                   <string>Offset</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="2">
+                 <widget class="QLabel" name="label_offset_state">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="label_frequency_state">
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
                 <item row="3" column="0">
                  <widget class="QLabel" name="label">
                   <property name="sizePolicy">
@@ -144,22 +199,6 @@
                    <set>Qt::AlignCenter</set>
                   </property>
                  </widget>
-                </item>
-                <item row="1" column="0">
-                 <widget class="StateChangingDial" name="dial_frequency"/>
-                </item>
-                <item row="3" column="2">
-                 <widget class="QLabel" name="label_shift">
-                  <property name="text">
-                   <string>Offset</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item row="1" column="1">
-                 <widget class="StateChangingDial" name="dial_amplitude"/>
                 </item>
                 <item row="3" column="1">
                  <widget class="QLabel" name="label_2">
@@ -177,40 +216,28 @@
                   </property>
                  </widget>
                 </item>
-                <item row="1" column="2">
-                 <widget class="StateChangingDial" name="dial_shift"/>
-                </item>
-                <item row="2" column="0">
-                 <widget class="QLabel" name="label_frequency_state">
-                  <property name="text">
-                   <string>TextLabel</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item row="2" column="1">
-                 <widget class="QLabel" name="label_amplitude_state">
-                  <property name="text">
-                   <string>TextLabel</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item row="2" column="2">
-                 <widget class="QLabel" name="label_offset_state">
-                  <property name="text">
-                   <string>TextLabel</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
                </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="horizontalSlider">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_sin">
@@ -264,6 +291,19 @@
                 </property>
                </widget>
               </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_active_out">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Out On</string>
+                </property>
+               </widget>
+              </item>
              </layout>
             </item>
            </layout>
@@ -286,7 +326,7 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>20</width>
-       <height>1000</height>
+       <height>1300</height>
       </size>
      </property>
     </spacer>
@@ -419,7 +459,7 @@ measurements: [s]:</string>
    <item row="1" column="0">
     <widget class="QPushButton" name="pushButton_back">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -436,7 +476,7 @@ measurements: [s]:</string>
      </property>
      <widget class="QPushButton" name="pushButton_save_signal_settings">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
@@ -448,7 +488,7 @@ Settings</string>
      </widget>
      <widget class="QPushButton" name="pushButton_save_mearuement_settings">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>

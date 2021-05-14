@@ -16,7 +16,7 @@ DataCreatorWorker::DataCreatorWorker(SharedData<SettingsStorage> &settings_stora
 {
     connect(m_device.get(), &MeasurementDeviceHolder::new_data_available, this, &DataCreatorWorker::process_data);
 
-    connect(m_settings->usbtmc_settings.get(), &UsbtmcSettings::changed, this, [&](){ load_settings(); });
+    connect(m_settings->meas_dev_settings.get(), &MeasurementDeviceSettings::changed, this, [&](){ load_settings(); });
 
     connect(m_settings->measurement_settings.get(), &MeasurementSettings::changed, this, [&](){ load_settings(); });
 
@@ -28,8 +28,8 @@ void DataCreatorWorker::load_settings()
     m_device->stop_continuous_acq();
     m_source->deactivate_output();
 
-    m_acq_settings.max_points_per_chunk = m_settings->usbtmc_settings->get<std::size_t>(UsbtmcSettingName::MaxPointsPerChunk);
-    m_acq_settings.sample_rate = m_settings->usbtmc_settings->get<double>(UsbtmcSettingName::SampleRate);
+    m_acq_settings.max_points_per_chunk = m_settings->meas_dev_settings->get<std::size_t>(MeasDeviceSetting::MaxPointsPerChunk);
+    m_acq_settings.sample_rate = m_settings->meas_dev_settings->get<double>(MeasDeviceSetting::SampleRate);
     m_acq_settings.single_acq_time = (1.0 / m_acq_settings.sample_rate) * static_cast<double>(m_acq_settings.max_points_per_chunk);
     m_acq_settings.time_step = 1.0 / m_acq_settings.sample_rate;
 

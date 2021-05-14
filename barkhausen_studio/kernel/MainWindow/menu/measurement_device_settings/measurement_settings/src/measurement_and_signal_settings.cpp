@@ -76,7 +76,7 @@ MeasurementAndSignalSettings::MeasurementAndSignalSettings(Core *core, QWidget *
     m_triangle.data = create_vector_of_func_data(triangle_func, standard_period, m_values.amplitude.current, size_of_chart_data);
     m_square.data = create_vector_of_func_data(square_func, standard_period, m_values.amplitude.current, size_of_chart_data);
 
-    init(m_source->settings()->get(SignalSourceSetting::WaveType));
+    init(m_source->settings()->get(SignalSourceSetting::Wave));
 
     m_ui->widget_input_chart->view()->set_x_range(0.0, standard_period);
     m_ui->widget_input_chart->view()->set_y_range(m_values.chart_min, m_values.chart_max);
@@ -100,6 +100,11 @@ MeasurementAndSignalSettings::MeasurementAndSignalSettings(Core *core, QWidget *
     m_ui->label_offset_state->setText(state_name[m_ui->dial_shift->state()]);
 
     m_ui->widget_input_chart->setMouseTracking(true);
+
+    connect(m_ui->pushButton_active_out, &QPushButton::clicked, this, [&]()
+    {
+        m_source->active_output();
+    });
 
     connect(m_ui->pushButton_sin, &QPushButton::clicked, this, [&]()
     {

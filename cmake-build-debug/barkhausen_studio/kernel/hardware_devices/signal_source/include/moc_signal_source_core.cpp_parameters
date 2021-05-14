@@ -1,0 +1,5 @@
+-I/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source
+-I/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source
+-o
+/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/include/moc_signal_source_core.cpp
+/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include/signal_source_core.h

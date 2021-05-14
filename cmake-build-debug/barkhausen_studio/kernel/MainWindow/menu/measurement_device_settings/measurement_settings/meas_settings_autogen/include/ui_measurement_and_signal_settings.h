@@ -11,12 +11,14 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QDial>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSplitter>
 #include <QtWidgets/QVBoxLayout>
@@ -38,29 +40,35 @@ public:
     QSpacerItem *horizontalSpacer;
     QVBoxLayout *verticalLayout_2;
     QGridLayout *gridLayout_2;
-    QLabel *label_4;
     QLabel *label_amplitude;
+    QLabel *label_6;
+    QLabel *label_4;
+    QLabel *label_offset;
     QLabel *label_5;
     QLabel *label_frequency;
-    QLabel *label_6;
-    QLabel *label_offset;
+    QComboBox *comboBox_source_resource;
+    QComboBox *comboBox_source_port;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout_4;
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
-    QLabel *label;
     StateChangingDial *dial_frequency;
-    QLabel *label_shift;
     StateChangingDial *dial_amplitude;
-    QLabel *label_2;
-    StateChangingDial *dial_shift;
-    QLabel *label_frequency_state;
     QLabel *label_amplitude_state;
+    StateChangingDial *dial_shift;
+    QLabel *label_shift;
     QLabel *label_offset_state;
+    QLabel *label_frequency_state;
+    QLabel *label;
+    QLabel *label_2;
+    QLabel *label_7;
+    QSlider *horizontalSlider;
+    QLabel *label_8;
     QPushButton *pushButton_sin;
     QPushButton *pushButton_triangle;
     QPushButton *pushButton_square;
     QPushButton *pushButton_custom;
+    QPushButton *pushButton_active_out;
     QSpacerItem *verticalSpacer_2;
     QSplitter *splitter;
     QFrame *frame_mes_settings;
@@ -87,7 +95,7 @@ public:
     {
         if (MeasurementAndSignalSettings->objectName().isEmpty())
             MeasurementAndSignalSettings->setObjectName(QString::fromUtf8("MeasurementAndSignalSettings"));
-        MeasurementAndSignalSettings->resize(1434, 1080);
+        MeasurementAndSignalSettings->resize(1757, 1566);
         gridLayout_5 = new QGridLayout(MeasurementAndSignalSettings);
         gridLayout_5->setObjectName(QString::fromUtf8("gridLayout_5"));
         frame_signal_source = new QFrame(MeasurementAndSignalSettings);
@@ -120,38 +128,48 @@ public:
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         gridLayout_2 = new QGridLayout();
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        label_4 = new QLabel(frame_signal_source);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setAlignment(Qt::AlignCenter);
-
-        gridLayout_2->addWidget(label_4, 0, 0, 1, 1);
-
         label_amplitude = new QLabel(frame_signal_source);
         label_amplitude->setObjectName(QString::fromUtf8("label_amplitude"));
 
-        gridLayout_2->addWidget(label_amplitude, 0, 1, 1, 1);
-
-        label_5 = new QLabel(frame_signal_source);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setAlignment(Qt::AlignCenter);
-
-        gridLayout_2->addWidget(label_5, 1, 0, 1, 1);
-
-        label_frequency = new QLabel(frame_signal_source);
-        label_frequency->setObjectName(QString::fromUtf8("label_frequency"));
-
-        gridLayout_2->addWidget(label_frequency, 1, 1, 1, 1);
+        gridLayout_2->addWidget(label_amplitude, 1, 1, 1, 1);
 
         label_6 = new QLabel(frame_signal_source);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setAlignment(Qt::AlignCenter);
 
-        gridLayout_2->addWidget(label_6, 2, 0, 1, 1);
+        gridLayout_2->addWidget(label_6, 3, 0, 1, 1);
+
+        label_4 = new QLabel(frame_signal_source);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setAlignment(Qt::AlignCenter);
+
+        gridLayout_2->addWidget(label_4, 1, 0, 1, 1);
 
         label_offset = new QLabel(frame_signal_source);
         label_offset->setObjectName(QString::fromUtf8("label_offset"));
 
-        gridLayout_2->addWidget(label_offset, 2, 1, 1, 1);
+        gridLayout_2->addWidget(label_offset, 3, 1, 1, 1);
+
+        label_5 = new QLabel(frame_signal_source);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setAlignment(Qt::AlignCenter);
+
+        gridLayout_2->addWidget(label_5, 2, 0, 1, 1);
+
+        label_frequency = new QLabel(frame_signal_source);
+        label_frequency->setObjectName(QString::fromUtf8("label_frequency"));
+
+        gridLayout_2->addWidget(label_frequency, 2, 1, 1, 1);
+
+        comboBox_source_resource = new QComboBox(frame_signal_source);
+        comboBox_source_resource->setObjectName(QString::fromUtf8("comboBox_source_resource"));
+
+        gridLayout_2->addWidget(comboBox_source_resource, 0, 0, 1, 1);
+
+        comboBox_source_port = new QComboBox(frame_signal_source);
+        comboBox_source_port->setObjectName(QString::fromUtf8("comboBox_source_port"));
+
+        gridLayout_2->addWidget(comboBox_source_port, 0, 1, 1, 1);
 
 
         verticalLayout_2->addLayout(gridLayout_2);
@@ -164,6 +182,45 @@ public:
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         gridLayout = new QGridLayout();
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        dial_frequency = new StateChangingDial(frame_signal_source);
+        dial_frequency->setObjectName(QString::fromUtf8("dial_frequency"));
+
+        gridLayout->addWidget(dial_frequency, 1, 0, 1, 1);
+
+        dial_amplitude = new StateChangingDial(frame_signal_source);
+        dial_amplitude->setObjectName(QString::fromUtf8("dial_amplitude"));
+
+        gridLayout->addWidget(dial_amplitude, 1, 1, 1, 1);
+
+        label_amplitude_state = new QLabel(frame_signal_source);
+        label_amplitude_state->setObjectName(QString::fromUtf8("label_amplitude_state"));
+        label_amplitude_state->setAlignment(Qt::AlignCenter);
+
+        gridLayout->addWidget(label_amplitude_state, 2, 1, 1, 1);
+
+        dial_shift = new StateChangingDial(frame_signal_source);
+        dial_shift->setObjectName(QString::fromUtf8("dial_shift"));
+
+        gridLayout->addWidget(dial_shift, 1, 2, 1, 1);
+
+        label_shift = new QLabel(frame_signal_source);
+        label_shift->setObjectName(QString::fromUtf8("label_shift"));
+        label_shift->setAlignment(Qt::AlignCenter);
+
+        gridLayout->addWidget(label_shift, 3, 2, 1, 1);
+
+        label_offset_state = new QLabel(frame_signal_source);
+        label_offset_state->setObjectName(QString::fromUtf8("label_offset_state"));
+        label_offset_state->setAlignment(Qt::AlignCenter);
+
+        gridLayout->addWidget(label_offset_state, 2, 2, 1, 1);
+
+        label_frequency_state = new QLabel(frame_signal_source);
+        label_frequency_state->setObjectName(QString::fromUtf8("label_frequency_state"));
+        label_frequency_state->setAlignment(Qt::AlignCenter);
+
+        gridLayout->addWidget(label_frequency_state, 2, 0, 1, 1);
+
         label = new QLabel(frame_signal_source);
         label->setObjectName(QString::fromUtf8("label"));
         QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Minimum);
@@ -174,22 +231,6 @@ public:
         label->setAlignment(Qt::AlignCenter);
 
         gridLayout->addWidget(label, 3, 0, 1, 1);
-
-        dial_frequency = new StateChangingDial(frame_signal_source);
-        dial_frequency->setObjectName(QString::fromUtf8("dial_frequency"));
-
-        gridLayout->addWidget(dial_frequency, 1, 0, 1, 1);
-
-        label_shift = new QLabel(frame_signal_source);
-        label_shift->setObjectName(QString::fromUtf8("label_shift"));
-        label_shift->setAlignment(Qt::AlignCenter);
-
-        gridLayout->addWidget(label_shift, 3, 2, 1, 1);
-
-        dial_amplitude = new StateChangingDial(frame_signal_source);
-        dial_amplitude->setObjectName(QString::fromUtf8("dial_amplitude"));
-
-        gridLayout->addWidget(dial_amplitude, 1, 1, 1, 1);
 
         label_2 = new QLabel(frame_signal_source);
         label_2->setObjectName(QString::fromUtf8("label_2"));
@@ -202,31 +243,24 @@ public:
 
         gridLayout->addWidget(label_2, 3, 1, 1, 1);
 
-        dial_shift = new StateChangingDial(frame_signal_source);
-        dial_shift->setObjectName(QString::fromUtf8("dial_shift"));
-
-        gridLayout->addWidget(dial_shift, 1, 2, 1, 1);
-
-        label_frequency_state = new QLabel(frame_signal_source);
-        label_frequency_state->setObjectName(QString::fromUtf8("label_frequency_state"));
-        label_frequency_state->setAlignment(Qt::AlignCenter);
-
-        gridLayout->addWidget(label_frequency_state, 2, 0, 1, 1);
-
-        label_amplitude_state = new QLabel(frame_signal_source);
-        label_amplitude_state->setObjectName(QString::fromUtf8("label_amplitude_state"));
-        label_amplitude_state->setAlignment(Qt::AlignCenter);
-
-        gridLayout->addWidget(label_amplitude_state, 2, 1, 1, 1);
-
-        label_offset_state = new QLabel(frame_signal_source);
-        label_offset_state->setObjectName(QString::fromUtf8("label_offset_state"));
-        label_offset_state->setAlignment(Qt::AlignCenter);
-
-        gridLayout->addWidget(label_offset_state, 2, 2, 1, 1);
-
 
         verticalLayout_3->addLayout(gridLayout);
+
+        label_7 = new QLabel(frame_signal_source);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+
+        verticalLayout_3->addWidget(label_7);
+
+        horizontalSlider = new QSlider(frame_signal_source);
+        horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
+        horizontalSlider->setOrientation(Qt::Horizontal);
+
+        verticalLayout_3->addWidget(horizontalSlider);
+
+        label_8 = new QLabel(frame_signal_source);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+
+        verticalLayout_3->addWidget(label_8);
 
         pushButton_sin = new QPushButton(frame_signal_source);
         pushButton_sin->setObjectName(QString::fromUtf8("pushButton_sin"));
@@ -259,6 +293,13 @@ public:
 
         verticalLayout_3->addWidget(pushButton_custom);
 
+        pushButton_active_out = new QPushButton(frame_signal_source);
+        pushButton_active_out->setObjectName(QString::fromUtf8("pushButton_active_out"));
+        sizePolicy.setHeightForWidth(pushButton_active_out->sizePolicy().hasHeightForWidth());
+        pushButton_active_out->setSizePolicy(sizePolicy);
+
+        verticalLayout_3->addWidget(pushButton_active_out);
+
 
         verticalLayout_4->addLayout(verticalLayout_3);
 
@@ -274,7 +315,7 @@ public:
 
         gridLayout_5->addWidget(frame_signal_source, 0, 0, 1, 1);
 
-        verticalSpacer_2 = new QSpacerItem(20, 1000, QSizePolicy::Minimum, QSizePolicy::Fixed);
+        verticalSpacer_2 = new QSpacerItem(20, 1300, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
         gridLayout_5->addItem(verticalSpacer_2, 0, 1, 1, 1);
 
@@ -367,8 +408,11 @@ public:
 
         pushButton_back = new QPushButton(MeasurementAndSignalSettings);
         pushButton_back->setObjectName(QString::fromUtf8("pushButton_back"));
-        sizePolicy.setHeightForWidth(pushButton_back->sizePolicy().hasHeightForWidth());
-        pushButton_back->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy5(QSizePolicy::Expanding, QSizePolicy::MinimumExpanding);
+        sizePolicy5.setHorizontalStretch(0);
+        sizePolicy5.setVerticalStretch(0);
+        sizePolicy5.setHeightForWidth(pushButton_back->sizePolicy().hasHeightForWidth());
+        pushButton_back->setSizePolicy(sizePolicy5);
 
         gridLayout_5->addWidget(pushButton_back, 1, 0, 1, 1);
 
@@ -377,16 +421,16 @@ public:
         splitter_2->setOrientation(Qt::Horizontal);
         pushButton_save_signal_settings = new QPushButton(splitter_2);
         pushButton_save_signal_settings->setObjectName(QString::fromUtf8("pushButton_save_signal_settings"));
-        QSizePolicy sizePolicy5(QSizePolicy::MinimumExpanding, QSizePolicy::Expanding);
-        sizePolicy5.setHorizontalStretch(0);
-        sizePolicy5.setVerticalStretch(0);
-        sizePolicy5.setHeightForWidth(pushButton_save_signal_settings->sizePolicy().hasHeightForWidth());
-        pushButton_save_signal_settings->setSizePolicy(sizePolicy5);
+        QSizePolicy sizePolicy6(QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
+        sizePolicy6.setHorizontalStretch(0);
+        sizePolicy6.setVerticalStretch(0);
+        sizePolicy6.setHeightForWidth(pushButton_save_signal_settings->sizePolicy().hasHeightForWidth());
+        pushButton_save_signal_settings->setSizePolicy(sizePolicy6);
         splitter_2->addWidget(pushButton_save_signal_settings);
         pushButton_save_mearuement_settings = new QPushButton(splitter_2);
         pushButton_save_mearuement_settings->setObjectName(QString::fromUtf8("pushButton_save_mearuement_settings"));
-        sizePolicy5.setHeightForWidth(pushButton_save_mearuement_settings->sizePolicy().hasHeightForWidth());
-        pushButton_save_mearuement_settings->setSizePolicy(sizePolicy5);
+        sizePolicy6.setHeightForWidth(pushButton_save_mearuement_settings->sizePolicy().hasHeightForWidth());
+        pushButton_save_mearuement_settings->setSizePolicy(sizePolicy6);
         splitter_2->addWidget(pushButton_save_mearuement_settings);
 
         gridLayout_5->addWidget(splitter_2, 1, 2, 1, 1);
@@ -400,22 +444,25 @@ public:
     void retranslateUi(QWidget *MeasurementAndSignalSettings)
     {
         MeasurementAndSignalSettings->setWindowTitle(QApplication::translate("MeasurementAndSignalSettings", "MeasurementAndSignalSettings", nullptr));
-        label_4->setText(QApplication::translate("MeasurementAndSignalSettings", "Amplitude:", nullptr));
         label_amplitude->setText(QApplication::translate("MeasurementAndSignalSettings", "0.0", nullptr));
+        label_6->setText(QApplication::translate("MeasurementAndSignalSettings", "Offset:", nullptr));
+        label_4->setText(QApplication::translate("MeasurementAndSignalSettings", "Amplitude:", nullptr));
+        label_offset->setText(QApplication::translate("MeasurementAndSignalSettings", "0.0", nullptr));
         label_5->setText(QApplication::translate("MeasurementAndSignalSettings", "Frequency:", nullptr));
         label_frequency->setText(QApplication::translate("MeasurementAndSignalSettings", "0.0", nullptr));
-        label_6->setText(QApplication::translate("MeasurementAndSignalSettings", "Offset:", nullptr));
-        label_offset->setText(QApplication::translate("MeasurementAndSignalSettings", "0.0", nullptr));
-        label->setText(QApplication::translate("MeasurementAndSignalSettings", "Frequency", nullptr));
-        label_shift->setText(QApplication::translate("MeasurementAndSignalSettings", "Offset", nullptr));
-        label_2->setText(QApplication::translate("MeasurementAndSignalSettings", "Amplitude", nullptr));
-        label_frequency_state->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
         label_amplitude_state->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
+        label_shift->setText(QApplication::translate("MeasurementAndSignalSettings", "Offset", nullptr));
         label_offset_state->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
+        label_frequency_state->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
+        label->setText(QApplication::translate("MeasurementAndSignalSettings", "Frequency", nullptr));
+        label_2->setText(QApplication::translate("MeasurementAndSignalSettings", "Amplitude", nullptr));
+        label_7->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
+        label_8->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
         pushButton_sin->setText(QApplication::translate("MeasurementAndSignalSettings", "Sin", nullptr));
         pushButton_triangle->setText(QApplication::translate("MeasurementAndSignalSettings", "Triangle", nullptr));
         pushButton_square->setText(QApplication::translate("MeasurementAndSignalSettings", "Square", nullptr));
         pushButton_custom->setText(QApplication::translate("MeasurementAndSignalSettings", "Custom", nullptr));
+        pushButton_active_out->setText(QApplication::translate("MeasurementAndSignalSettings", "Out On", nullptr));
         label_measurement_pause->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
         label_acq_time_dial_state->setText(QApplication::translate("MeasurementAndSignalSettings", "TextLabel", nullptr));
         label_10->setText(QApplication::translate("MeasurementAndSignalSettings", "Acquisition time [s]:", nullptr));

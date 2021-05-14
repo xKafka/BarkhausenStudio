@@ -1,1 +1,4 @@
 add_subdirectory(measurement_device)
+add_subdirectory(usbtmc)
+add_subdirectory(usbtmc_device_finder)
+add_subdirectory(signal_source)

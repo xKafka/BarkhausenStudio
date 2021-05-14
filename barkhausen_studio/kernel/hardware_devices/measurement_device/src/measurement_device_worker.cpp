@@ -5,10 +5,9 @@
 
 #include <measurement_device_worker.h>
 #include <settings_names.h>
-
 #include <QDebug>
 
-MeasurementDeviceWorker::MeasurementDeviceWorker(SharedData<UsbtmcSettings> &usbtmc_settings, QObject *parent)
+MeasurementDeviceWorker::MeasurementDeviceWorker(SharedData<MeasurementDeviceSettings> &usbtmc_settings, QObject *parent)
         :   QObject{ parent },
             m_settings_ref{ usbtmc_settings },
             m_core{ std::make_unique<MeasurementDeviceCore>(usbtmc_settings) },
@@ -91,13 +90,13 @@ void MeasurementDeviceWorker::std_preset()
 
     qDebug() << "ROUT:ENAB 1, (@101,102,103,104)\n";
 
-    const auto &voltage_range = m_settings_ref->get(UsbtmcSettingName::VoltageRange);
+    const auto &voltage_range = m_settings_ref->get(MeasDeviceSetting::VoltageRange);
 
-    const std::string polarity = m_settings_ref->get(UsbtmcSettingName::Polarity);
+    const std::string polarity = m_settings_ref->get(MeasDeviceSetting::Polarity);
 
-    const std::string sample_rate = m_settings_ref->get(UsbtmcSettingName::SampleRate);
+    const std::string sample_rate = m_settings_ref->get(MeasDeviceSetting::SampleRate);
 
-    const std::string points_per_chunk = m_settings_ref->get(UsbtmcSettingName::PointsPerChunk);
+    const std::string points_per_chunk = m_settings_ref->get(MeasDeviceSetting::PointsPerChunk);
 
     m_core->send_command("ROUT:CHAN:RANG " + voltage_range + ",(@101,102,103,104)\n");
 

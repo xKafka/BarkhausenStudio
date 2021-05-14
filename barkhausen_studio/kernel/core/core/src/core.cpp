@@ -10,12 +10,12 @@ Core::Core()
         m_device_finder{  },
         m_data_creator{ m_settings_storage ,m_buffer }
 {
-    connect(m_settings_storage->usbtmc_settings.get(), &UsbtmcSettings::changed, this, [&]()
+    connect(m_settings_storage->meas_dev_settings.get(), &MeasurementDeviceSettings::changed, this, [&]()
     {
         start_meas_sequence();
     });
 
-    connect(m_settings_storage->usbtmc_settings.get(), &UsbtmcSettings::changed, this, [&]()
+    connect(m_settings_storage->meas_dev_settings.get(), &MeasurementDeviceSettings::changed, this, [&]()
     {
         stop_meas_sequence();
     });

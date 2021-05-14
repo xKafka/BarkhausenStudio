@@ -9,6 +9,7 @@
 #include <mem_types.h>
 #include <settings_storage.h>
 #include <data_buffer.h>
+#include <signal_source_core.h>
 
 class SignalSourceHolder: public QObject
 {
@@ -16,13 +17,14 @@ class SignalSourceHolder: public QObject
 
     ReadWriteRef<SettingsStorage> m_settings_storage_ref;
 
-    bool m_is_active;
+    SignalSourceCore m_source;
 
 private slots:
     void reload_settings(SignalSourceSetting setting_changed);
 
 public:
     explicit SignalSourceHolder(SharedData<SettingsStorage> &settings_storage);
+
     ~SignalSourceHolder();
 
     void active_output();
@@ -30,7 +32,7 @@ public:
     void deactivate_output();
 
     template<typename CastType>
-    void change_setting(UsbtmcSettingName key, const CastType &val)
+    void change_setting(SignalSourceSetting key, const CastType &val)
     {
         m_settings_storage_ref->signal_source_settings->change(key, val);
     }

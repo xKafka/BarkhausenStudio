@@ -1,6 +1,4 @@
 add_subdirectory(measurement_device_core_interface)
-add_subdirectory(usbtmc)
-add_subdirectory(usbtmc_device_finder)
 
 find_package(Qt5 COMPONENTS Core Widgets)
 

@@ -8,7 +8,7 @@
 MeasurementDeviceHolder::MeasurementDeviceHolder(SharedData<SettingsStorage> &settings_storage, SharedData<DataBuffer> &buffer_ref)
         :   m_settings_storage_ref{ settings_storage },
             m_buffer_ref{ buffer_ref },
-            m_measurement_device{ settings_storage->usbtmc_settings }
+            m_measurement_device{ settings_storage->meas_dev_settings }
 {
     connect(m_measurement_device.worker(), &MeasurementDeviceWorker::new_data_available, this, [&](const unsigned char *data)
     {
@@ -21,7 +21,7 @@ MeasurementDeviceHolder::MeasurementDeviceHolder(SharedData<SettingsStorage> &se
 
     connect(m_measurement_device.worker(), &MeasurementDeviceWorker::opened, this, [&](){ emit opened(); });
 
-    connect(m_settings_storage_ref->usbtmc_settings.get(), &UsbtmcSettings::changed, this, &MeasurementDeviceHolder::reload_settings);
+    connect(m_settings_storage_ref->meas_dev_settings.get(), &MeasurementDeviceSettings::changed, this, &MeasurementDeviceHolder::reload_settings);
 
     //connect(m_settings_storage_ref->usbtmc_settings.get(), &UsbtmcSettings::voltage, this, &MeasurementDeviceHolder::set_ref_voltage);
 
@@ -45,12 +45,12 @@ void MeasurementDeviceHolder::reload_settings()
 
 void MeasurementDeviceHolder::setup_port_indexes()
 {
-    const auto b_port = settings()->get<int>(UsbtmcSettingName::BarkhausenPort) - 100;
-    const auto c_port = settings()->get<int>(UsbtmcSettingName::CurrentPort) - 100;
-    const auto g_port = settings()->get<int>(UsbtmcSettingName::GaussPort) - 100;
-    const auto i_port = settings()->get<int>(UsbtmcSettingName::InducedVoltagePort) - 100;
+    const auto b_port = settings()->get<int>(MeasDeviceSetting::BarkhausenPort) - 100;
+    const auto c_port = settings()->get<int>(MeasDeviceSetting::CurrentPort) - 100;
+    const auto g_port = settings()->get<int>(MeasDeviceSetting::GaussPort) - 100;
+    const auto i_port = settings()->get<int>(MeasDeviceSetting::InducedVoltagePort) - 100;
 
-    const auto &settings = m_settings_storage_ref->usbtmc_settings;
+    const auto &settings = m_settings_storage_ref->meas_dev_settings;
 
     m_buffer_ref->measurement_data.indexes.barkhausen_noise = b_port;
     m_buffer_ref->measurement_data.indexes.current = c_port;

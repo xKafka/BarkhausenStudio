@@ -13,7 +13,7 @@
 #include <qt5/QtCore/QThread>
 
 #include "chart_view.h"
-#include <ui_settings.h>
+#include "../../../settings_storage/settings/ui/ui_settings.h"
 
 QT_CHARTS_BEGIN_NAMESPACE
     class QLineSeries;

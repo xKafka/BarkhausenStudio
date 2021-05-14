@@ -6,22 +6,18 @@
 
 #IncludeRegexTransform: 
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
-string
--
-nlohmann/json.hpp
--
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h
 QObject
 -
 ini_file.h
 -
-nlohmann/json.hpp
--
-array
--
 mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/device_description.h
+string
+-
+nlohmann/json.hpp
 -
 
 ../barkhausen_studio/kernel/core/device_finder/include/device_finder.h
@@ -37,43 +33,43 @@ QFileSystemWatcher
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
 measurement_device_impl.h
 -
-usbtmc_settings.h
--
-agilent_u2541a_wrapper.h
+usbtmc_standard_interface_wrapper.h
 -
 mem_types.h
+-
+measurement_device_settings.h
 -
 
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include/measurement_device_impl.h
 string
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 python2.7/Python.h
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_wrapper.h
 string_view
 -
-agilent_u2541a_python.h
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+usbtmc_standard_interface_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 python2.7/Python.h
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
 string_view
 -
 usbtmc_device_finder_python.h
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 vector
 -
 device_description.h
 -
-measurement_device_core.h
+measurement_device_settings.h
 -
-usbtmc_settings.h
+measurement_device_core.h
 -
 mem_types.h
 -

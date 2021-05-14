@@ -14,9 +14,9 @@ std::size_t get_data_size(const unsigned char* data)
 {
     const auto data_signed = reinterpret_cast<const char*>(data);
 
-    std::string_view ret_val(data_signed + 2, starting_sequence.size() - 2);
+    std::string ret_val(data_signed + 2, starting_sequence.size() - 2);
 
-    return static_cast<std::size_t>(std::atoi(ret_val.data()));
+    return static_cast<std::size_t>(std::stof(ret_val));
 }
 
 BufferType DataParser::parse_data(const unsigned char *data)

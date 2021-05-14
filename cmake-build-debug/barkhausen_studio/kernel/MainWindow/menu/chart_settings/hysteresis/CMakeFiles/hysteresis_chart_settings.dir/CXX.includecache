@@ -59,8 +59,8 @@ qt5/QtCore/QThread
 -
 chart_view.h
 ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
-ui_settings.h
--
+../../../settings_storage/settings/ui/ui_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 
 ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
 QGraphicsLineItem
@@ -99,8 +99,8 @@ mem_types.h
 -
 settings_storage.h
 -
-ui_settings.h
--
+../../settings_storage/settings/ui/ui_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 
 ../barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include/hysteresis_chart_settings.h
 QWidget
@@ -114,7 +114,39 @@ mem_types.h
 core.h
 -
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/signal_source_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/device_description.h
+string
+-
+nlohmann/json.hpp
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/measurement_settings.h
+QObject
+-
+ini_file.h
+-
+mem_types.h
+-
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/settings_names.h
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
 QObject
 -
 ini_file.h
@@ -123,10 +155,8 @@ mem_types.h
 -
 typeindex
 -
-any
--
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
 QObject
 -
 ini_file.h
@@ -134,13 +164,7 @@ ini_file.h
 mem_types.h
 -
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
-string
--
-nlohmann/json.hpp
--
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
 QObject
 -
 ini_file.h
@@ -148,25 +172,7 @@ ini_file.h
 mem_types.h
 -
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
-QObject
--
-ini_file.h
--
-mem_types.h
--
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
-QObject
--
-ini_file.h
--
-mem_types.h
--
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 QObject
 -
 ini_file.h
@@ -176,38 +182,26 @@ mem_types.h
 nlohmann/json.hpp
 -
 hysteresis_settings.h
--
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
 B_H_settings.h
--
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
 barkhausen_settings.h
--
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
-QObject
--
-ini_file.h
--
-nlohmann/json.hpp
--
-array
--
-mem_types.h
--
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
 
 ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
 QObject
 -
-usbtmc_settings.h
+measurement_device_settings.h
+-
+signal_source_settings.h
 -
 ui_settings.h
 -
 settings_names.h
 -
-mem_types.h
--
-signal_soure_settings.h
--
 measurement_settings.h
+-
+mem_types.h
 -
 
 ../barkhausen_studio/kernel/core/core/include/core.h
@@ -267,8 +261,8 @@ measurement_device_holder.h
 ../barkhausen_studio/kernel/core/data_creator/include/data_creator_worker.h
 QObject
 -
-ui_settings.h
--
+../../../MainWindow/settings_storage/settings/ui/ui_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 data_buffer.h
 -
 measurement_device_holder.h
@@ -329,11 +323,11 @@ mem_types.h
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
 measurement_device_impl.h
 -
-usbtmc_settings.h
--
-agilent_u2541a_wrapper.h
+usbtmc_standard_interface_wrapper.h
 -
 mem_types.h
+-
+measurement_device_settings.h
 -
 
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -345,7 +339,7 @@ measurement_device_core.h
 -
 array
 -
-usbtmc_settings.h
+measurement_device_settings.h
 -
 mem_types.h
 -
@@ -354,32 +348,32 @@ mem_types.h
 string
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 python2.7/Python.h
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_wrapper.h
 string_view
 -
-agilent_u2541a_python.h
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+usbtmc_standard_interface_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 python2.7/Python.h
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
 string_view
 -
 usbtmc_device_finder_python.h
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
 vector
 -
 device_description.h
 -
-measurement_device_core.h
+measurement_device_settings.h
 -
-usbtmc_settings.h
+measurement_device_core.h
 -
 mem_types.h
 -

@@ -6,7 +6,7 @@
 #define BARKHAUSEN_STUDIO_CHARTSETTINGSMENU_H
 
 #include <chartwindow.h>
-#include <ui_settings.h>
+#include "../../../../settings_storage/settings/ui/ui_settings.h"
 #include <B_H_chart_settings.h>
 #include <barkhausen_chart_settings.h>
 #include <hysteresis_chart_settings.h>

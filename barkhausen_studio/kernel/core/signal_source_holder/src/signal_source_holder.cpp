@@ -8,7 +8,7 @@
 
 SignalSourceHolder::SignalSourceHolder(SharedData<SettingsStorage> &settings_storage)
     :   m_settings_storage_ref{ settings_storage },
-        m_is_active{ false }
+        m_source{ settings_storage->signal_source_settings }
 {
     connect(settings_storage->signal_source_settings.get(), &SignalSourceSettings::changed, this, &SignalSourceHolder::reload_settings);
 }
@@ -17,19 +17,26 @@ SignalSourceHolder::~SignalSourceHolder() {}
 
 void SignalSourceHolder::active_output()
 {
-    if(!m_is_active)
+    if(!m_source.is_on())
     {
-        qDebug() << "signal out BitCH";
-        m_is_active = true;
+        if(m_source.is_open())
+        {
+            m_source.on();
+        }
+        else
+        {
+            m_source.init();
+
+            m_source.on();
+        }
     }
 }
 
 void SignalSourceHolder::deactivate_output()
 {
-    if(m_is_active)
+    if(m_source.is_on())
     {
-        qDebug() << "signal not out BitCH";
-        m_is_active = false;
+        m_source.off();
     }
 }
 

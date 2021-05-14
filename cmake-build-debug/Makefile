@@ -711,7 +711,7 @@ usbtmc_python: cmake_check_build_system
 
 # fast build rule for target.
 usbtmc_python/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build
 .PHONY : usbtmc_python/fast
 
 #=============================================================================
@@ -724,8 +724,34 @@ usbtmc_device_finder: cmake_check_build_system
 
 # fast build rule for target.
 usbtmc_device_finder/fast:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build
 .PHONY : usbtmc_device_finder/fast
+
+#=============================================================================
+# Target rules for targets named signal_source
+
+# Build rule for target.
+signal_source: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal_source
+.PHONY : signal_source
+
+# fast build rule for target.
+signal_source/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build
+.PHONY : signal_source/fast
+
+#=============================================================================
+# Target rules for targets named signal_source_autogen
+
+# Build rule for target.
+signal_source_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 signal_source_autogen
+.PHONY : signal_source_autogen
+
+# fast build rule for target.
+signal_source_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build
+.PHONY : signal_source_autogen/fast
 
 #=============================================================================
 # Target rules for targets named exceptions
@@ -769,6 +795,7 @@ help:
 	@echo "... measurement_settings_window_autogen"
 	@echo "... settings_autogen"
 	@echo "... settings_storage_autogen"
+	@echo "... signal_source_autogen"
 	@echo "... signal_source_holder_autogen"
 	@echo "... B_H_chart_settings"
 	@echo "... api"
@@ -792,6 +819,7 @@ help:
 	@echo "... measurement_settings_window"
 	@echo "... settings"
 	@echo "... settings_storage"
+	@echo "... signal_source"
 	@echo "... signal_source_holder"
 	@echo "... usbtmc_device_finder"
 	@echo "... usbtmc_python"

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsignal_source.a CMakeFiles/signal_source.dir/signal_source_autogen/mocs_compilation.cpp.o CMakeFiles/signal_source.dir/src/signal_source_core.cpp.o CMakeFiles/signal_source.dir/include/moc_signal_source_core.cpp.o
+/usr/bin/ranlib libsignal_source.a

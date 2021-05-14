@@ -4,10 +4,9 @@
 
 #include <meas_device_settings.h>
 #include <ui_meas_device_settings.h>
-#include <usbtmc_settings.h>
+#include <measurement_device_settings.h>
 #include <QMessageBox>
 #include <QDebug>
-#include <settings_names.h>
 #include <sstream>
 #include <utils.h>
 
@@ -184,7 +183,7 @@ void MeasDeviceSettings::select_resource()
 {
     for(const auto &dev : m_dev_finder_ref->usbtmc_devs().data())
     {
-        if(dev.second.resource == m_device->settings()->get(UsbtmcSettingName::Resource))
+        if(dev.second.resource == m_device->settings()->get(MeasDeviceSetting::Resource))
         {
             change_index(m_ui->comboBox_resource_mes, dev.first);
 
@@ -217,43 +216,49 @@ void MeasDeviceSettings::update_shown()
 
     const auto &sett = m_device->settings();
 
-    change_index(m_ui->comboBox_barkhausen_noise_port, sett->get(UsbtmcSettingName::BarkhausenPort));
+    change_index(m_ui->comboBox_barkhausen_noise_port, sett->get(MeasDeviceSetting::BarkhausenPort));
 
-    change_index(m_ui->comboBox_gaussmet_port, sett->get(UsbtmcSettingName::GaussPort));
+    change_index(m_ui->comboBox_gaussmet_port, sett->get(MeasDeviceSetting::GaussPort));
 
-    change_index(m_ui->comboBox_induced_voltage_port, sett->get(UsbtmcSettingName::InducedVoltagePort));
+    change_index(m_ui->comboBox_induced_voltage_port, sett->get(MeasDeviceSetting::InducedVoltagePort));
 
-    change_index(m_ui->comboBox_sensed_current_port, sett->get(UsbtmcSettingName::CurrentPort));
+    change_index(m_ui->comboBox_sensed_current_port, sett->get(MeasDeviceSetting::CurrentPort));
 
-    change_index(m_ui->comboBox_polarity_mes, sett->get(UsbtmcSettingName::Polarity));
+    change_index(m_ui->comboBox_polarity_mes, sett->get(MeasDeviceSetting::Polarity));
 
-    change_index(m_ui->comboBox_port_source, sett->get(UsbtmcSettingName::SourcePort));
+    change_index(m_ui->comboBox_port_source, sett->get(MeasDeviceSetting::SourcePort));
 
-    m_limits.sample_rate = sett->get<double>(UsbtmcSettingName::MaxSampleRate);
+    m_limits.sample_rate = sett->get<double>(MeasDeviceSetting::MaxSampleRate);
 
-    m_limits.points_per_chunk = sett->get<double>(UsbtmcSettingName::MaxPointsPerChunk);
+    m_limits.points_per_chunk = sett->get<double>(MeasDeviceSetting::MaxPointsPerChunk);
 
-    m_limits.voltage_range = sett->get<double>(UsbtmcSettingName::MaxVoltageRange);
+    m_limits.voltage_range = sett->get<double>(MeasDeviceSetting::MaxVoltageRange);
 
-    m_limits.source_voltage = sett->get<double>(UsbtmcSettingName::SourceVoltageMax);
+    m_limits.source_voltage = sett->get<double>(MeasDeviceSetting::SourceVoltageMax);
 
-    const auto points_per_chunk = sett->get<double>(UsbtmcSettingName::PointsPerChunk);
+    const auto points_per_chunk = sett->get<double>(MeasDeviceSetting::PointsPerChunk);
 
-    const auto sample_rate = sett->get<double>(UsbtmcSettingName::SampleRate);
+    const auto sample_rate = sett->get<double>(MeasDeviceSetting::SampleRate);
 
-    const auto voltage_range = sett->get<double>(UsbtmcSettingName::VoltageRange);
+    const auto voltage_range = sett->get<double>(MeasDeviceSetting::VoltageRange);
 
     m_tune.standard_step = m_limits.source_voltage / 1e2;
 
     m_tune.fine_step = m_limits.source_voltage / 1e4;
 
-    m_ui->lcdNumber->display(sett->get(UsbtmcSettingName::SourceVoltage).c_str());
+    m_ui->lcdNumber->display(sett->get(MeasDeviceSetting::SourceVoltage).c_str());
 
     m_ui->horizontalSlider_points_per_chunk->setValue(static_cast<int>(100.0 * (points_per_chunk / m_limits.points_per_chunk)));
 
     m_ui->horizontalSlider_sample_rate->setValue(static_cast<int>(100.0 * (sample_rate / m_limits.sample_rate)));
 
     m_ui->horizontalSlider_voltage_range->setValue(static_cast<int>(100.0 * (voltage_range / m_limits.voltage_range)));
+
+    m_ui->label_voltage_range_vals->setText(Utility::Cast::to_string(voltage_range).data());
+
+    m_ui->label_sample_rate_vals->setText(Utility::Cast::to_string(sample_rate).data());
+
+    m_ui->label_points_per_chunk_vals->setText(Utility::Cast::to_string(points_per_chunk).data());
 }
 
 void MeasDeviceSettings::save_settings()
@@ -292,25 +297,29 @@ void MeasDeviceSettings::write_settings()
 
     const auto source_volt = m_ui->lcdNumber->value();
 
+    auto const resource = m_dev_finder_ref->usbtmc_devs().data().at(m_ui->comboBox_resource_mes->currentText().toStdString());
+
     m_device->stop_continuous_acq();
 
-    m_device->change_setting(UsbtmcSettingName::BarkhausenPort, barkhausen_port);
+    m_device->change_setting(MeasDeviceSetting::BarkhausenPort, barkhausen_port);
 
-    m_device->change_setting(UsbtmcSettingName::GaussPort, gauss_port);
+    m_device->change_setting(MeasDeviceSetting::GaussPort, gauss_port);
 
-    m_device->change_setting(UsbtmcSettingName::InducedVoltagePort, induced_volt_port);
+    m_device->change_setting(MeasDeviceSetting::InducedVoltagePort, induced_volt_port);
 
-    m_device->change_setting(UsbtmcSettingName::CurrentPort, current_port);
+    m_device->change_setting(MeasDeviceSetting::CurrentPort, current_port);
 
-    m_device->change_setting(UsbtmcSettingName::Polarity, polarity);
+    m_device->change_setting(MeasDeviceSetting::Polarity, polarity);
 
-    m_device->change_setting(UsbtmcSettingName::SourceVoltage, source_volt);
+    m_device->change_setting(MeasDeviceSetting::SourceVoltage, source_volt);
 
-    m_device->change_setting(UsbtmcSettingName::SampleRate, s_rate_absolute);
+    m_device->change_setting(MeasDeviceSetting::SampleRate, s_rate_absolute);
 
-    m_device->change_setting(UsbtmcSettingName::PointsPerChunk, ppc_absolute);
+    m_device->change_setting(MeasDeviceSetting::PointsPerChunk, ppc_absolute);
 
-    m_device->change_setting(UsbtmcSettingName::VoltageRange, volt_absolute);
+    m_device->change_setting(MeasDeviceSetting::VoltageRange, volt_absolute);
+
+    m_device->change_setting(MeasDeviceSetting::Resource, resource.resource);
 }
 
 MeasDeviceSettings::~MeasDeviceSettings()

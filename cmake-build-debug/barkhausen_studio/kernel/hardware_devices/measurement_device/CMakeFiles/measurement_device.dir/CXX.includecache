@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
-
-../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h
 QObject
 -
 ini_file.h
 -
-nlohmann/json.hpp
--
-array
--
 mem_types.h
 -
+
+../barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/settings_names.h
 
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device.h
 QObject
@@ -33,11 +29,11 @@ mem_types.h
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
 measurement_device_impl.h
 -
-usbtmc_settings.h
--
-agilent_u2541a_wrapper.h
+usbtmc_standard_interface_wrapper.h
 -
 mem_types.h
+-
+measurement_device_settings.h
 -
 
 ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
@@ -49,7 +45,7 @@ measurement_device_core.h
 -
 array
 -
-usbtmc_settings.h
+measurement_device_settings.h
 -
 mem_types.h
 -
@@ -58,15 +54,15 @@ mem_types.h
 string
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 python2.7/Python.h
 -
 
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_wrapper.h
 string_view
 -
-agilent_u2541a_python.h
-../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
+usbtmc_standard_interface_python.h
+../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
 
 ../barkhausen_studio/utils/ini/include/ini_file.h
 QSettings
@@ -109,7 +105,7 @@ measurement_device_core.h
 -
 array
 -
-usbtmc_settings.h
+measurement_device_settings.h
 -
 mem_types.h
 -
@@ -130,8 +126,6 @@ QDebug
 
 /home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/src/measuremet_device_core.cpp
 measurement_device_core.h
--
-settings_names.h
 -
 utils.h
 -

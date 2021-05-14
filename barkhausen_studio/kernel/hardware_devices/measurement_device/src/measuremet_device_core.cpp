@@ -3,11 +3,10 @@
 //
 
 #include <measurement_device_core.h>
-#include <settings_names.h>
 #include <utils.h>
 #include <QDebug>
 
-MeasurementDeviceCore::MeasurementDeviceCore(SharedData<UsbtmcSettings> &usbtmc_settings)
+MeasurementDeviceCore::MeasurementDeviceCore(SharedData<MeasurementDeviceSettings> &usbtmc_settings)
     :   m_buffer{ },
         m_settings_ref{ usbtmc_settings }
 {
@@ -21,7 +20,7 @@ MeasurementDeviceCore::~MeasurementDeviceCore()
 
 void MeasurementDeviceCore::init()
 {
-    if(m_device.init_agilent(m_settings_ref->get(UsbtmcSettingName::Resource)))
+    if(m_device.init_usbtmc(m_settings_ref->get(MeasDeviceSetting::Resource)))
     {
         set_open();
     }
@@ -37,7 +36,7 @@ std::string MeasurementDeviceCore::get_device_name() const
 
 void MeasurementDeviceCore::set_data_len(std::string_view size)
 {
-    const auto int_data_len = m_settings_ref->get<int>(UsbtmcSettingName::PointsPerChunk) * 4;
+    const auto int_data_len = m_settings_ref->get<int>(MeasDeviceSetting::PointsPerChunk) * 4;
 
     m_device.set_data_len(std::to_string(int_data_len));
 }
@@ -65,7 +64,7 @@ void MeasurementDeviceCore::set_ref_voltage(const double val)
                                 "SOUR:VOLT " +
                                 Utility::Cast::to_string(val) +
                                 ",(@" +
-                                m_settings_ref->get(UsbtmcSettingName::SourcePort) +
+                                m_settings_ref->get(MeasDeviceSetting::SourcePort) +
                                 ")"
                                 );
     };
@@ -145,6 +144,6 @@ void MeasurementDeviceCore::cont_acq_start()
 {
     m_continuous_acq = true;
 
-    set_data_len(m_settings_ref->get(UsbtmcSettingName::PointsPerChunk));
+    set_data_len(m_settings_ref->get(MeasDeviceSetting::PointsPerChunk));
 }
 

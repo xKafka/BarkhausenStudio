@@ -11,4 +11,4 @@ add_library(signal_source_holder STATIC ${sources} ${qt_moc_headers})
 
 target_include_directories(signal_source_holder PRIVATE src PUBLIC include)
 
-target_link_libraries(signal_source_holder Qt5::Core Qt5::Widgets data_buffer_module json)
+target_link_libraries(signal_source_holder Qt5::Core Qt5::Widgets data_buffer_module json signal_source)

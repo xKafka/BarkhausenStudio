@@ -294,7 +294,10 @@ settings_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;json;
 settings_storage_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;settings;
 
 //Dependencies for the target
-signal_source_holder_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;data_buffer_module;general;json;
+signal_source_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;usbtmc_python;general;settings_storage;general;usbtmc_device_finder;general;utils;
+
+//Dependencies for the target
+signal_source_holder_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Widgets;general;data_buffer_module;general;json;general;signal_source;
 
 //Dependencies for the target
 usbtmc_device_finder_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;settings;general;measurement_device;
@@ -395,7 +398,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=41
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=43
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

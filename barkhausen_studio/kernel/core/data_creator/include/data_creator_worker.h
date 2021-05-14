@@ -6,7 +6,7 @@
 #define BARKHAUSEN_STUDIO_DATA_CREATOR_WORKER_H
 
 #include <QObject>
-#include <ui_settings.h>
+#include "../../../MainWindow/settings_storage/settings/ui/ui_settings.h"
 #include <data_buffer.h>
 #include <measurement_device_holder.h>
 #include <settings_storage.h>

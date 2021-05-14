@@ -7,7 +7,7 @@
 
 #include <QWidget>
 #include <memory>
-#include <usbtmc_settings.h>
+#include <measurement_device_settings.h>
 #include <device_finder.h>
 #include <core.h>
 #include <measurement_device_holder.h>

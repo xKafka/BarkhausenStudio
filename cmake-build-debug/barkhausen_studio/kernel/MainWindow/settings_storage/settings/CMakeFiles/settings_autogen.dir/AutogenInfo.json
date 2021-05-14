@@ -68,8 +68,10 @@
 	[
 		"/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include",
 		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
@@ -100,15 +102,15 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h",
-		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h"
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/signal_source_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/device_description.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/measurement_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/settings_names.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h",
+		"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
@@ -118,16 +120,6 @@
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
 	"SETTINGS_FILE" : "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : 
-	[
-		[
-			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/ui_settings.cpp",
-			"Mu"
-		],
-		[
-			"/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp",
-			"Mu"
-		]
-	],
+	"SOURCES" : [],
 	"VERBOSITY" : 0
 }

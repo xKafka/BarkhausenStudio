@@ -6,9 +6,9 @@
 #define BARKHAUSEN_STUDIO_MEASUREMENT_DEVICE_CORE_H
 
 #include <measurement_device_impl.h>
-#include <usbtmc_settings.h>
-#include <agilent_u2541a_wrapper.h>
+#include <usbtmc_standard_interface_wrapper.h>
 #include <mem_types.h>
+#include <measurement_device_settings.h>
 
 constexpr auto buffer_max_len { 1 << 22 }; //2^13 -> 8192
 
@@ -20,16 +20,16 @@ enum BufferPolicy
 
 class MeasurementDeviceCore : public MeasurementDeviceImpl
 {
-    AgilentU2541aWrapper m_device{};
+    UsbtmcStandardInterfaceWrapper m_device{};
 
-    ReadOnlyRef<UsbtmcSettings> m_settings_ref;
+    ReadOnlyRef<MeasurementDeviceSettings> m_settings_ref;
 
     unsigned char m_buffer[buffer_max_len];
 
     bool m_continuous_acq{ false };
 
 public:
-    explicit MeasurementDeviceCore(SharedData<UsbtmcSettings> &usbtmc_settings);
+    explicit MeasurementDeviceCore(SharedData<MeasurementDeviceSettings> &usbtmc_settings);
 
     ~MeasurementDeviceCore() override;
 

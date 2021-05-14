@@ -5,7 +5,7 @@
 		<Option title="Barkhausen_studio"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\barkhausen_studio\;CMake Files\barkhausen_studio\kernel\;CMake Files\barkhausen_studio\kernel\api\;CMake Files\barkhausen_studio\kernel\core\;CMake Files\barkhausen_studio\kernel\core\core\;CMake Files\barkhausen_studio\kernel\core\data_buffer\;CMake Files\barkhausen_studio\kernel\core\data_creator\;CMake Files\barkhausen_studio\kernel\core\device_finder\;CMake Files\barkhausen_studio\kernel\core\measurement_device_holder\;CMake Files\barkhausen_studio\kernel\core\signal_source_holder\;CMake Files\barkhausen_studio\kernel\MainWindow\;CMake Files\barkhausen_studio\kernel\MainWindow\main_window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\B_H\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\barkhausen\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\hysteresis\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\custom_items\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\meas_device\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\measurement_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\charts\;CMake Files\barkhausen_studio\kernel\MainWindow\charts\chart_base\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\settings\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\storage\;CMake Files\barkhausen_studio\kernel\hardware_devices\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\measurement_device_core_interface\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\usbtmc\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\usbtmc_device_finder\;CMake Files\barkhausen_studio\exceptions\;CMake Files\barkhausen_studio\utils\;CMake Files\barkhausen_studio\utils\ini\;CMake Files\barkhausen_studio\utils\utils\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\;CMake Files\external\;CMake Files\external\json\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\barkhausen_studio\;CMake Files\barkhausen_studio\kernel\;CMake Files\barkhausen_studio\kernel\api\;CMake Files\barkhausen_studio\kernel\core\;CMake Files\barkhausen_studio\kernel\core\core\;CMake Files\barkhausen_studio\kernel\core\data_buffer\;CMake Files\barkhausen_studio\kernel\core\data_creator\;CMake Files\barkhausen_studio\kernel\core\device_finder\;CMake Files\barkhausen_studio\kernel\core\measurement_device_holder\;CMake Files\barkhausen_studio\kernel\core\signal_source_holder\;CMake Files\barkhausen_studio\kernel\MainWindow\;CMake Files\barkhausen_studio\kernel\MainWindow\main_window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\B_H\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\barkhausen\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\hysteresis\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\chart_settings\custom_items\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\meas_device\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\window\;CMake Files\barkhausen_studio\kernel\MainWindow\menu\measurement_device_settings\measurement_settings\;CMake Files\barkhausen_studio\kernel\MainWindow\charts\;CMake Files\barkhausen_studio\kernel\MainWindow\charts\chart_base\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\settings\;CMake Files\barkhausen_studio\kernel\MainWindow\settings_storage\storage\;CMake Files\barkhausen_studio\kernel\hardware_devices\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\;CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\measurement_device_core_interface\;CMake Files\barkhausen_studio\kernel\hardware_devices\usbtmc\;CMake Files\barkhausen_studio\kernel\hardware_devices\usbtmc_device_finder\;CMake Files\barkhausen_studio\kernel\hardware_devices\signal_source\;CMake Files\barkhausen_studio\kernel\hardware_devices\signal_source\signal_source_core_interface\;CMake Files\barkhausen_studio\exceptions\;CMake Files\barkhausen_studio\utils\;CMake Files\barkhausen_studio\utils\ini\;CMake Files\barkhausen_studio\utils\utils\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Charts\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\nlohmann_json\;CMake Files\external\;CMake Files\external\json\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug"/>
@@ -55,18 +55,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
@@ -118,18 +123,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/api/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
@@ -189,18 +199,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -237,18 +252,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -295,13 +315,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -338,13 +361,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -391,16 +417,21 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -437,16 +468,21 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -492,13 +528,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder/device_finder_module_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -535,13 +574,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/device_finder/device_finder_module_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -590,13 +632,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -634,13 +679,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -688,13 +736,18 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -732,13 +785,18 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -787,18 +845,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -849,18 +912,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/main_window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -919,7 +987,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/B_H_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -928,14 +999,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -973,7 +1046,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/B_H_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -982,14 +1058,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -1037,7 +1115,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/barkhausen_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1046,14 +1127,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -1091,7 +1174,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/barkhausen_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1100,14 +1186,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -1156,7 +1244,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1165,14 +1256,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -1213,7 +1306,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1222,14 +1318,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -1279,7 +1377,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/hysteresis_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1288,14 +1389,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -1333,7 +1436,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/hysteresis_chart_settings_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1342,14 +1448,16 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -1397,7 +1505,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/custom_chart_items_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1440,7 +1551,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/custom_chart_items_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
@@ -1494,19 +1608,24 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/window/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1555,19 +1674,24 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/window/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/window/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1627,18 +1751,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1681,18 +1810,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1746,18 +1880,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1802,18 +1941,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1867,18 +2011,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1921,18 +2070,23 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/core/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_buffer/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/data_creator/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/measurement_device_holder/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/core/signal_source_holder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/include"/>
@@ -1984,7 +2138,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
@@ -2027,7 +2184,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
@@ -2079,7 +2239,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/chart_base_module_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2119,7 +2282,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/chart_base_module_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/charts/chart_base/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2166,8 +2332,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/settings_autogen/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2203,8 +2371,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/settings_autogen/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2252,7 +2422,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/settings_storage_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2290,7 +2463,10 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/settings_storage_autogen/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -2339,12 +2515,15 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -2381,12 +2560,15 @@
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/src"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
@@ -2418,17 +2600,17 @@
 				</MakeCommands>
 			</Target>
 			<Target title="usbtmc_python">
-				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/libusbtmc_python.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/libusbtmc_python.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -2438,24 +2620,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 usbtmc_python"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 usbtmc_python"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="usbtmc_python/fast">
-				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/libusbtmc_python.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/libusbtmc_python.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -2465,15 +2647,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 usbtmc_python/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 usbtmc_python/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="usbtmc_device_finder">
-				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/libusbtmc_device_finder.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/libusbtmc_device_finder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -2481,17 +2663,20 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -2507,15 +2692,15 @@
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 usbtmc_device_finder"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 usbtmc_device_finder"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="usbtmc_device_finder/fast">
-				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/libusbtmc_device_finder.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/libusbtmc_device_finder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -2523,17 +2708,20 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder"/>
 					<Add directory="/usr/include/python2.7"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/src"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
-					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
 					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -2549,10 +2737,114 @@
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 usbtmc_device_finder/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 usbtmc_device_finder/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal_source">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/libsignal_source.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 signal_source"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal_source/fast">
+				<Option output="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/libsignal_source.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_autogen/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/src"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/ini/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/utils/utils/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/include"/>
+					<Add directory="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 signal_source/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal_source_autogen">
+				<Option working_dir="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 signal_source_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exceptions">
@@ -2659,12 +2951,6 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/menu/window/src/mainmenuwindow.cpp">
 			<Option target="main_menu_window"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/ui_settings.cpp">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/settings/src/usbtmc_settings.cpp">
-			<Option target="settings"/>
-		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/MainWindow/settings_storage/storage/src/settings_storage.cpp">
 			<Option target="settings_storage"/>
 		</Unit>
@@ -2710,10 +2996,13 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/src/measuremet_device_core.cpp">
 			<Option target="measurement_device"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/src/agilent_u2541a_python.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/src/signal_source_core.cpp">
+			<Option target="signal_source"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/src/usbtmc_standard_interface_python.cpp">
 			<Option target="usbtmc_python"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/src/usbtmc_device_finder_python.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/src/usbtmc_device_finder_python.cpp">
 			<Option target="usbtmc_device_finder"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/charts/chart_base/chart_base_module_autogen/mocs_compilation.cpp">
@@ -2863,61 +3152,61 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/menu/window/main_menu_window_autogen/mocs_compilation.cpp">
 			<Option target="main_menu_window"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/moc_measurement_device_settings.cpp">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_B_H_settings.cpp.rule">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/moc_measurement_device_settings.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/moc_signal_source_settings.cpp">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_barkhausen_settings.cpp.rule">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/moc_signal_source_settings.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/moc_device_description.cpp">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_device_description.cpp.rule">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/moc_device_description.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/moc_measurement_settings.cpp">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_hysteresis_settings.cpp.rule">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/moc_measurement_settings.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/moc_settings_names.cpp">
 			<Option target="settings"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_measurement_settings.cpp.rule">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_settings_names.cpp.rule">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_signal_soure_settings.cpp.rule">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_ui_settings.cpp.rule">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp">
-			<Option target="settings"/>
-		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/moc_usbtmc_settings.cpp.rule">
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/moc_settings_names.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/settings_autogen/mocs_compilation.cpp">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_B_H_settings.cpp">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_B_H_settings.cpp.rule">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_barkhausen_settings.cpp">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_barkhausen_settings.cpp.rule">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_hysteresis_settings.cpp">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_hysteresis_settings.cpp.rule">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_ui_settings.cpp">
+			<Option target="settings"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/moc_ui_settings.cpp.rule">
 			<Option target="settings"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/moc_settings_storage.cpp">
@@ -3043,6 +3332,15 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_autogen/mocs_compilation.cpp">
 			<Option target="measurement_device"/>
 		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/include/moc_signal_source_core.cpp">
+			<Option target="signal_source"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/include/moc_signal_source_core.cpp.rule">
+			<Option target="signal_source"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_autogen/mocs_compilation.cpp">
+			<Option target="signal_source"/>
+		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -3142,11 +3440,17 @@
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\measurement_device_core_interface\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\usbtmc\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\usbtmc\"/>
 		</Unit>
-		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\measurement_device\usbtmc_device_finder\"/>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\usbtmc_device_finder\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\signal_source\"/>
+		</Unit>
+		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\barkhausen_studio\kernel\hardware_devices\signal_source\signal_source_core_interface\"/>
 		</Unit>
 		<Unit filename="/home/fkafka/QtProjects/Barkhausen_studio/barkhausen_studio/exceptions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\barkhausen_studio\exceptions\"/>

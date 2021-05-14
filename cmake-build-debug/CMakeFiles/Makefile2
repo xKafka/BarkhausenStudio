@@ -723,16 +723,25 @@ barkhausen_studio/kernel/core/signal_source_holder/clean: barkhausen_studio/kern
 
 # Recursive "all" directory target.
 barkhausen_studio/kernel/hardware_devices/all: barkhausen_studio/kernel/hardware_devices/measurement_device/all
+barkhausen_studio/kernel/hardware_devices/all: barkhausen_studio/kernel/hardware_devices/usbtmc/all
+barkhausen_studio/kernel/hardware_devices/all: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/all
+barkhausen_studio/kernel/hardware_devices/all: barkhausen_studio/kernel/hardware_devices/signal_source/all
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/all
 
 # Recursive "preinstall" directory target.
 barkhausen_studio/kernel/hardware_devices/preinstall: barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall
+barkhausen_studio/kernel/hardware_devices/preinstall: barkhausen_studio/kernel/hardware_devices/usbtmc/preinstall
+barkhausen_studio/kernel/hardware_devices/preinstall: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/preinstall
+barkhausen_studio/kernel/hardware_devices/preinstall: barkhausen_studio/kernel/hardware_devices/signal_source/preinstall
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/preinstall
 
 # Recursive "clean" directory target.
 barkhausen_studio/kernel/hardware_devices/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/clean
+barkhausen_studio/kernel/hardware_devices/clean: barkhausen_studio/kernel/hardware_devices/usbtmc/clean
+barkhausen_studio/kernel/hardware_devices/clean: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/clean
+barkhausen_studio/kernel/hardware_devices/clean: barkhausen_studio/kernel/hardware_devices/signal_source/clean
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/clean
 
@@ -742,15 +751,11 @@ barkhausen_studio/kernel/hardware_devices/clean: barkhausen_studio/kernel/hardwa
 # Recursive "all" directory target.
 barkhausen_studio/kernel/hardware_devices/measurement_device/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
 barkhausen_studio/kernel/hardware_devices/measurement_device/all: barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/all
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/all
 
 # Recursive "preinstall" directory target.
 barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall: barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/preinstall
-barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/preinstall
-barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/preinstall
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall
 
@@ -758,8 +763,6 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/preinstall: barkhau
 barkhausen_studio/kernel/hardware_devices/measurement_device/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/clean
 barkhausen_studio/kernel/hardware_devices/measurement_device/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/clean
 barkhausen_studio/kernel/hardware_devices/measurement_device/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/clean
-barkhausen_studio/kernel/hardware_devices/measurement_device/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/clean
-barkhausen_studio/kernel/hardware_devices/measurement_device/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/clean
 
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/clean
 
@@ -782,40 +785,79 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/clean
 
 #=============================================================================
-# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc
+# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/signal_source
 
 # Recursive "all" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/all: barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/all
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/all
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/all
 
 # Recursive "preinstall" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/preinstall:
+barkhausen_studio/kernel/hardware_devices/signal_source/preinstall: barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/preinstall
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/preinstall
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/preinstall
 
 # Recursive "clean" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/clean
+barkhausen_studio/kernel/hardware_devices/signal_source/clean: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/clean
+barkhausen_studio/kernel/hardware_devices/signal_source/clean: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/clean
+barkhausen_studio/kernel/hardware_devices/signal_source/clean: barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/clean
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/clean
 
 #=============================================================================
-# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder
+# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface
 
 # Recursive "all" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/all:
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/all
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/all
 
 # Recursive "preinstall" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/preinstall:
+barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/preinstall:
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/preinstall
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/preinstall
 
 # Recursive "clean" directory target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/clean: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
+barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/clean:
 
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/signal_source_core_interface/clean
+
+#=============================================================================
+# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/usbtmc
+
+# Recursive "all" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/all
+
+# Recursive "preinstall" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc/preinstall:
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/preinstall
+
+# Recursive "clean" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc/clean: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/clean
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/clean
+
+#=============================================================================
+# Directory level rules for directory barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder
+
+# Recursive "all" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/all: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/all
+
+# Recursive "preinstall" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/preinstall:
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/preinstall
+
+# Recursive "clean" directory target.
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/clean: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
+
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/clean
 
 #=============================================================================
 # Directory level rules for directory barkhausen_studio/utils
@@ -934,7 +976,8 @@ barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/Ma
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/api/CMakeFiles/api.dir/all: barkhausen_studio/kernel/api/CMakeFiles/api_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/api/CMakeFiles/api.dir/build.make barkhausen_studio/kernel/api/CMakeFiles/api.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/api/CMakeFiles/api.dir/build.make barkhausen_studio/kernel/api/CMakeFiles/api.dir/build
@@ -998,7 +1041,8 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studi
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/build.make barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/build.make barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/build
@@ -1007,7 +1051,7 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all: barkhausen_studi
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/rule
@@ -1037,7 +1081,7 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/all: barkhaus
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/rule
@@ -1059,16 +1103,16 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core_autogen.dir/clean:
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all: barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/build.make barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/build.make barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39 "Built target data_buffer_module"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38 "Built target data_buffer_module"
 .PHONY : barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/rule
@@ -1091,12 +1135,12 @@ barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/build.make barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/build.make barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=40 "Built target data_buffer_module_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=39 "Built target data_buffer_module_autogen"
 .PHONY : barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module_autogen.dir/rule
@@ -1121,16 +1165,17 @@ barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/al
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all: barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/build.make barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/build.make barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=41,42,43,44,45,46 "Built target data_creator_module"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=40,41,42,43,44,45 "Built target data_creator_module"
 .PHONY : barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module.dir/rule
@@ -1160,7 +1205,7 @@ barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autoge
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autogen.dir/rule
@@ -1182,16 +1227,16 @@ barkhausen_studio/kernel/core/data_creator/CMakeFiles/data_creator_module_autoge
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all: barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/build.make barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/build.make barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=47,48,49 "Built target device_finder_module"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=46,47,48 "Built target device_finder_module"
 .PHONY : barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module.dir/rule
@@ -1218,7 +1263,7 @@ barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module_auto
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/device_finder/CMakeFiles/device_finder_module_autogen.dir/rule
@@ -1241,16 +1286,16 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all: barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/build.make barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/build.make barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=72,73,74,75 "Built target measurement_device_holder_module"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=71,72,73,74 "Built target measurement_device_holder_module"
 .PHONY : barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module.dir/rule
@@ -1272,12 +1317,12 @@ barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_d
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/all: barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/build.make barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/build.make barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=76 "Built target measurement_device_holder_module_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target measurement_device_holder_module_autogen"
 .PHONY : barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/measurement_device_holder/CMakeFiles/measurement_device_holder_module_autogen.dir/rule
@@ -1300,7 +1345,8 @@ barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_hold
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all: barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/build
@@ -1309,7 +1355,7 @@ barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_hold
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder.dir/rule
@@ -1329,6 +1375,7 @@ barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_hold
 
 # All Build rule for target.
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/all: barkhausen_studio/kernel/core/data_buffer/CMakeFiles/data_buffer_module.dir/all
+barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/build.make barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target signal_source_holder_autogen"
@@ -1336,7 +1383,7 @@ barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_hold
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/core/signal_source_holder/CMakeFiles/signal_source_holder_autogen.dir/rule
@@ -1374,11 +1421,12 @@ barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: 
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all: barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/build.make barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/build.make barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target main_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=56,57,58 "Built target main_window"
 .PHONY : barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1407,12 +1455,12 @@ barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.d
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/all: barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=60 "Built target main_window_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target main_window_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 93
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/main_window/CMakeFiles/main_window_autogen.dir/rule
@@ -1442,7 +1490,8 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/build
@@ -1451,7 +1500,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 71
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings.dir/rule
@@ -1480,7 +1529,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/B_H/CMakeFiles/B_H_chart_settings_autogen.dir/rule
@@ -1510,7 +1559,8 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/ba
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/build
@@ -1519,7 +1569,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/ba
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 71
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings.dir/rule
@@ -1543,12 +1593,12 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/ba
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=13 "Built target barkhausen_chart_settings_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target barkhausen_chart_settings_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/barkhausen/CMakeFiles/barkhausen_chart_settings_autogen.dir/rule
@@ -1581,7 +1631,8 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window.dir/build
@@ -1614,7 +1665,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=25 "Built target chart_settings_window_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target chart_settings_window_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/window/CMakeFiles/chart_settings_window_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1649,16 +1700,17 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hy
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=51,52,53 "Built target hysteresis_chart_settings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=50,51,52 "Built target hysteresis_chart_settings"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 71
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings.dir/rule
@@ -1687,7 +1739,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hy
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hysteresis_chart_settings_autogen.dir/rule
@@ -1709,7 +1761,7 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/hysteresis/CMakeFiles/hy
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/all: barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target custom_chart_items"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target custom_chart_items"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1736,12 +1788,12 @@ barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=34 "Built target custom_chart_items_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=33 "Built target custom_chart_items_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items_autogen.dir/rule
@@ -1778,11 +1830,12 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all: barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=54,55,56 "Built target main_menu_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=53,54,55 "Built target main_menu_window"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1815,7 +1868,7 @@ barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_auto
 barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=57 "Built target main_menu_window_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target main_menu_window_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/window/CMakeFiles/main_menu_window_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1850,16 +1903,17 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all: barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target meas_device_settings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=59,60,61 "Built target meas_device_settings"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings.dir/rule
@@ -1882,12 +1936,12 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=63 "Built target meas_device_settings_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=62 "Built target meas_device_settings_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/meas_device/CMakeFiles/meas_device_settings_autogen.dir/rule
@@ -1919,16 +1973,17 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMak
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all: barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=77,78,79 "Built target measurement_settings_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=75,76,77 "Built target measurement_settings_window"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 75
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 78
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window.dir/rule
@@ -1957,7 +2012,7 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMak
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/window/CMakeFiles/measurement_settings_window_autogen.dir/rule
@@ -1987,16 +2042,17 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
-barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all: barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target meas_settings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target meas_settings"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 71
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings.dir/rule
@@ -2019,12 +2075,12 @@ barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/all: barkhausen_studio/kernel/MainWindow/menu/chart_settings/custom_items/CMakeFiles/custom_chart_items.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=66 "Built target meas_settings_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=65 "Built target meas_settings_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/menu/measurement_device_settings/measurement_settings/CMakeFiles/meas_settings_autogen.dir/rule
@@ -2050,7 +2106,7 @@ barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/all: barkhausen
 barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/all: barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/build.make barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/build.make barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=26,27,28,29,30 "Built target charts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=25,26,27,28,29,30 "Built target charts"
 .PHONY : barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2079,12 +2135,12 @@ barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/all: ba
 barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/build.make barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=31 "Built target charts_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target charts_autogen"
 .PHONY : barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/charts/CMakeFiles/charts_autogen.dir/rule
@@ -2107,7 +2163,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/all: barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build.make barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21 "Built target chart_base_module"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target chart_base_module"
 .PHONY : barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2139,7 +2195,7 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module_autogen.dir/rule
@@ -2161,12 +2217,12 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=80,81,82,83,84,85,86,87,88,89,90,91 "Built target settings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88 "Built target settings"
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/rule
@@ -2216,12 +2272,12 @@ barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings
 barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/build.make barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=92,93,94 "Built target settings_storage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=89,90,91 "Built target settings_storage"
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/rule
@@ -2248,7 +2304,7 @@ barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage_autogen.dir/rule
@@ -2267,15 +2323,15 @@ barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings
 # Target rules for target barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir
 
 # All Build rule for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
+barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=67,68,69,70,71 "Built target measurement_device"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=66,67,68,69 "Built target measurement_device"
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
 
 # Build rule for subdir invocation for target.
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/rule
@@ -2295,10 +2351,10 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurem
 
 # All Build rule for target.
 barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target measurement_device_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=70 "Built target measurement_device_autogen"
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2319,61 +2375,121 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurem
 .PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir
+# Target rules for target barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir
 
 # All Build rule for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/depend
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build
+barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/depend
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=99,100 "Built target usbtmc_python"
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 
 # Build rule for subdir invocation for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/rule: cmake_check_build_system
+barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/rule
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/rule
 
 # Convenience name for target.
-usbtmc_python: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/rule
+usbtmc_python: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/rule
 
 .PHONY : usbtmc_python
 
 # clean rule for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/clean:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/clean
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/clean
+barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/clean:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/clean
 
 #=============================================================================
-# Target rules for target barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir
+# Target rules for target barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir
 
 # All Build rule for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/all
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/depend
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/depend
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=98 "Built target usbtmc_device_finder"
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
 
 # Build rule for subdir invocation for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule: cmake_check_build_system
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule
 
 # Convenience name for target.
-usbtmc_device_finder: barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule
+usbtmc_device_finder: barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/rule
 
 .PHONY : usbtmc_device_finder
 
 # clean rule for target.
-barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean:
-	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
-.PHONY : barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
+barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/build.make barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/clean
+
+#=============================================================================
+# Target rules for target barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir
+
+# All Build rule for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/depend
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=92,93,94 "Built target signal_source"
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
+
+# Build rule for subdir invocation for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/rule
+
+# Convenience name for target.
+signal_source: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/rule
+
+.PHONY : signal_source
+
+# clean rule for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/clean:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source.dir/clean
+
+#=============================================================================
+# Target rules for target barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir
+
+# All Build rule for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all: barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/all
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all: barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/all
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num= "Built target signal_source_autogen"
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles 0
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/rule
+
+# Convenience name for target.
+signal_source_autogen: barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/rule
+
+.PHONY : signal_source_autogen
+
+# clean rule for target.
+barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/build.make barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/clean
+.PHONY : barkhausen_studio/kernel/hardware_devices/signal_source/CMakeFiles/signal_source_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target barkhausen_studio/exceptions/CMakeFiles/exceptions.dir
@@ -2382,7 +2498,7 @@ barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finde
 barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/all:
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/build.make barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/depend
 	$(MAKE) $(MAKESILENT) -f barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/build.make barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=50 "Built target exceptions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/CMakeFiles --progress-num=49 "Built target exceptions"
 .PHONY : barkhausen_studio/exceptions/CMakeFiles/exceptions.dir/all
 
 # Build rule for subdir invocation for target.

@@ -24,13 +24,16 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "barkhausen_studio/kernel/core/device_finder/device_finder_module_autogen/include"
   "../barkhausen_studio/kernel/core/device_finder/src"
   "../barkhausen_studio/kernel/core/device_finder/include"
-  "../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include"
-  "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include"
+  "../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include"
+  "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui"
+  "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices"
+  "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement"
+  "../barkhausen_studio/kernel/MainWindow/settings_storage/settings/names"
   "../barkhausen_studio/utils/ini/include"
   "../barkhausen_studio/utils/utils/include"
   "../barkhausen_studio/kernel/hardware_devices/measurement_device/include"
   "../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include"
-  "../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include"
+  "../barkhausen_studio/kernel/hardware_devices/usbtmc/include"
   "../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
@@ -41,9 +44,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/CMakeFiles/usbtmc_device_finder.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/CMakeFiles/measurement_device.dir/DependInfo.cmake"
-  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/CMakeFiles/usbtmc_python.dir/DependInfo.cmake"
+  "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/usbtmc/CMakeFiles/usbtmc_python.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/storage/CMakeFiles/settings_storage.dir/DependInfo.cmake"
   "/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/MainWindow/settings_storage/settings/CMakeFiles/settings.dir/DependInfo.cmake"
   )

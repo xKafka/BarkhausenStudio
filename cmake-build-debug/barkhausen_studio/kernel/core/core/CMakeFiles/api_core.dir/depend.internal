@@ -4,15 +4,15 @@
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/api_core_autogen/mocs_compilation.cpp.o
  /home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/core/core/api_core_autogen/mocs_compilation.cpp
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.o
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/signal_source_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/measurement_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
  ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
  ../barkhausen_studio/kernel/core/data_buffer/include/measurement_data.h
@@ -27,10 +27,10 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include/measurement_device_impl.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_wrapper.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h
@@ -115,15 +115,15 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/include/moc_core.cpp.
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/device_description.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/measurement_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/settings_names.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/signal_soure_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
- ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/usbtmc_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/measurement_device_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/devices/signal_source_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/device_description.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/measurement/measurement_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/names/settings_names.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
+ ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
  ../barkhausen_studio/kernel/MainWindow/settings_storage/storage/include/settings_storage.h
  ../barkhausen_studio/kernel/core/core/include/core.h
  ../barkhausen_studio/kernel/core/data_buffer/include/data_buffer.h
@@ -139,10 +139,10 @@ barkhausen_studio/kernel/core/core/CMakeFiles/api_core.dir/src/core.cpp.o
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_core.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/include/measurement_device_worker.h
  ../barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/include/measurement_device_impl.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_python.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/include/agilent_u2541a_wrapper.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_python.h
- ../barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_python.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc/include/usbtmc_standard_interface_wrapper.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_python.h
+ ../barkhausen_studio/kernel/hardware_devices/usbtmc_device_finder/include/usbtmc_device_finder_wrapper.h
  ../barkhausen_studio/utils/ini/include/ini_file.h
  ../barkhausen_studio/utils/utils/include/mem_types.h
  ../barkhausen_studio/utils/utils/include/utils.h

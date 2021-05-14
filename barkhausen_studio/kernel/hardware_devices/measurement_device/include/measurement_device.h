@@ -21,7 +21,7 @@ class MeasurementDevice : public QObject
     bool m_is_opened{ false };
 
 public:
-    explicit MeasurementDevice(SharedData<UsbtmcSettings> &usbtmc_settings);
+    explicit MeasurementDevice(SharedData<MeasurementDeviceSettings> &usbtmc_settings);
 
     ~MeasurementDevice() noexcept override;
 

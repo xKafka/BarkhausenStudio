@@ -42,12 +42,12 @@ public:
     void set_ref_voltage(double val);
 
     template<typename CastType>
-    void change_setting(UsbtmcSettingName key, const CastType &val)
+    void change_setting(MeasDeviceSetting key, const CastType &val)
     {
-        m_settings_storage_ref->usbtmc_settings->change(key, val);
+        m_settings_storage_ref->meas_dev_settings->change(key, val);
     }
 
-    auto &settings() { return m_settings_storage_ref->usbtmc_settings; }
+    auto &settings() { return m_settings_storage_ref->meas_dev_settings; }
 
 signals:
     void new_data_available();

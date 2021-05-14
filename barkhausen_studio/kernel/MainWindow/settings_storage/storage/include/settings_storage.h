@@ -6,28 +6,28 @@
 #define BARKHAUSEN_STUDIO_SETTINGS_STORAGE_H
 
 #include <QObject>
-#include <usbtmc_settings.h>
+#include <measurement_device_settings.h>
+#include <signal_source_settings.h>
 #include <ui_settings.h>
 #include <settings_names.h>
-#include <mem_types.h>
-#include <signal_soure_settings.h>
 #include <measurement_settings.h>
+#include <mem_types.h>
 
 struct SettingsStorage
 {
-    SharedData<UsbtmcSettings> usbtmc_settings;
+    SharedData<MeasurementDeviceSettings> meas_dev_settings;
     SharedData<SignalSourceSettings> signal_source_settings;
     SharedData<UiSettings> ui_settings;
     SharedData<MeasurementSettings> measurement_settings;
 
 public:
     SettingsStorage()
-        :   usbtmc_settings{  },
+        :   meas_dev_settings{  },
             ui_settings{ },
             signal_source_settings{ },
             measurement_settings{ }
     {
-        usbtmc_settings->from_ini(SettingsName::measurement_device);
+        meas_dev_settings->from_ini(SettingsName::measurement_device);
 
         ui_settings->from_ini(SettingsName::barkhausen_settings,
                               SettingsName::hysteresis_settings,
@@ -40,7 +40,7 @@ public:
 
     ~SettingsStorage()
     {
-        usbtmc_settings->to_ini_write(SettingsName::measurement_device);
+        meas_dev_settings->to_ini_write(SettingsName::measurement_device);
 
         ui_settings->to_ini_write(SettingsName::barkhausen_settings,
                                   SettingsName::hysteresis_settings,

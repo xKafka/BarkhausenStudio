@@ -8,7 +8,7 @@
 #include <chartwindow.h>
 #include <mem_types.h>
 #include <settings_storage.h>
-#include <ui_settings.h>
+#include "../../settings_storage/settings/ui/ui_settings.h"
 
 class HysteresisChart : public ChartWindow
 {

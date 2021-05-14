@@ -8,10 +8,6 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chart_view.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_chart_view.cpp
 
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -19,6 +15,10 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chart_view.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chartwindow.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: barkhausen_studio/kernel/MainWindow/charts/chart_base/include/moc_chartwindow.cpp
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractAxis
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/include/moc_chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractBarSeries
@@ -1144,10 +1144,6 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chart_view.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/info_table.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/B_H_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/barkhausen_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h
-barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/ini/include/ini_file.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/mem_types.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/utils/utils/include/utils.h
@@ -1156,6 +1152,10 @@ barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_modu
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/chartwindow.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/include/cursors.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/charts/chart_base/src/chartwindow.cpp
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/B_H_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/barkhausen_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/hysteresis_settings.h
+barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: ../barkhausen_studio/kernel/MainWindow/settings_storage/settings/ui/ui_settings.h
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractAxis
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractBarSeries
 barkhausen_studio/kernel/MainWindow/charts/chart_base/CMakeFiles/chart_base_module.dir/src/chartwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCharts/QAbstractSeries

@@ -9,7 +9,7 @@
 #include <QObject>
 #include <measurement_device_core.h>
 #include <array>
-#include <usbtmc_settings.h>
+#include <measurement_device_settings.h>
 #include <mem_types.h>
 
 class MeasurementDeviceWorker : public QObject
@@ -18,7 +18,7 @@ class MeasurementDeviceWorker : public QObject
 
     std::unique_ptr<MeasurementDeviceCore> m_core;
 
-    ReadOnlyRef<UsbtmcSettings> m_settings_ref;
+    ReadOnlyRef<MeasurementDeviceSettings> m_settings_ref;
 
     bool m_is_preset_done;
 
@@ -39,7 +39,7 @@ class MeasurementDeviceWorker : public QObject
     void stop();
 
 public:
-    explicit MeasurementDeviceWorker(SharedData<UsbtmcSettings> &usbtmc_settings, QObject *parent = nullptr);
+    explicit MeasurementDeviceWorker(SharedData<MeasurementDeviceSettings> &usbtmc_settings, QObject *parent = nullptr);
 
     ~MeasurementDeviceWorker() {}
 

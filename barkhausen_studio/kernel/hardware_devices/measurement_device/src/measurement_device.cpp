@@ -4,7 +4,7 @@
 
 #include <measurement_device.h>
 
-MeasurementDevice::MeasurementDevice(SharedData<UsbtmcSettings> &usbtmc_settings)
+MeasurementDevice::MeasurementDevice(SharedData<MeasurementDeviceSettings> &usbtmc_settings)
         : m_thread{ std::make_unique<QThread>(this) },
           m_worker{ std::make_unique<MeasurementDeviceWorker>(usbtmc_settings) }
 {

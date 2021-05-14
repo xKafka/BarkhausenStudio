@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../../../barkhausen_studio/kernel/MainWindow/settings_storage/settings/include/hysteresis_settings.h"
+#include "ui/hysteresis_settings.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

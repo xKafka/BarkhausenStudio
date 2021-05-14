@@ -45,8 +45,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/measurement_device_core_interface/cmake_install.cmake")
-  include("/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc/cmake_install.cmake")
-  include("/home/fkafka/QtProjects/Barkhausen_studio/cmake-build-debug/barkhausen_studio/kernel/hardware_devices/measurement_device/usbtmc_device_finder/cmake_install.cmake")
 
 endif()
 
